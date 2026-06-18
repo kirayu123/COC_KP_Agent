@@ -1,0 +1,30 @@
+{
+  "Investigator": {
+    "PersonalDetails": {
+      "Name": "顾星岚",
+      "Player": "示例玩家",
+      "Occupation": "实习医生"
+    },
+    "Characteristics": {
+      "STR": 40,
+      "DEX": 60,
+      "POW": 55
+    },
+    "Attributes": {
+      "HitPoints": 10,
+      "HitPointsMax": 10,
+      "Sanity": 55,
+      "MagicPoints": 11,
+      "Luck": 48
+    },
+    "Skills": {
+      "Skill": [
+        { "name": "Spot Hidden", "value": 50 },
+        { "name": "Listen", "value": 60 },
+        { "name": "Psychology", "value": 40 },
+        { "name": "Library Use", "value": 35 },
+        { "name": "Dodge", "value": 30 }
+      ]
+    }
+  }
+}

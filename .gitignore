@@ -1,0 +1,36 @@
+# Local/editor state
+.claude/
+.logs/
+.DS_Store
+Thumbs.db
+
+# Dependencies and build output
+node_modules/
+app/node_modules/
+app/dist/
+dist/
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+app/.env
+app/.env.*
+!app/.env.example
+
+# Local copyrighted/reference material
+幽暗之门 v1.1/
+resources/rulebooks-md/
+resources/modules/
+
+# External repositories cloned for research; keep summaries in docs instead.
+external/
+
+# Raw crawled website mirrors can be regenerated and are too large/noisy for the app repo.
+resources/cthulhuclub/
+
+# Temporary/runtime output
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,8269 @@
+{
+  "file": "C:\\Users\\15084\\Documents\\xwechat_files\\wxid_ri83dawf95qw22_1823\\msg\\file\\2026-06\\coc七版规则空白卡cy20.02.2.xlsx",
+  "sheets": [
+    {
+      "sheet": "人物卡",
+      "max_row": 181,
+      "max_col": 87,
+      "non_empty": 476,
+      "formulas": 400,
+      "sample_values": [
+        {
+          "cell": "B1",
+          "value": "电脑推荐使用excel2010及以后版本或WPS打开本卡，使用横轴滚动条可以看见更多东西，手机推荐使用WPS"
+        },
+        {
+          "cell": "B2",
+          "value": "调查员信息"
+        },
+        {
+          "cell": "S2",
+          "value": "年龄补正："
+        },
+        {
+          "cell": "AA2",
+          "value": "属性"
+        },
+        {
+          "cell": "AC2",
+          "value": "已用点数:"
+        },
+        {
+          "cell": "AL2",
+          "value": "我觉得这里可以有头像"
+        },
+        {
+          "cell": "AU2",
+          "value": "您的角色可能（只是可能！）"
+        },
+        {
+          "cell": "B3",
+          "value": "姓名"
+        },
+        {
+          "cell": "S3",
+          "value": "力量 / STR"
+        },
+        {
+          "cell": "Y3",
+          "value": "敏捷 / DEX"
+        },
+        {
+          "cell": "AE3",
+          "value": "意志 / POW"
+        },
+        {
+          "cell": "B4",
+          "value": "玩家"
+        },
+        {
+          "cell": "J4",
+          "value": "时代"
+        },
+        {
+          "cell": "M4",
+          "value": "1920s"
+        },
+        {
+          "cell": "B5",
+          "value": "职业"
+        },
+        {
+          "cell": "J5",
+          "value": "职业序号"
+        },
+        {
+          "cell": "M5",
+          "value": "0"
+        },
+        {
+          "cell": "S5",
+          "value": "体质 / CON"
+        },
+        {
+          "cell": "Y5",
+          "value": "外貌 / APP"
+        },
+        {
+          "cell": "AE5",
+          "value": "教育 / 知识"
+        },
+        {
+          "cell": "B6",
+          "value": "年龄"
+        },
+        {
+          "cell": "J6",
+          "value": "性别"
+        },
+        {
+          "cell": "B7",
+          "value": "住地"
+        },
+        {
+          "cell": "J7",
+          "value": "故乡"
+        },
+        {
+          "cell": "S7",
+          "value": "体型 / SIZ"
+        },
+        {
+          "cell": "Y7",
+          "value": "智力 / 灵感"
+        },
+        {
+          "cell": "AE7",
+          "value": "幸运 / Luck"
+        },
+        {
+          "cell": "B8",
+          "value": "现时间"
+        },
+        {
+          "cell": "E8",
+          "value": "公元"
+        },
+        {
+          "cell": "G8",
+          "value": "1920"
+        },
+        {
+          "cell": "J8",
+          "value": "1月"
+        },
+        {
+          "cell": "L8",
+          "value": "1日"
+        },
+        {
+          "cell": "N8",
+          "value": "0：00"
+        },
+        {
+          "cell": "B10",
+          "value": "生命值 / Hit  Points"
+        },
+        {
+          "cell": "I10",
+          "value": "状态:"
+        },
+        {
+          "cell": "K10",
+          "value": "理智 / Sanity"
+        },
+        {
+          "cell": "R10",
+          "value": "状态:"
+        },
+        {
+          "cell": "T10",
+          "value": "魔法 / Magic Points"
+        },
+        {
+          "cell": "AA10",
+          "value": "每h恢复"
+        },
+        {
+          "cell": "AC10",
+          "value": "移动力 / MOV"
+        },
+        {
+          "cell": "AI10",
+          "value": "调整值"
+        },
+        {
+          "cell": "AK10",
+          "value": "护甲       Armor"
+        },
+        {
+          "cell": "AR10",
+          "value": "覆盖部位"
+        },
+        {
+          "cell": "I11",
+          "value": "健康"
+        },
+        {
+          "cell": "R11",
+          "value": "清醒"
+        },
+        {
+          "cell": "B12",
+          "value": "重伤值:"
+        },
+        {
+          "cell": "F12",
+          "value": "临时生命值："
+        },
+        {
+          "cell": "I12",
+          "value": "0"
+        },
+        {
+          "cell": "K12",
+          "value": "今日损失 :"
+        },
+        {
+          "cell": "N12",
+          "value": "0"
+        },
+        {
+          "cell": "P12",
+          "value": "剩余："
+        },
+        {
+          "cell": "T12",
+          "value": "使用过的魔法："
+        },
+        {
+          "cell": "AC12",
+          "value": "移动方式"
+        },
+        {
+          "cell": "AE12",
+          "value": "步式"
+        },
+        {
+          "cell": "AG12",
+          "value": "护甲减值"
+        },
+        {
+          "cell": "AI12",
+          "value": "关"
+        },
+        {
+          "cell": "AK12",
+          "value": "护甲类型 :"
+        },
+        {
+          "cell": "AN12",
+          "value": "请看【防具表】"
+        },
+        {
+          "cell": "B14",
+          "value": "技能表"
+        },
+        {
+          "cell": "B15",
+          "value": "成功标"
+        },
+        {
+          "cell": "D15",
+          "value": "本职"
+        },
+        {
+          "cell": "F15",
+          "value": "技能名称"
+        },
+        {
+          "cell": "J15",
+          "value": "初始"
+        },
+        {
+          "cell": "L15",
+          "value": "成长"
+        },
+        {
+          "cell": "N15",
+          "value": "职业"
+        },
+        {
+          "cell": "P15",
+          "value": "兴趣"
+        },
+        {
+          "cell": "R15",
+          "value": "成功率 普通/困难/极难"
+        },
+        {
+          "cell": "X15",
+          "value": "成功标"
+        },
+        {
+          "cell": "Z15",
+          "value": "本职"
+        },
+        {
+          "cell": "AB15",
+          "value": "技能名称"
+        },
+        {
+          "cell": "AF15",
+          "value": "初始"
+        },
+        {
+          "cell": "AH15",
+          "value": "成长"
+        },
+        {
+          "cell": "AJ15",
+          "value": "职业"
+        },
+        {
+          "cell": "AL15",
+          "value": "兴趣"
+        },
+        {
+          "cell": "AN15",
+          "value": "成功率 普通/困难/极难"
+        },
+        {
+          "cell": "B16",
+          "value": "☐"
+        },
+        {
+          "cell": "F16",
+          "value": "会计"
+        },
+        {
+          "cell": "J16",
+          "value": "5"
+        },
+        {
+          "cell": "X16",
+          "value": "☐"
+        },
+        {
+          "cell": "AB16",
+          "value": "法律"
+        },
+        {
+          "cell": "AF16",
+          "value": "5"
+        },
+        {
+          "cell": "B17",
+          "value": "☐"
+        },
+        {
+          "cell": "F17",
+          "value": "人类学"
+        },
+        {
+          "cell": "J17",
+          "value": "1"
+        },
+        {
+          "cell": "X17",
+          "value": "☐"
+        },
+        {
+          "cell": "AB17",
+          "value": "图书馆使用"
+        },
+        {
+          "cell": "AF17",
+          "value": "20"
+        },
+        {
+          "cell": "AU17",
+          "value": "你现在有这么多"
+        },
+        {
+          "cell": "BA17",
+          "value": "那么你分配到了哪里?"
+        },
+        {
+          "cell": "B18",
+          "value": "☐"
+        },
+        {
+          "cell": "F18",
+          "value": "估价"
+        },
+        {
+          "cell": "J18",
+          "value": "5"
+        },
+        {
+          "cell": "X18",
+          "value": "☐"
+        },
+        {
+          "cell": "AB18",
+          "value": "聆听"
+        },
+        {
+          "cell": "AF18",
+          "value": "20"
+        },
+        {
+          "cell": "AU18",
+          "value": "任意特长"
+        },
+        {
+          "cell": "B19",
+          "value": "☐"
+        },
+        {
+          "cell": "F19",
+          "value": "考古学"
+        },
+        {
+          "cell": "J19",
+          "value": "1"
+        },
+        {
+          "cell": "X19",
+          "value": "☐"
+        },
+        {
+          "cell": "AB19",
+          "value": "锁匠"
+        },
+        {
+          "cell": "AF19",
+          "value": "1"
+        },
+        {
+          "cell": "B20",
+          "value": "☐"
+        },
+        {
+          "cell": "F20",
+          "value": "技艺①"
+        },
+        {
+          "cell": "X20",
+          "value": "☐"
+        },
+        {
+          "cell": "AB20",
+          "value": "机械维修"
+        },
+        {
+          "cell": "AF20",
+          "value": "10"
+        },
+        {
+          "cell": "B21",
+          "value": "☐"
+        },
+        {
+          "cell": "F21",
+          "value": "技艺②"
+        },
+        {
+          "cell": "X21",
+          "value": "☐"
+        },
+        {
+          "cell": "AB21",
+          "value": "医学"
+        },
+        {
+          "cell": "AF21",
+          "value": "1"
+        },
+        {
+          "cell": "B22",
+          "value": "☐"
+        },
+        {
+          "cell": "F22",
+          "value": "技艺③"
+        },
+        {
+          "cell": "X22",
+          "value": "☐"
+        },
+        {
+          "cell": "AB22",
+          "value": "博物学"
+        },
+        {
+          "cell": "AF22",
+          "value": "10"
+        },
+        {
+          "cell": "B23",
+          "value": "☐"
+        },
+        {
+          "cell": "F23",
+          "value": "取悦"
+        },
+        {
+          "cell": "J23",
+          "value": "15"
+        }
+      ],
+      "sample_formulas": [
+        {
+          "cell": "V2",
+          "value": "=附表!D37"
+        },
+        {
+          "cell": "AG2",
+          "value": "=U3+U5+U7+AA3+AA5+AA7+AG3+AG5+AG7"
+        },
+        {
+          "cell": "W3",
+          "value": "=INT(U3/2)"
+        },
+        {
+          "cell": "AC3",
+          "value": "=INT(AA3/2)"
+        },
+        {
+          "cell": "AI3",
+          "value": "=INT(AG3/2)"
+        },
+        {
+          "cell": "AU3",
+          "value": "=IF(U3=0,\"\",IF(U3<=15,\"虚弱，孱弱\",IF(U3<=40,\"力量弱小\",IF(U3<=60,\"有正常人的力量\",IF(U3<=80,\"超乎常人的力量\",IF(U3<100,\"超乎超乎常人的力量\"))))))"
+        },
+        {
+          "cell": "BC3",
+          "value": "=IF(AA3=0,\"\",IF(AA3<=20,\"很不灵活\",IF(AA3<=40,\"不是很灵活\",IF(AA3<=60,\"普通人水平\",IF(AA3<=80,\"是一位运动健将\",IF(AA3<100,\"高速而灵活,可以达成超凡的技艺\"))"
+        },
+        {
+          "cell": "BK3",
+          "value": "=IF(AG3=0,\"\",IF(AG3<=20,\"尔不过玩物\",IF(AG3<=40,\"痴愚盲目\",IF(AG3<=60,\"如常人一般会有一定自制力\",IF(AG3<=80,\"我心如铁，心坚石穿\",IF(AG3<100,\"泰山崩于面而色不变"
+        },
+        {
+          "cell": "W4",
+          "value": "=INT(U3/5)"
+        },
+        {
+          "cell": "AC4",
+          "value": "=INT(AA3/5)"
+        },
+        {
+          "cell": "AI4",
+          "value": "=INT(AG3/5)"
+        },
+        {
+          "cell": "W5",
+          "value": "=INT(U5/2)"
+        },
+        {
+          "cell": "AC5",
+          "value": "=INT(AA5/2)"
+        },
+        {
+          "cell": "AI5",
+          "value": "=INT(AG5/2)"
+        },
+        {
+          "cell": "AU5",
+          "value": "=IF(U5=0,\"\",IF(U5<=20,\"常年患病在身\",IF(U5<=40,\"体弱多病\",IF(U5<=60,\"不会生什么大毛病\",IF(U5<=80,\"健硕，浑身湿透也不会感冒\",IF(U5<100,\"身体素质极好，精神抖擞\")))"
+        },
+        {
+          "cell": "BC5",
+          "value": "=IF(AA5=0,\"\",IF(AA5<=20,\"用脸就能恐惧敌人。。或队友\",IF(AA5<=40,\"有些难看\",IF(AA5<=60,\"人群之中谁也不会看你一眼之后就忘不掉你容颜\",IF(AA5<=80,\"五官端正，仪表堂堂\",IF(A"
+        },
+        {
+          "cell": "BK5",
+          "value": "=IF(AG5=0,\"\",IF(AG5<=20,\"目不识丁\",IF(AG5<=40,\"小学毕业\",IF(AG5<=60,\"高中毕业\",IF(AG5<=80,\"是重点大学的学生，或是普通大学的研究生\",IF(AG5<100,\"饱读诗书，满腹经"
+        },
+        {
+          "cell": "W6",
+          "value": "=INT(U5/5)"
+        },
+        {
+          "cell": "AC6",
+          "value": "=INT(AA5/5)"
+        },
+        {
+          "cell": "AI6",
+          "value": "=INT(AG5/5)"
+        },
+        {
+          "cell": "W7",
+          "value": "=INT(U7/2)"
+        },
+        {
+          "cell": "AC7",
+          "value": "=INT(AA7/2)"
+        },
+        {
+          "cell": "AI7",
+          "value": "=INT(AG7/2)"
+        },
+        {
+          "cell": "AU7",
+          "value": "=IF(U7=0,\"\",IF(U7<=20,\"孩童，身短体瘦\",IF(U7<=40,\"乙女身材\",IF(U7<=60,\"普遍身高155-175\",IF(U7<=80,\"不是高就是胖\",IF(U7<=100,\"大号的人\",IF(U7<150,"
+        },
+        {
+          "cell": "BC7",
+          "value": "=IF(INT=0,\"\",IF(INT<=20,\"脑子是个好东西，可惜。。。\",IF(INT<=40,\"理解知识要耗费比普通人更多的时间\",IF(INT<=60,\"有着普通人的灵光一现\",IF(INT<=80,\"可以自主进行发明创造\",IF"
+        },
+        {
+          "cell": "BK7",
+          "value": "=IF(Luck=0,\"\",IF(Luck<=20,\"克夫克妻\",IF(Luck<=40,\"霉运连连\",IF(Luck<=60,\"命格平庸\",IF(Luck<=80,\"在马路边捡到100块\",IF(Luck<100,\"被幸运女神所眷顾\"))"
+        },
+        {
+          "cell": "W8",
+          "value": "=INT(U7/5)"
+        },
+        {
+          "cell": "AC8",
+          "value": "=INT(AA7/5)"
+        },
+        {
+          "cell": "AI8",
+          "value": "=INT(AG7/5)"
+        },
+        {
+          "cell": "B9",
+          "value": "=IF(F9=0,\"\",\"任意特长数：\")"
+        },
+        {
+          "cell": "F9",
+          "value": "=INDEX(本职技能!$A$2:$HX$69,MATCH(\"任意特长\",本职技能!$A$2:$A$75,0),MATCH($M$5,本职技能!$A$1:$HX$1,0))"
+        },
+        {
+          "cell": "K9",
+          "value": "=INDEX(本职技能!$A$2:$HX$69,MATCH(\"☆\",本职技能!$A$2:$A$75,0),MATCH($M$5,本职技能!$A$1:$HX$1,0))"
+        },
+        {
+          "cell": "T9",
+          "value": "=INDEX(本职技能!$A$2:$HX$69,MATCH(\"⊙\",本职技能!$A$2:$A$75,0),MATCH($M$5,本职技能!$A$1:$HX$1,0))"
+        },
+        {
+          "cell": "AC9",
+          "value": "=INDEX(本职技能!$A$2:$HX$69,MATCH(\"☯\",本职技能!$A$2:$A$75,0),MATCH($M$5,本职技能!$A$1:$HX$1,0))"
+        },
+        {
+          "cell": "AL9",
+          "value": "=INDEX(本职技能!$A$2:$HX$69,MATCH(\"※\",本职技能!$A$2:$A$75,0),MATCH($M$5,本职技能!$A$1:$HX$1,0))"
+        },
+        {
+          "cell": "G10",
+          "value": "=INT((U5+U7)/10)"
+        },
+        {
+          "cell": "P10",
+          "value": "=99-R27"
+        },
+        {
+          "cell": "Y10",
+          "value": "=INT(AG3/5)"
+        },
+        {
+          "cell": "AF10",
+          "value": "=AI11+8"
+        },
+        {
+          "cell": "AN10",
+          "value": "=IF($AN12=0,\"0\",VLOOKUP($AN12,'防具表 载具表'!B2:J82,2,FALSE))"
+        },
+        {
+          "cell": "AT10",
+          "value": "=IF($AN12=0,\"\",VLOOKUP($AN12,'防具表 载具表'!B2:I101,4,FALSE))"
+        },
+        {
+          "cell": "AA11",
+          "value": "=IF(AG3=\"\",\"\",INT(AG3/100+1))"
+        },
+        {
+          "cell": "AI11",
+          "value": "=附表!C9"
+        },
+        {
+          "cell": "D12",
+          "value": "=CEILING(G10/2,1)"
+        },
+        {
+          "cell": "R12",
+          "value": "=N10-N12"
+        },
+        {
+          "cell": "B13",
+          "value": "=IF(M5=0,\" \",\"[\"&LOOKUP(M5,职业列表!A2:A232,职业列表!B2:B232)&\"]的本职技能：\"&LOOKUP(M5,职业列表!A2:A232,职业列表!G2:G232))"
+        },
+        {
+          "cell": "D16",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(人物卡!F16,人物卡!BJ18:BR22,1,FALSE),IFERROR(VLOOKUP(人物卡!F16,人物卡!BA18:BC22,1,FALSE),0))),\"★\",INDEX("
+        },
+        {
+          "cell": "R16",
+          "value": "=SUM(J16:P16)"
+        },
+        {
+          "cell": "T16",
+          "value": "=INT(R16/2)"
+        },
+        {
+          "cell": "V16",
+          "value": "=INT(R16/5)"
+        },
+        {
+          "cell": "Z16",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(人物卡!AB16,人物卡!BJ18:BR22,1,FALSE),IFERROR(VLOOKUP(人物卡!AB16,人物卡!BA18:BC22,1,FALSE),0))),\"★\",INDE"
+        },
+        {
+          "cell": "AN16",
+          "value": "=SUM(AF16:AL16)"
+        },
+        {
+          "cell": "AP16",
+          "value": "=INT(AN16/2)"
+        },
+        {
+          "cell": "AR16",
+          "value": "=INT(AN16/5)"
+        },
+        {
+          "cell": "D17",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(人物卡!F17,人物卡!BJ18:BR22,1,FALSE),IFERROR(VLOOKUP(人物卡!F17,人物卡!BA18:BC22,1,FALSE),0))),\"★\",INDEX("
+        },
+        {
+          "cell": "R17",
+          "value": "=SUM(J17:P17)"
+        },
+        {
+          "cell": "T17",
+          "value": "=INT(R17/2)"
+        },
+        {
+          "cell": "V17",
+          "value": "=INT(R17/5)"
+        },
+        {
+          "cell": "Z17",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(人物卡!AB17,人物卡!BJ18:BR22,1,FALSE),IFERROR(VLOOKUP(人物卡!AB17,人物卡!BA18:BC22,1,FALSE),0))),\"★\",INDE"
+        },
+        {
+          "cell": "AN17",
+          "value": "=SUM(AF17:AL17)"
+        },
+        {
+          "cell": "AP17",
+          "value": "=INT(AN17/2)"
+        },
+        {
+          "cell": "AR17",
+          "value": "=INT(AN17/5)"
+        },
+        {
+          "cell": "D18",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(人物卡!F18,人物卡!BJ18:BR22,1,FALSE),IFERROR(VLOOKUP(人物卡!F18,人物卡!BA18:BC22,1,FALSE),0))),\"★\",INDEX("
+        },
+        {
+          "cell": "R18",
+          "value": "=SUM(J18:P18)"
+        },
+        {
+          "cell": "T18",
+          "value": "=INT(R18/2)"
+        },
+        {
+          "cell": "V18",
+          "value": "=INT(R18/5)"
+        },
+        {
+          "cell": "Z18",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(人物卡!AB18,人物卡!BJ18:BR22,1,FALSE),IFERROR(VLOOKUP(人物卡!AB18,人物卡!BA18:BC22,1,FALSE),0))),\"★\",INDE"
+        },
+        {
+          "cell": "AN18",
+          "value": "=SUM(AF18:AL18)"
+        },
+        {
+          "cell": "AP18",
+          "value": "=INT(AN18/2)"
+        },
+        {
+          "cell": "AR18",
+          "value": "=INT(AN18/5)"
+        },
+        {
+          "cell": "D19",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(人物卡!F19,人物卡!BJ18:BR22,1,FALSE),IFERROR(VLOOKUP(人物卡!F19,人物卡!BA18:BC22,1,FALSE),0))),\"★\",INDEX("
+        },
+        {
+          "cell": "R19",
+          "value": "=SUM(J19:P19)"
+        },
+        {
+          "cell": "T19",
+          "value": "=INT(R19/2)"
+        },
+        {
+          "cell": "V19",
+          "value": "=INT(R19/5)"
+        },
+        {
+          "cell": "Z19",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(人物卡!AB19,人物卡!BJ18:BR22,1,FALSE),IFERROR(VLOOKUP(人物卡!AB19,人物卡!BA18:BC22,1,FALSE),0))),\"★\",INDE"
+        },
+        {
+          "cell": "AN19",
+          "value": "=SUM(AF19:AL19)"
+        },
+        {
+          "cell": "AP19",
+          "value": "=INT(AN19/2)"
+        },
+        {
+          "cell": "AR19",
+          "value": "=INT(AN19/5)"
+        },
+        {
+          "cell": "AU19",
+          "value": "=附表!AD25"
+        },
+        {
+          "cell": "D20",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(人物卡!F20,人物卡!BJ18:BR22,1,FALSE),IFERROR(VLOOKUP(人物卡!F20,人物卡!BA18:BC22,1,FALSE),0))),\"★\",INDEX("
+        }
+      ],
+      "data_validations": [
+        {
+          "type": "list",
+          "sqref": "M4:N4",
+          "formula1": "\"1920s,现代,其他\"",
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "F33:H33",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": "list",
+          "sqref": "M5:N5",
+          "formula1": "职业列表!$A$2:$A$232",
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B26:B27 B90:B92 B93 D90:D92 D93 H37 H41 J8 L8 N8 Q8 Q140 T140:U140 Z48:Z49 AD33 AD37 AD47 AG12 AS62 AU25 AU122:AW122 BC25 BC27 BK25 BQ117:BR117",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": "whole",
+          "sqref": "E6:I6",
+          "formula1": "1",
+          "formula2": "120"
+        },
+        {
+          "type": "list",
+          "sqref": "E8",
+          "formula1": "\"公元,公元前\"",
+          "formula2": null
+        },
+        {
+          "type": "whole",
+          "sqref": "G8",
+          "formula1": "32767",
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B68:K68 H49 L61 N61 O61 R61 S61 AI10",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": "list",
+          "sqref": "CH8",
+          "formula1": "\"未启用,启用\"",
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AA10",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": "list",
+          "sqref": "I11:J11",
+          "formula1": "附表!$R$17:$R$21",
+          "formula2": null
+        },
+        {
+          "type": "list",
+          "sqref": "R11:S11",
+          "formula1": "\"清醒,临时性疯狂,不定性疯狂,永久疯狂\"",
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "U12 X12 AB12",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": "list",
+          "sqref": "AE12",
+          "formula1": "\"步式,轮式,履带,滑行,飞行,游泳,潜水,其他\"",
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AB38:AC38",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AB23:AE23",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AB39:AC39",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": "list",
+          "sqref": "AI12",
+          "formula1": "\"开,关\"",
+          "formula2": null
+        },
+        {
+          "type": "list",
+          "sqref": "AN12",
+          "formula1": "'防具表 载具表'!$B$2:$B$82",
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AB44:AC44",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AB27",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "F16:H16",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AB20:AC20",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AB16:AC16",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "F17:H17",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AB17:AC17",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "F18:H18",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AB19:AC19",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AB18:AC18",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "F19:H19",
+          "formula1": null,
+          "formula2": null
+        }
+      ]
+    },
+    {
+      "sheet": "简化卡 骰娘导入",
+      "max_row": 91,
+      "max_col": 41,
+      "non_empty": 159,
+      "formulas": 488,
+      "sample_values": [
+        {
+          "cell": "N2",
+          "value": "技能"
+        },
+        {
+          "cell": "Z2",
+          "value": "当前时间"
+        },
+        {
+          "cell": "B3",
+          "value": "STR"
+        },
+        {
+          "cell": "E3",
+          "value": "DEX"
+        },
+        {
+          "cell": "H3",
+          "value": "POW"
+        },
+        {
+          "cell": "K3",
+          "value": "INT"
+        },
+        {
+          "cell": "B5",
+          "value": "CON"
+        },
+        {
+          "cell": "E5",
+          "value": "APP"
+        },
+        {
+          "cell": "H5",
+          "value": "EDU"
+        },
+        {
+          "cell": "K5",
+          "value": "SIZ"
+        },
+        {
+          "cell": "Z5",
+          "value": "调查员伙伴"
+        },
+        {
+          "cell": "Z6",
+          "value": "姓名"
+        },
+        {
+          "cell": "AB6",
+          "value": "注释"
+        },
+        {
+          "cell": "B7",
+          "value": "HP"
+        },
+        {
+          "cell": "E7",
+          "value": "SAN"
+        },
+        {
+          "cell": "H7",
+          "value": "MP"
+        },
+        {
+          "cell": "K7",
+          "value": "Armor"
+        },
+        {
+          "cell": "B9",
+          "value": "DB"
+        },
+        {
+          "cell": "E9",
+          "value": "Build"
+        },
+        {
+          "cell": "H9",
+          "value": "LUCK"
+        },
+        {
+          "cell": "K9",
+          "value": "MOV"
+        },
+        {
+          "cell": "B11",
+          "value": "武器表"
+        },
+        {
+          "cell": "B17",
+          "value": "资产"
+        },
+        {
+          "cell": "B18",
+          "value": "信用评级"
+        },
+        {
+          "cell": "E18",
+          "value": "生活水平"
+        },
+        {
+          "cell": "G18",
+          "value": "消费水平"
+        },
+        {
+          "cell": "I18",
+          "value": "其他资产"
+        },
+        {
+          "cell": "K18",
+          "value": "当前现金($)"
+        },
+        {
+          "cell": "M18",
+          "value": "单位"
+        },
+        {
+          "cell": "B21",
+          "value": "随身物品"
+        },
+        {
+          "cell": "Z21",
+          "value": "神话相关"
+        },
+        {
+          "cell": "Z22",
+          "value": "遇到了"
+        },
+        {
+          "cell": "AD22",
+          "value": "累计消耗"
+        },
+        {
+          "cell": "B27",
+          "value": "背景故事"
+        },
+        {
+          "cell": "B28",
+          "value": "描述"
+        },
+        {
+          "cell": "G28",
+          "value": "关键"
+        },
+        {
+          "cell": "B29",
+          "value": "信仰"
+        },
+        {
+          "cell": "B30",
+          "value": "重要人"
+        },
+        {
+          "cell": "B31",
+          "value": "重要地"
+        },
+        {
+          "cell": "B32",
+          "value": "宝物"
+        },
+        {
+          "cell": "B33",
+          "value": "特质"
+        },
+        {
+          "cell": "B34",
+          "value": "小秘密"
+        },
+        {
+          "cell": "B35",
+          "value": "伤疤"
+        },
+        {
+          "cell": "B36",
+          "value": "恐惧"
+        },
+        {
+          "cell": "N36",
+          "value": "母语："
+        },
+        {
+          "cell": "AF36",
+          "value": "电脑请先将快捷输入复制到下面的框中，再复制框中内容到QQ"
+        },
+        {
+          "cell": "B37",
+          "value": "下面就是快捷输入了，手机一般轻点两下就可以复制啦，电脑请先复制到右边的本文框"
+        },
+        {
+          "cell": "P37",
+          "value": "不知道用什么导入看导入框右侧的说明～"
+        },
+        {
+          "cell": "AF37",
+          "value": "电脑本文输入框"
+        },
+        {
+          "cell": "B38",
+          "value": "溯洄，shiki（除Exp10)，等大部分骰娘指令快捷输入"
+        },
+        {
+          "cell": "B39",
+          "value": "请“复制”下格，就可以导出文本，放进QQ发送给骰子娘啦"
+        },
+        {
+          "cell": "Z39",
+          "value": "→"
+        },
+        {
+          "cell": "AA39",
+          "value": "大部分骰娘"
+        },
+        {
+          "cell": "AF39",
+          "value": "如果不能使用，请复制到txt文档，然后再复制到QQ"
+        },
+        {
+          "cell": "B44",
+          "value": "塔系骰娘指令快捷输入"
+        },
+        {
+          "cell": "B45",
+          "value": "请“复制”下格，就可以导出文本，放进QQ发送给骰子娘啦"
+        },
+        {
+          "cell": "Z45",
+          "value": "→"
+        },
+        {
+          "cell": "AA45",
+          "value": "这种骰娘，在你输入.bot后，开头会出现以下字样 / Dice made in java / By SitaNya"
+        },
+        {
+          "cell": "B50",
+          "value": "shiki Exp10骰娘指令快捷输入"
+        },
+        {
+          "cell": "B51",
+          "value": "请“复制”下格，就可以导出文本，放进QQ发送给骰子娘啦"
+        },
+        {
+          "cell": "Z51",
+          "value": "→"
+        },
+        {
+          "cell": "AA51",
+          "value": "这种骰娘，在你输入.bot后，开头会出现以下字样 / Dice! by 溯洄 Shiki.Ver 2.3.8Express10(554) "
+        },
+        {
+          "cell": "AA56",
+          "value": "↑版本号必须是Exp 10或以上"
+        },
+        {
+          "cell": "B57",
+          "value": "MDice骰娘（惠惠）指令快捷输入"
+        },
+        {
+          "cell": "B58",
+          "value": "请“复制”下格，就可以导出文本，放进QQ发送给骰子娘啦"
+        },
+        {
+          "cell": "Z58",
+          "value": "→"
+        },
+        {
+          "cell": "AA58",
+          "value": "这种骰娘，在你输入.bot后，开头会出现以下字样 / MDice x.x.x[xx]ver / 修改自溯洄版本dice,斯塔尼亚.shiki等提供了部分代码"
+        },
+        {
+          "cell": "B64",
+          "value": "技能名的改变"
+        },
+        {
+          "cell": "B65",
+          "value": "原技能名称："
+        },
+        {
+          "cell": "D65",
+          "value": "简化"
+        },
+        {
+          "cell": "F65",
+          "value": "别名"
+        },
+        {
+          "cell": "J65",
+          "value": "原技能名称："
+        },
+        {
+          "cell": "L65",
+          "value": "简化"
+        },
+        {
+          "cell": "N65",
+          "value": "别名"
+        },
+        {
+          "cell": "R65",
+          "value": "原技能名称："
+        },
+        {
+          "cell": "T65",
+          "value": "简化"
+        },
+        {
+          "cell": "V65",
+          "value": "别名"
+        },
+        {
+          "cell": "B66",
+          "value": "力量"
+        },
+        {
+          "cell": "D66",
+          "value": "STR"
+        },
+        {
+          "cell": "J66",
+          "value": "体力"
+        },
+        {
+          "cell": "L66",
+          "value": "hp"
+        },
+        {
+          "cell": "R66",
+          "value": "汽车驾驶"
+        },
+        {
+          "cell": "T66",
+          "value": "汽车"
+        },
+        {
+          "cell": "V66",
+          "value": "驾驶"
+        },
+        {
+          "cell": "B67",
+          "value": "敏捷"
+        },
+        {
+          "cell": "D67",
+          "value": "DEX"
+        },
+        {
+          "cell": "J67",
+          "value": "理智"
+        },
+        {
+          "cell": "L67",
+          "value": "san"
+        },
+        {
+          "cell": "N67",
+          "value": "san值，理智值"
+        },
+        {
+          "cell": "R67",
+          "value": "电子学 Ω"
+        },
+        {
+          "cell": "T67",
+          "value": "电子学"
+        },
+        {
+          "cell": "B68",
+          "value": "体质"
+        },
+        {
+          "cell": "D68",
+          "value": "CON"
+        },
+        {
+          "cell": "J68",
+          "value": "魔法"
+        },
+        {
+          "cell": "L68",
+          "value": "mp"
+        },
+        {
+          "cell": "R68",
+          "value": "步枪/霰弹枪"
+        },
+        {
+          "cell": "T68",
+          "value": "步枪"
+        },
+        {
+          "cell": "V68",
+          "value": "霰弹枪，步霰"
+        },
+        {
+          "cell": "B69",
+          "value": "体型"
+        },
+        {
+          "cell": "D69",
+          "value": "SIZ"
+        },
+        {
+          "cell": "R69",
+          "value": "图书馆使用"
+        },
+        {
+          "cell": "T69",
+          "value": "图书馆"
+        },
+        {
+          "cell": "B70",
+          "value": "外貌"
+        },
+        {
+          "cell": "D70",
+          "value": "APP"
+        },
+        {
+          "cell": "R70",
+          "value": "锁匠"
+        },
+        {
+          "cell": "T70",
+          "value": "开锁"
+        },
+        {
+          "cell": "B71",
+          "value": "智力"
+        },
+        {
+          "cell": "D71",
+          "value": "INT"
+        },
+        {
+          "cell": "F71",
+          "value": "灵感"
+        },
+        {
+          "cell": "R71",
+          "value": "博物学"
+        },
+        {
+          "cell": "V71",
+          "value": "自然学"
+        },
+        {
+          "cell": "B72",
+          "value": "意志"
+        },
+        {
+          "cell": "D72",
+          "value": "POW"
+        },
+        {
+          "cell": "J72",
+          "value": "计算机使用 Ω"
+        },
+        {
+          "cell": "L72",
+          "value": "计算机"
+        },
+        {
+          "cell": "N72",
+          "value": "计算机使用，电脑"
+        },
+        {
+          "cell": "R72",
+          "value": "导航"
+        },
+        {
+          "cell": "V72",
+          "value": "领航"
+        },
+        {
+          "cell": "B73",
+          "value": "教育"
+        },
+        {
+          "cell": "D73",
+          "value": "EDU"
+        }
+      ],
+      "sample_formulas": [
+        {
+          "cell": "B2",
+          "value": "=人物卡!D3&\"，\"&人物卡!M6&\"，\"&人物卡!E6&\"岁\"&\"，\"&人物卡!E5&\"，\"&人物卡!M4&\"，\"&\"现居：\"&人物卡!E7&\"，\"&人物卡!M7&\"人\""
+        },
+        {
+          "cell": "C3",
+          "value": "=STR"
+        },
+        {
+          "cell": "D3",
+          "value": "=INT(C3/2)"
+        },
+        {
+          "cell": "F3",
+          "value": "=DEX"
+        },
+        {
+          "cell": "G3",
+          "value": "=INT(F3/2)"
+        },
+        {
+          "cell": "I3",
+          "value": "=POW"
+        },
+        {
+          "cell": "J3",
+          "value": "=INT(I3/2)"
+        },
+        {
+          "cell": "L3",
+          "value": "=INT"
+        },
+        {
+          "cell": "M3",
+          "value": "=INT(L3/2)"
+        },
+        {
+          "cell": "N3",
+          "value": "=IF(Q3=0,\"\",人物卡!F16)"
+        },
+        {
+          "cell": "Q3",
+          "value": "=IF(人物卡!R16-人物卡!J16=0,0,人物卡!R16)"
+        },
+        {
+          "cell": "R3",
+          "value": "=INT(Q3/2)"
+        },
+        {
+          "cell": "S3",
+          "value": "=INT(Q3/5)"
+        },
+        {
+          "cell": "T3",
+          "value": "=IF(W3=0,\"\",人物卡!AB16)"
+        },
+        {
+          "cell": "W3",
+          "value": "=IF(人物卡!AN16-人物卡!AF16=0,0,人物卡!AN16)"
+        },
+        {
+          "cell": "X3",
+          "value": "=INT(W3/2)"
+        },
+        {
+          "cell": "Y3",
+          "value": "=INT(W3/5)"
+        },
+        {
+          "cell": "Z3",
+          "value": "=人物卡!E8"
+        },
+        {
+          "cell": "AA3",
+          "value": "=人物卡!G8"
+        },
+        {
+          "cell": "AC3",
+          "value": "=人物卡!J8"
+        },
+        {
+          "cell": "AD3",
+          "value": "=人物卡!N8"
+        },
+        {
+          "cell": "D4",
+          "value": "=INT(C3/5)"
+        },
+        {
+          "cell": "G4",
+          "value": "=INT(F3/5)"
+        },
+        {
+          "cell": "J4",
+          "value": "=INT(I3/5)"
+        },
+        {
+          "cell": "M4",
+          "value": "=INT(L3/5)"
+        },
+        {
+          "cell": "N4",
+          "value": "=IF(Q4=0,\"\",人物卡!F17)"
+        },
+        {
+          "cell": "Q4",
+          "value": "=IF(人物卡!R17-人物卡!J17=0,0,人物卡!R17)"
+        },
+        {
+          "cell": "R4",
+          "value": "=INT(Q4/2)"
+        },
+        {
+          "cell": "S4",
+          "value": "=INT(Q4/5)"
+        },
+        {
+          "cell": "T4",
+          "value": "=IF(W4=0,\"\",人物卡!AB17)"
+        },
+        {
+          "cell": "W4",
+          "value": "=IF(人物卡!AN17-人物卡!AF17=0,0,人物卡!AN17)"
+        },
+        {
+          "cell": "X4",
+          "value": "=INT(W4/2)"
+        },
+        {
+          "cell": "Y4",
+          "value": "=INT(W4/5)"
+        },
+        {
+          "cell": "AC4",
+          "value": "=人物卡!L8"
+        },
+        {
+          "cell": "C5",
+          "value": "=CON"
+        },
+        {
+          "cell": "D5",
+          "value": "=INT(C5/2)"
+        },
+        {
+          "cell": "F5",
+          "value": "=APP"
+        },
+        {
+          "cell": "G5",
+          "value": "=INT(F5/2)"
+        },
+        {
+          "cell": "I5",
+          "value": "=EDU"
+        },
+        {
+          "cell": "J5",
+          "value": "=INT(I5/2)"
+        },
+        {
+          "cell": "L5",
+          "value": "=SIZ"
+        },
+        {
+          "cell": "M5",
+          "value": "=INT(L5/2)"
+        },
+        {
+          "cell": "N5",
+          "value": "=IF(Q5=0,\"\",人物卡!F18)"
+        },
+        {
+          "cell": "Q5",
+          "value": "=IF(人物卡!R18-人物卡!J18=0,0,人物卡!R18)"
+        },
+        {
+          "cell": "R5",
+          "value": "=INT(Q5/2)"
+        },
+        {
+          "cell": "S5",
+          "value": "=INT(Q5/5)"
+        },
+        {
+          "cell": "T5",
+          "value": "=IF(W5=0,\"\",人物卡!AB18)"
+        },
+        {
+          "cell": "W5",
+          "value": "=IF(人物卡!AN18-人物卡!AF18=0,0,人物卡!AN18)"
+        },
+        {
+          "cell": "X5",
+          "value": "=INT(W5/2)"
+        },
+        {
+          "cell": "Y5",
+          "value": "=INT(W5/5)"
+        },
+        {
+          "cell": "D6",
+          "value": "=INT(C5/5)"
+        },
+        {
+          "cell": "G6",
+          "value": "=INT(F5/5)"
+        },
+        {
+          "cell": "J6",
+          "value": "=INT(I5/5)"
+        },
+        {
+          "cell": "M6",
+          "value": "=INT(L5/5)"
+        },
+        {
+          "cell": "N6",
+          "value": "=IF(Q6=0,\"\",人物卡!F19)"
+        },
+        {
+          "cell": "Q6",
+          "value": "=IF(人物卡!R19-人物卡!J19=0,0,人物卡!R19)"
+        },
+        {
+          "cell": "R6",
+          "value": "=INT(Q6/2)"
+        },
+        {
+          "cell": "S6",
+          "value": "=INT(Q6/5)"
+        },
+        {
+          "cell": "T6",
+          "value": "=IF(W6=0,\"\",人物卡!AB19)"
+        },
+        {
+          "cell": "W6",
+          "value": "=IF(人物卡!AN19-人物卡!AF19=0,0,人物卡!AN19)"
+        },
+        {
+          "cell": "X6",
+          "value": "=INT(W6/2)"
+        },
+        {
+          "cell": "Y6",
+          "value": "=INT(W6/5)"
+        },
+        {
+          "cell": "C7",
+          "value": "=人物卡!E10"
+        },
+        {
+          "cell": "D7",
+          "value": "=人物卡!G10"
+        },
+        {
+          "cell": "F7",
+          "value": "=人物卡!N10"
+        },
+        {
+          "cell": "G7",
+          "value": "=人物卡!P10"
+        },
+        {
+          "cell": "I7",
+          "value": "=人物卡!W10"
+        },
+        {
+          "cell": "J7",
+          "value": "=MP"
+        },
+        {
+          "cell": "L7",
+          "value": "=人物卡!AN10"
+        },
+        {
+          "cell": "N7",
+          "value": "=IF(Q7=0,0,\"技艺：\")"
+        },
+        {
+          "cell": "O7",
+          "value": "=IF(N7=0,\"\",人物卡!H20)"
+        },
+        {
+          "cell": "Q7",
+          "value": "=IF(人物卡!R20-人物卡!J20=0,0,人物卡!R20)"
+        },
+        {
+          "cell": "R7",
+          "value": "=INT(Q7/2)"
+        },
+        {
+          "cell": "S7",
+          "value": "=INT(Q7/5)"
+        },
+        {
+          "cell": "T7",
+          "value": "=IF(W7=0,\"\",人物卡!AB20)"
+        },
+        {
+          "cell": "W7",
+          "value": "=IF(人物卡!AN20-人物卡!AF20=0,0,人物卡!AN20)"
+        },
+        {
+          "cell": "X7",
+          "value": "=INT(W7/2)"
+        },
+        {
+          "cell": "Y7",
+          "value": "=INT(W7/5)"
+        },
+        {
+          "cell": "Z7",
+          "value": "=人物卡!W130"
+        },
+        {
+          "cell": "AB7",
+          "value": "=人物卡!AD130"
+        }
+      ],
+      "data_validations": [
+        {
+          "type": null,
+          "sqref": "B3:D3 B4:D4 B5:C5 B6:C6 D5 D6 E3:F3 E4:F4 E5:F5 E6:F6 G3 G4 G5 G6 H3:I3 H4:I4 H5:I5 H6:I6 J3 J4 J5 J6 K3:L3 K4:L4 K5:L5 K6:L6 M3 M4 M5 M6",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": "list",
+          "sqref": "Z3",
+          "formula1": "\"公元,公元前\"",
+          "formula2": null
+        },
+        {
+          "type": "list",
+          "sqref": "AA3 AC3 AC4",
+          "formula1": "#REF!",
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "I18:J18 K18:L18 M18",
+          "formula1": null,
+          "formula2": null
+        }
+      ]
+    },
+    {
+      "sheet": "本职技能",
+      "max_row": 75,
+      "max_col": 256,
+      "non_empty": 3154,
+      "formulas": 70,
+      "sample_values": [
+        {
+          "cell": "B1",
+          "value": "0"
+        },
+        {
+          "cell": "C1",
+          "value": "1"
+        },
+        {
+          "cell": "D1",
+          "value": "2"
+        },
+        {
+          "cell": "E1",
+          "value": "3"
+        },
+        {
+          "cell": "F1",
+          "value": "4"
+        },
+        {
+          "cell": "G1",
+          "value": "5"
+        },
+        {
+          "cell": "H1",
+          "value": "6"
+        },
+        {
+          "cell": "I1",
+          "value": "7"
+        },
+        {
+          "cell": "J1",
+          "value": "8"
+        },
+        {
+          "cell": "K1",
+          "value": "9"
+        },
+        {
+          "cell": "L1",
+          "value": "10"
+        },
+        {
+          "cell": "M1",
+          "value": "11"
+        },
+        {
+          "cell": "N1",
+          "value": "12"
+        },
+        {
+          "cell": "O1",
+          "value": "13"
+        },
+        {
+          "cell": "P1",
+          "value": "14"
+        },
+        {
+          "cell": "Q1",
+          "value": "15"
+        },
+        {
+          "cell": "R1",
+          "value": "16"
+        },
+        {
+          "cell": "S1",
+          "value": "17"
+        },
+        {
+          "cell": "T1",
+          "value": "18"
+        },
+        {
+          "cell": "U1",
+          "value": "19"
+        },
+        {
+          "cell": "V1",
+          "value": "20"
+        },
+        {
+          "cell": "W1",
+          "value": "21"
+        },
+        {
+          "cell": "X1",
+          "value": "22"
+        },
+        {
+          "cell": "Y1",
+          "value": "23"
+        },
+        {
+          "cell": "Z1",
+          "value": "24"
+        },
+        {
+          "cell": "AA1",
+          "value": "25"
+        },
+        {
+          "cell": "AB1",
+          "value": "26"
+        },
+        {
+          "cell": "AC1",
+          "value": "27"
+        },
+        {
+          "cell": "AD1",
+          "value": "28"
+        },
+        {
+          "cell": "AE1",
+          "value": "29"
+        },
+        {
+          "cell": "AF1",
+          "value": "30"
+        },
+        {
+          "cell": "AG1",
+          "value": "31"
+        },
+        {
+          "cell": "AH1",
+          "value": "32"
+        },
+        {
+          "cell": "AI1",
+          "value": "33"
+        },
+        {
+          "cell": "AJ1",
+          "value": "34"
+        },
+        {
+          "cell": "AK1",
+          "value": "35"
+        },
+        {
+          "cell": "AL1",
+          "value": "36"
+        },
+        {
+          "cell": "AM1",
+          "value": "37"
+        },
+        {
+          "cell": "AN1",
+          "value": "38"
+        },
+        {
+          "cell": "AO1",
+          "value": "39"
+        },
+        {
+          "cell": "AP1",
+          "value": "40"
+        },
+        {
+          "cell": "AQ1",
+          "value": "41"
+        },
+        {
+          "cell": "AR1",
+          "value": "42"
+        },
+        {
+          "cell": "AS1",
+          "value": "43"
+        },
+        {
+          "cell": "AT1",
+          "value": "44"
+        },
+        {
+          "cell": "AU1",
+          "value": "45"
+        },
+        {
+          "cell": "AV1",
+          "value": "46"
+        },
+        {
+          "cell": "AW1",
+          "value": "47"
+        },
+        {
+          "cell": "AX1",
+          "value": "48"
+        },
+        {
+          "cell": "AY1",
+          "value": "49"
+        },
+        {
+          "cell": "AZ1",
+          "value": "50"
+        },
+        {
+          "cell": "BA1",
+          "value": "51"
+        },
+        {
+          "cell": "BB1",
+          "value": "52"
+        },
+        {
+          "cell": "BC1",
+          "value": "53"
+        },
+        {
+          "cell": "BD1",
+          "value": "54"
+        },
+        {
+          "cell": "BE1",
+          "value": "55"
+        },
+        {
+          "cell": "BF1",
+          "value": "56"
+        },
+        {
+          "cell": "BG1",
+          "value": "57"
+        },
+        {
+          "cell": "BH1",
+          "value": "58"
+        },
+        {
+          "cell": "BI1",
+          "value": "59"
+        },
+        {
+          "cell": "BJ1",
+          "value": "60"
+        },
+        {
+          "cell": "BK1",
+          "value": "61"
+        },
+        {
+          "cell": "BL1",
+          "value": "62"
+        },
+        {
+          "cell": "BM1",
+          "value": "63"
+        },
+        {
+          "cell": "BN1",
+          "value": "64"
+        },
+        {
+          "cell": "BO1",
+          "value": "65"
+        },
+        {
+          "cell": "BP1",
+          "value": "66"
+        },
+        {
+          "cell": "BQ1",
+          "value": "67"
+        },
+        {
+          "cell": "BR1",
+          "value": "68"
+        },
+        {
+          "cell": "BS1",
+          "value": "69"
+        },
+        {
+          "cell": "BT1",
+          "value": "70"
+        },
+        {
+          "cell": "BU1",
+          "value": "71"
+        },
+        {
+          "cell": "BV1",
+          "value": "72"
+        },
+        {
+          "cell": "BW1",
+          "value": "73"
+        },
+        {
+          "cell": "BX1",
+          "value": "74"
+        },
+        {
+          "cell": "BY1",
+          "value": "75"
+        },
+        {
+          "cell": "BZ1",
+          "value": "76"
+        },
+        {
+          "cell": "CA1",
+          "value": "77"
+        },
+        {
+          "cell": "CB1",
+          "value": "78"
+        },
+        {
+          "cell": "CC1",
+          "value": "79"
+        },
+        {
+          "cell": "CD1",
+          "value": "80"
+        },
+        {
+          "cell": "CE1",
+          "value": "81"
+        },
+        {
+          "cell": "CF1",
+          "value": "82"
+        },
+        {
+          "cell": "CG1",
+          "value": "83"
+        },
+        {
+          "cell": "CH1",
+          "value": "84"
+        },
+        {
+          "cell": "CI1",
+          "value": "85"
+        },
+        {
+          "cell": "CJ1",
+          "value": "86"
+        },
+        {
+          "cell": "CK1",
+          "value": "87"
+        },
+        {
+          "cell": "CL1",
+          "value": "88"
+        },
+        {
+          "cell": "CM1",
+          "value": "89"
+        },
+        {
+          "cell": "CN1",
+          "value": "90"
+        },
+        {
+          "cell": "CO1",
+          "value": "91"
+        },
+        {
+          "cell": "CP1",
+          "value": "92"
+        },
+        {
+          "cell": "CQ1",
+          "value": "93"
+        },
+        {
+          "cell": "CR1",
+          "value": "94"
+        },
+        {
+          "cell": "CS1",
+          "value": "95"
+        },
+        {
+          "cell": "CT1",
+          "value": "96"
+        },
+        {
+          "cell": "CU1",
+          "value": "97"
+        },
+        {
+          "cell": "CV1",
+          "value": "98"
+        },
+        {
+          "cell": "CW1",
+          "value": "99"
+        },
+        {
+          "cell": "CX1",
+          "value": "100"
+        },
+        {
+          "cell": "CY1",
+          "value": "101"
+        },
+        {
+          "cell": "CZ1",
+          "value": "102"
+        },
+        {
+          "cell": "DA1",
+          "value": "103"
+        },
+        {
+          "cell": "DB1",
+          "value": "104"
+        },
+        {
+          "cell": "DC1",
+          "value": "105"
+        },
+        {
+          "cell": "DD1",
+          "value": "106"
+        },
+        {
+          "cell": "DE1",
+          "value": "107"
+        },
+        {
+          "cell": "DF1",
+          "value": "108"
+        },
+        {
+          "cell": "DG1",
+          "value": "109"
+        },
+        {
+          "cell": "DH1",
+          "value": "110"
+        },
+        {
+          "cell": "DI1",
+          "value": "111"
+        },
+        {
+          "cell": "DJ1",
+          "value": "112"
+        },
+        {
+          "cell": "DK1",
+          "value": "113"
+        },
+        {
+          "cell": "DL1",
+          "value": "114"
+        },
+        {
+          "cell": "DM1",
+          "value": "115"
+        },
+        {
+          "cell": "DN1",
+          "value": "116"
+        },
+        {
+          "cell": "DO1",
+          "value": "117"
+        },
+        {
+          "cell": "DP1",
+          "value": "118"
+        },
+        {
+          "cell": "DQ1",
+          "value": "119"
+        }
+      ],
+      "sample_formulas": [
+        {
+          "cell": "C7",
+          "value": "=职业列表!J11"
+        },
+        {
+          "cell": "C8",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(本职技能!A8,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C9",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A9,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C10",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A10,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C11",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A11,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C12",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A12,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C13",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A13,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C14",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A14,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C15",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A15,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C16",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A16,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C17",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A17,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C18",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A18,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C19",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A19,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C20",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A20,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C21",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A21,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C22",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A22,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C23",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A23,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C24",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A24,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C25",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A25,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C26",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A26,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C27",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A27,职业列表!I3:P12,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C28",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A28,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C29",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A29,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C30",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A30,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C31",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A31,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C32",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A32,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C33",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A33,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C34",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A34,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C35",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A35,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C36",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A36,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C37",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A37,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C38",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A38,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C39",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A39,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C40",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A40,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C41",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A41,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C42",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A42,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C43",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A43,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C44",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A44,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C45",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A45,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C46",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A46,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C47",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A47,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C48",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A48,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C49",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A49,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C50",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A50,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C51",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A51,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C52",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A52,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C53",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A53,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C54",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A54,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C55",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A55,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C56",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A56,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C57",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A57,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C58",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A58,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C59",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A59,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C60",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A60,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C61",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A61,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C62",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A62,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C63",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A63,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C64",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A64,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C65",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A65,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C66",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A66,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C67",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A67,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C68",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A68,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C69",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A69,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C70",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A70,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C71",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A71,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "C72",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A72,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "A73",
+          "value": "=人物卡!AB48"
+        },
+        {
+          "cell": "C73",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A73,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        },
+        {
+          "cell": "A74",
+          "value": "=人物卡!AB49"
+        },
+        {
+          "cell": "C74",
+          "value": "=IF(ISTEXT(IFERROR(VLOOKUP(A74,职业列表!I3:J10,1,FALSE),0)),\"★\",\"\")"
+        }
+      ],
+      "data_validations": []
+    },
+    {
+      "sheet": "技能注释",
+      "max_row": 154,
+      "max_col": 56,
+      "non_empty": 95,
+      "formulas": 9,
+      "sample_values": [
+        {
+          "cell": "A2",
+          "value": "需要注意的是：艺术与手艺是试做部分，这些技能的注释仅供参考。 /  /  / 玩家也可以添加更多手艺，比如：游戏，木工，油漆工，铁匠之类的。 /  /  / 具体作用和KP交流好左边是自定义表,在下面写好改技能的备注(用法)"
+        },
+        {
+          "cell": "B2",
+          "value": "技能查询"
+        },
+        {
+          "cell": "N2",
+          "value": "技能成功等级与注释"
+        },
+        {
+          "cell": "B3",
+          "value": "技能名称"
+        },
+        {
+          "cell": "E3",
+          "value": "基础成功率"
+        },
+        {
+          "cell": "G3",
+          "value": "特殊适用"
+        },
+        {
+          "cell": "I3",
+          "value": "成功难度等级取决于"
+        },
+        {
+          "cell": "N3",
+          "value": "成功率"
+        },
+        {
+          "cell": "O3",
+          "value": "解释"
+        },
+        {
+          "cell": "B4",
+          "value": "请选择 / 你想了解的技能"
+        },
+        {
+          "cell": "N4",
+          "value": "0"
+        },
+        {
+          "cell": "O4",
+          "value": "并不知晓有这种学问或技能的存在。"
+        },
+        {
+          "cell": "N6",
+          "value": "1-5"
+        },
+        {
+          "cell": "O6",
+          "value": "完完全全的门外汉，仅仅是知道有这种技能而已"
+        },
+        {
+          "cell": "N8",
+          "value": "5-10"
+        },
+        {
+          "cell": "O8",
+          "value": "经过了最基础的了解，可以说出一两个专业名词，但是实际操作几乎不可能。"
+        },
+        {
+          "cell": "B10",
+          "value": "孤注一掷示例"
+        },
+        {
+          "cell": "I10",
+          "value": "普通难度"
+        },
+        {
+          "cell": "K10",
+          "value": "困难难度"
+        },
+        {
+          "cell": "N10",
+          "value": "11-19"
+        },
+        {
+          "cell": "O10",
+          "value": "自行摸索的自学或经过一段不认真的教育（指学习与教课双方）之后获取的知识。"
+        },
+        {
+          "cell": "N12",
+          "value": "20-25"
+        },
+        {
+          "cell": "O12",
+          "value": "非常有天赋或非常努力的人可以在短时间内达到这种程度，再或者一些知识渊博的人也能得到这个级别的知识。"
+        },
+        {
+          "cell": "N14",
+          "value": "26-39"
+        },
+        {
+          "cell": "O14",
+          "value": "一定时间内经过了系统式的教育或名师指导。对这方面拥有了一个初步的了解，专业性上比普通人都要强， / 但是实际操作依旧有些困难。"
+        },
+        {
+          "cell": "N17",
+          "value": "40-49"
+        },
+        {
+          "cell": "O17",
+          "value": "对这方面拥有很高的热情，但基础知识或学习时间依旧没有达到标准。 / 这阶段很可能是一个瓶颈期"
+        },
+        {
+          "cell": "N20",
+          "value": "50"
+        },
+        {
+          "cell": "O20",
+          "value": "已经可以以此为生但依旧不是非常熟练 / 如果以该技能为职业至少要达到50"
+        },
+        {
+          "cell": "N23",
+          "value": "51-70"
+        },
+        {
+          "cell": "O23",
+          "value": "不断精进的技术，虽然放到同行里一抓一大把但是基本上已经可以独当一面了。"
+        },
+        {
+          "cell": "B24",
+          "value": "孤注一掷失败的范例结果"
+        },
+        {
+          "cell": "H24",
+          "value": "疯狂调查员孤注一掷失败的范例结果"
+        },
+        {
+          "cell": "N25",
+          "value": "71-80"
+        },
+        {
+          "cell": "O25",
+          "value": "在一定范围内你具有了比较高的知名度，虽然不至于成为权威但是已经是一个很好  的咨询对象了。 / 对于这个技能你无论怎么操作都非常得心应手（除了更加精进的钻研自己  的技术或说服流氓同行）"
+        },
+        {
+          "cell": "N28",
+          "value": "81-90"
+        },
+        {
+          "cell": "O28",
+          "value": "该专业的权威，即使你仅靠这方面的技能也能得到很多人的重视与保护。"
+        },
+        {
+          "cell": "N30",
+          "value": "91-99 "
+        },
+        {
+          "cell": "O30",
+          "value": "伟人级别，如果你有时间有精力，绝对可以创造一个不可磨灭的瑰宝留给后世子孙。"
+        },
+        {
+          "cell": "N32",
+          "value": "100"
+        },
+        {
+          "cell": "O32",
+          "value": "在当代，和这方面有关的事情你已经无所不知了，如果出现了一种你不认识的东西，这种东西就会被称为：新大陆"
+        },
+        {
+          "cell": "N34",
+          "value": "101-110"
+        },
+        {
+          "cell": "O34",
+          "value": "对于这方面拥有全新的解释或发现，并且已经初步了解了这些新知识。"
+        },
+        {
+          "cell": "N36",
+          "value": "111-140"
+        },
+        {
+          "cell": "O36",
+          "value": "超越本时代几乎所有人，能和你平起平坐的应该不会超过十个人。拥有着大量的发明创造， / 甚至在之后很长一段时间内都会不分国界的被世人记住"
+        },
+        {
+          "cell": "B39",
+          "value": "技能解释"
+        },
+        {
+          "cell": "N39",
+          "value": "150"
+        },
+        {
+          "cell": "O39",
+          "value": "进入了超时代的知识领域，即使穿越也可以成为该领域的专家  / 从这个阶段开始和其相关的领域知识也会一并提高，并且可能是超时代的"
+        },
+        {
+          "cell": "N43",
+          "value": "500"
+        },
+        {
+          "cell": "O43",
+          "value": "在这方面上几乎所有知识的获取，已经没有任何成长的必要了，再获取的知识也不过是一些鸡毛蒜皮的小事"
+        },
+        {
+          "cell": "O45",
+          "value": "如果你发现了难以理解的翻译、不完整的显示、或是其他各种问题请联系作者（在更新说明页有联系方式）"
+        },
+        {
+          "cell": "B64",
+          "value": "技能可选规则"
+        },
+        {
+          "cell": "B68",
+          "value": "专业技能：可以转移的技能优势"
+        },
+        {
+          "cell": "B70",
+          "value": "艺术和手艺"
+        },
+        {
+          "cell": "O70",
+          "value": "语言"
+        },
+        {
+          "cell": "B72",
+          "value": "当一名角色的某些类似的技能与学识的成功率 / 提升到50%以上的时候："
+        },
+        {
+          "cell": "H72",
+          "value": "当一名角色的某些类似的技能与学识的成功率 / 提升到90%以上的时候："
+        },
+        {
+          "cell": "O72",
+          "value": "当一名角色将一种非母语语言的成功率 / 提升到了50%以上的时候："
+        },
+        {
+          "cell": "U72",
+          "value": "当一名角色将一种非母语语言的成功率 / 提升到了90%以上的时候："
+        },
+        {
+          "cell": "B75",
+          "value": "其他所有类似技能都会提升10% / 但是不能超过50%"
+        },
+        {
+          "cell": "H75",
+          "value": "其他所有类似技能又会提升10% / 但是不能超过90%"
+        },
+        {
+          "cell": "O75",
+          "value": "其他所有同语系的语言都会提升10% / 但是不能超过50%"
+        },
+        {
+          "cell": "U75",
+          "value": "其他所有同语系的语言都会提升10% / 但是不能超过90%"
+        },
+        {
+          "cell": "B77",
+          "value": "例如：作画成功率上升到50%的时候 / 书法、伪造、技术制图之类的的成功率都会提升10% / 但假如技术制图的成功率是70%，那么它将则不会成长"
+        },
+        {
+          "cell": "O77",
+          "value": "例如：德语成功率上升到50%的时候 / 在印欧语系内的英语、法语、意大利语、西班牙等的成功率都会提升10% / 但假如英语的成功率是70%，那么英语则不会成长"
+        },
+        {
+          "cell": "B81",
+          "value": "格斗、生存、驾驶、社交类、治疗类、维修类、科学、神话等 / 只要是KP认为有关联的技能都可以运用此规则"
+        },
+        {
+          "cell": "B84",
+          "value": "当然这属于一个可选规则，kp也可以不选择此规则（看看我们的KP是善良还是邪恶呢~）"
+        },
+        {
+          "cell": "B85",
+          "value": "另外，上述的10%是直接在现有值里增长10点，不是现有的成功率乘以0.1"
+        },
+        {
+          "cell": "B94",
+          "value": "可选规则：给技能等级安个保险"
+        },
+        {
+          "cell": "B96",
+          "value": "如果你担心原版规则的职业技能最高可以达到90%这点会影响游戏的话。 / 你可以要求PL在车卡的时候不能将技能的成功率点到XX%以上。 / 当然兴趣技能也可以运用此规则。"
+        },
+        {
+          "cell": "B102",
+          "value": "例如：KP在跑团之前放公告或提醒大家“这次跑团的技能上限是70/60” / 这里的70/60，就是职业技能成功率最高70% / 兴趣技能成功率最高可以达到60%"
+        },
+        {
+          "cell": "B113",
+          "value": "游戏系统少见规则"
+        },
+        {
+          "cell": "B117",
+          "value": "幕间成长：90%或更多的技能值 "
+        },
+        {
+          "cell": "G117",
+          "value": "对抗检定平手"
+        },
+        {
+          "cell": "L117",
+          "value": "超越人体极限：多调查员协作检定"
+        },
+        {
+          "cell": "U117",
+          "value": "调查员幕间成长（超越100）"
+        },
+        {
+          "cell": "B119",
+          "value": "于幕间成长中： / 若一位调查员有技能达到了 90%或更高，为他的当前SAN值增加 2D6 。 / 这一奖励表示经过磨练从精通一项技能中获得的自信。"
+        },
+        {
+          "cell": "G119",
+          "value": "若在同属性或同技能的对抗中双方的成功等级相同： / 技能（或属性）更高的一方获胜 / 若仍然相同则双方重新再骰一次 /  / 对抗不能孤注一掷"
+        },
+        {
+          "cell": "L119",
+          "value": "调查员们只是人类，所以物理上存在能力的极限。 / 当对手拥有90或更高的属性时难度等级将为极难。 / 超过100+的技能和属性对于调查员来说是无法对抗的。比如一个人类不可能在力量方面上对抗一个力量220的黑山羊幼崽。"
+        },
+        {
+          "cell": "U119",
+          "value": "除了意志和体型，人类的属性最大值都被定为了99，但是技能和属性不一样。 / 技能不仅能够更加精进更加熟练，而且用的越多越容易更熟练，而且还可以超越时代的熟练。 / 当你获得了99点的技能，不要担心ta会就此止步。 /  / 在幕间成长投出大于95的数字就可"
+        },
+        {
+          "cell": "L124",
+          "value": "但是人类之所以是人类就是因为他们能做到不可能的事情"
+        },
+        {
+          "cell": "L125",
+          "value": "将很多调查员的力量揉到一起，他们就能做到一个人类做不到的事情，在游戏中为以下表现。"
+        },
+        {
+          "cell": "L127",
+          "value": "这是一只黑山羊幼崽 / （STR 220）"
+        },
+        {
+          "cell": "P127",
+          "value": "左上人类 / （STR 50）"
+        },
+        {
+          "cell": "R127",
+          "value": "右上人类 / （STR 70）"
+        },
+        {
+          "cell": "P129",
+          "value": "肥宅人类 / （STR 20）"
+        },
+        {
+          "cell": "R129",
+          "value": "大熊人类 / （STR 90）"
+        },
+        {
+          "cell": "L131",
+          "value": "公式：强大的存在-（人类①+人类②+人类③......）=x<100"
+        },
+        {
+          "cell": "L132",
+          "value": "例1："
+        },
+        {
+          "cell": "M132",
+          "value": "左上人类（STR60）面对着一个黑山羊幼崽，他想要和他掰手腕，但是很明显这会把自己掰了。于是他叫来了右上人类（STR70），他们两个人（STR50+70=120）用尽力气和黑山羊幼崽对抗。 / 220-（50+70）=100 / 这样就不是不可能了"
+        },
+        {
+          "cell": "L140",
+          "value": "例2："
+        },
+        {
+          "cell": "M140",
+          "value": "这两个人类很简单的就被掰傻了 / 但是他们不甘心，依然希望赢过黑山羊幼崽 / 正好一个STR20的肥宅人类路过。 / 于是他们就把肥宅人类当成朋友（消耗道具）用了。 / 220-（50+70+20）=80 / 这里力量最大的还是右上人类（STR 70） / 80不"
+        },
+        {
+          "cell": "L148",
+          "value": "例3："
+        },
+        {
+          "cell": "M148",
+          "value": "很可惜。。我们刚刚失去了肥宅 / 但是幸运的是天降大熊，有了他的帮助我们一定能成功的 / 220-（50+70+90）=10 / 终于，常规难度出现了，大熊人类是这里力量最大的 / 也就是说他骰出小于等于90的任何数字都可以成功！ /  / D100=100（大失"
+        },
+        {
+          "cell": "T154",
+          "value": "唉"
+        }
+      ],
+      "sample_formulas": [
+        {
+          "cell": "E4",
+          "value": "=IF($B4=附表!B213,\"【←下拉框】\",VLOOKUP($B4,附表!B95:K212,2,FALSE))"
+        },
+        {
+          "cell": "G4",
+          "value": "=IF($B4=附表!B213,\"\",VLOOKUP($B4,附表!B95:K212,3,FALSE))"
+        },
+        {
+          "cell": "I4",
+          "value": "=IF($B4=附表!B213,\"\",VLOOKUP($B4,附表!B95:K212,4,FALSE))"
+        },
+        {
+          "cell": "B11",
+          "value": "=IF($B4=附表!B213,\"\",VLOOKUP($B4,附表!B95:K212,8,FALSE))"
+        },
+        {
+          "cell": "I11",
+          "value": "=IF($B4=附表!B213,\"\",VLOOKUP($B4,附表!B95:K212,6,FALSE))"
+        },
+        {
+          "cell": "K11",
+          "value": "=IF($B4=附表!B213,\"\",VLOOKUP($B4,附表!B95:K212,7,FALSE))"
+        },
+        {
+          "cell": "B25",
+          "value": "=IF($B4=附表!B213,\"\",VLOOKUP($B4,附表!B95:K212,9,FALSE))"
+        },
+        {
+          "cell": "H25",
+          "value": "=IF($B4=附表!B213,\"\",VLOOKUP($B4,附表!B95:K212,10,FALSE))"
+        },
+        {
+          "cell": "B40",
+          "value": "=IF($B4=附表!B213,\"\",VLOOKUP($B4,附表!B95:K212,5,FALSE))"
+        }
+      ],
+      "data_validations": [
+        {
+          "type": "list",
+          "sqref": "B4:D9",
+          "formula1": "附表!$B$95:$B$213",
+          "formula2": null
+        }
+      ]
+    },
+    {
+      "sheet": "附表",
+      "max_row": 274,
+      "max_col": 74,
+      "non_empty": 3870,
+      "formulas": 431,
+      "sample_values": [
+        {
+          "cell": "AJ1",
+          "value": "自定义职业属性"
+        },
+        {
+          "cell": "B2",
+          "value": "移动力计算"
+        },
+        {
+          "cell": "S2",
+          "value": "自定义职业"
+        },
+        {
+          "cell": "A3",
+          "value": "护甲表减值 / 是否开启"
+        },
+        {
+          "cell": "B3",
+          "value": "护甲表减值"
+        },
+        {
+          "cell": "C3",
+          "value": "年龄减值"
+        },
+        {
+          "cell": "D3",
+          "value": "力量-体型"
+        },
+        {
+          "cell": "G3",
+          "value": "技能雷达表"
+        },
+        {
+          "cell": "H3",
+          "value": "值"
+        },
+        {
+          "cell": "I3",
+          "value": "总数"
+        },
+        {
+          "cell": "J3",
+          "value": "百分比"
+        },
+        {
+          "cell": "N3",
+          "value": "伤害加值与体格"
+        },
+        {
+          "cell": "S3",
+          "value": "属性名称"
+        },
+        {
+          "cell": "T3",
+          "value": "shiyong"
+        },
+        {
+          "cell": "U3",
+          "value": "使用倍数"
+        },
+        {
+          "cell": "V3",
+          "value": "计算"
+        },
+        {
+          "cell": "D4",
+          "value": "敏捷-体型"
+        },
+        {
+          "cell": "G4",
+          "value": "调查"
+        },
+        {
+          "cell": "H4",
+          "value": "交涉"
+        },
+        {
+          "cell": "I4",
+          "value": "战斗"
+        },
+        {
+          "cell": "J4",
+          "value": "特技"
+        },
+        {
+          "cell": "K4",
+          "value": "支援"
+        },
+        {
+          "cell": "L4",
+          "value": "学问"
+        },
+        {
+          "cell": "N4",
+          "value": "力量+体型"
+        },
+        {
+          "cell": "D5",
+          "value": "力量大小"
+        },
+        {
+          "cell": "B6",
+          "value": "检测是否为数字"
+        },
+        {
+          "cell": "C6",
+          "value": "最终年龄减值"
+        },
+        {
+          "cell": "D6",
+          "value": "敏捷大小"
+        },
+        {
+          "cell": "N6",
+          "value": "非八十整数体格"
+        },
+        {
+          "cell": "O6",
+          "value": "减485后八十的倍数"
+        },
+        {
+          "cell": "P6",
+          "value": "最终体格出目"
+        },
+        {
+          "cell": "D7",
+          "value": "总值"
+        },
+        {
+          "cell": "G7",
+          "value": "调查"
+        },
+        {
+          "cell": "H7",
+          "value": "交涉"
+        },
+        {
+          "cell": "I7",
+          "value": "战斗"
+        },
+        {
+          "cell": "J7",
+          "value": "特技"
+        },
+        {
+          "cell": "K7",
+          "value": "支援"
+        },
+        {
+          "cell": "L7",
+          "value": "学问"
+        },
+        {
+          "cell": "B8",
+          "value": "护甲表最终减值"
+        },
+        {
+          "cell": "D8",
+          "value": "属性最终值"
+        },
+        {
+          "cell": "N8",
+          "value": "小于1D6的话"
+        },
+        {
+          "cell": "O8",
+          "value": "超过1d6的话"
+        },
+        {
+          "cell": "P8",
+          "value": "最终伤害加值出目"
+        },
+        {
+          "cell": "B9",
+          "value": "最终补正值"
+        },
+        {
+          "cell": "AF9",
+          "value": "最终值"
+        },
+        {
+          "cell": "B10",
+          "value": "格斗射击基础成功率"
+        },
+        {
+          "cell": "AB10",
+          "value": "教育+其他属性点数中的最大值（官方）"
+        },
+        {
+          "cell": "B11",
+          "value": "格斗1"
+        },
+        {
+          "cell": "D11",
+          "value": "射击1"
+        },
+        {
+          "cell": "AB11",
+          "value": "教育+其他属性点数中的所有值"
+        },
+        {
+          "cell": "B12",
+          "value": "格斗2"
+        },
+        {
+          "cell": "D12",
+          "value": "射击2"
+        },
+        {
+          "cell": "G12",
+          "value": "属性雷达表"
+        },
+        {
+          "cell": "H12",
+          "value": "基础属性"
+        },
+        {
+          "cell": "I12",
+          "value": "出目"
+        },
+        {
+          "cell": "AB12",
+          "value": "所有属性的点数相加"
+        },
+        {
+          "cell": "B13",
+          "value": "格斗3"
+        },
+        {
+          "cell": "D13",
+          "value": "射击3"
+        },
+        {
+          "cell": "G13",
+          "value": "力量 / STR"
+        },
+        {
+          "cell": "H13",
+          "value": "体质 / CON"
+        },
+        {
+          "cell": "I13",
+          "value": "体型 / SIZ"
+        },
+        {
+          "cell": "J13",
+          "value": "敏捷 / DEX"
+        },
+        {
+          "cell": "K13",
+          "value": "外貌 / APP"
+        },
+        {
+          "cell": "L13",
+          "value": "智力 / 灵感"
+        },
+        {
+          "cell": "M13",
+          "value": "意志 / POW"
+        },
+        {
+          "cell": "N13",
+          "value": "教育 / EDU"
+        },
+        {
+          "cell": "O13",
+          "value": "幸运 / Luck"
+        },
+        {
+          "cell": "B14",
+          "value": "熟练下拉"
+        },
+        {
+          "cell": "U14",
+          "value": "自定义技能剩余计算"
+        },
+        {
+          "cell": "Z14",
+          "value": "战斗"
+        },
+        {
+          "cell": "AA14",
+          "value": "←请选择类型"
+        },
+        {
+          "cell": "AB14",
+          "value": "爆破"
+        },
+        {
+          "cell": "AC14",
+          "value": "电气维修"
+        },
+        {
+          "cell": "AD14",
+          "value": "炮术"
+        },
+        {
+          "cell": "AE14",
+          "value": "投掷"
+        },
+        {
+          "cell": "AF14",
+          "value": "格斗1"
+        },
+        {
+          "cell": "AI14",
+          "value": "格斗2"
+        },
+        {
+          "cell": "AL14",
+          "value": "格斗3"
+        },
+        {
+          "cell": "AO14",
+          "value": "射击1"
+        },
+        {
+          "cell": "AP14",
+          "value": "射击2"
+        },
+        {
+          "cell": "AQ14",
+          "value": "射击3"
+        },
+        {
+          "cell": "AR14",
+          "value": "斗殴"
+        },
+        {
+          "cell": "AS14",
+          "value": "手枪"
+        },
+        {
+          "cell": "AT14",
+          "value": "没有数值"
+        },
+        {
+          "cell": "AU14",
+          "value": "最大值"
+        },
+        {
+          "cell": "AV14",
+          "value": "最终出目"
+        },
+        {
+          "cell": "AZ14",
+          "value": "出目"
+        },
+        {
+          "cell": "B15",
+          "value": "★"
+        },
+        {
+          "cell": "O15",
+          "value": "随身物品下拉表"
+        },
+        {
+          "cell": "U15",
+          "value": "1"
+        },
+        {
+          "cell": "L16",
+          "value": "san值计算"
+        },
+        {
+          "cell": "O16",
+          "value": "颅————"
+        },
+        {
+          "cell": "U16",
+          "value": "2"
+        },
+        {
+          "cell": "L17",
+          "value": "意志"
+        },
+        {
+          "cell": "M17",
+          "value": "最大值"
+        },
+        {
+          "cell": "O17",
+          "value": "头部"
+        },
+        {
+          "cell": "R17",
+          "value": "健康"
+        },
+        {
+          "cell": "S17",
+          "value": "清醒"
+        },
+        {
+          "cell": "U17",
+          "value": "3"
+        },
+        {
+          "cell": "B18",
+          "value": "可选规则：有故事的调查员"
+        },
+        {
+          "cell": "O18",
+          "value": "头发"
+        },
+        {
+          "cell": "R18",
+          "value": "昏迷"
+        },
+        {
+          "cell": "S18",
+          "value": "临时疯狂"
+        },
+        {
+          "cell": "U18",
+          "value": "自定义"
+        },
+        {
+          "cell": "B19",
+          "value": "名称"
+        },
+        {
+          "cell": "C19",
+          "value": "san"
+        },
+        {
+          "cell": "D19",
+          "value": "技能"
+        },
+        {
+          "cell": "E19",
+          "value": "备注"
+        },
+        {
+          "cell": "L19",
+          "value": "最终值"
+        },
+        {
+          "cell": "O19",
+          "value": "耳朵"
+        },
+        {
+          "cell": "R19",
+          "value": "重伤"
+        },
+        {
+          "cell": "S19",
+          "value": "不定性疯狂"
+        },
+        {
+          "cell": "B20",
+          "value": "战场经历包"
+        },
+        {
+          "cell": "C20",
+          "value": "1d10+5"
+        },
+        {
+          "cell": "D20",
+          "value": "70"
+        },
+        {
+          "cell": "E20",
+          "value": "对目击尸体和重伤员造成的理智损失免疫;根据战争的年份和模组发生时的年份调整年龄；背景增加一项：战争相关的伤疤 / 疤痕或恐惧症 / 躁狂症"
+        },
+        {
+          "cell": "O20",
+          "value": "面部"
+        },
+        {
+          "cell": "R20",
+          "value": "死亡"
+        },
+        {
+          "cell": "S20",
+          "value": "永久疯狂"
+        },
+        {
+          "cell": "AA20",
+          "value": "任意"
+        }
+      ],
+      "sample_formulas": [
+        {
+          "cell": "E3",
+          "value": "=G14-I14"
+        },
+        {
+          "cell": "E4",
+          "value": "=J14-I14"
+        },
+        {
+          "cell": "S4",
+          "value": "=\"力量×\"&U4"
+        },
+        {
+          "cell": "T4",
+          "value": "=职业列表!I15"
+        },
+        {
+          "cell": "U4",
+          "value": "=职业列表!J15"
+        },
+        {
+          "cell": "V4",
+          "value": "=G14*U4"
+        },
+        {
+          "cell": "X4",
+          "value": "=IF(U4>0,S4,\"\")"
+        },
+        {
+          "cell": "Y4",
+          "value": "=IF(AND(U5>0,U4>0),\"+\",\"\")"
+        },
+        {
+          "cell": "Z4",
+          "value": "=IF(U5>0,S5,\"\")"
+        },
+        {
+          "cell": "A5",
+          "value": "=IF(人物卡!AI12=\"开\",1,IF(人物卡!AI12=\"关\",0))"
+        },
+        {
+          "cell": "B5",
+          "value": "=IF(人物卡!AN12=0,\"0\",VLOOKUP(人物卡!AN12,'防具表 载具表'!B2:I101,3,FALSE))"
+        },
+        {
+          "cell": "C5",
+          "value": "=IF(人物卡!E6<40,0,INT((人物卡!E6/10)-3))"
+        },
+        {
+          "cell": "E5",
+          "value": "=IF(E3>0,\"1\",IF(E3=0,\"0\",IF(E3<0,\"-1\")))"
+        },
+        {
+          "cell": "G5",
+          "value": "=AVERAGE(人物卡!AA7+人物卡!R16+人物卡!R17+人物卡!R18+人物卡!R19+人物卡!R25+人物卡!R27+人物卡!R46+人物卡!R47+人物卡!R48+人物卡!AN17+人物卡!AN18+人物卡!AN22+人物卡!"
+        },
+        {
+          "cell": "H5",
+          "value": "=AVERAGE(人物卡!AA5+人物卡!R17+人物卡!R18+人物卡!R23+人物卡!R26+人物卡!R28+人物卡!R33+人物卡!R44+人物卡!R46+人物卡!R47+人物卡!R48+人物卡!R49+人物卡!AN16+人物卡!AN"
+        },
+        {
+          "cell": "I5",
+          "value": "=AVERAGE((人物卡!U3+人物卡!U7)/2+人物卡!U5+人物卡!AA3+人物卡!R29+人物卡!R34+人物卡!R35+人物卡!R36+人物卡!R38+人物卡!R39+人物卡!R40+人物卡!R44+人物卡!R45+人物卡!AN"
+        },
+        {
+          "cell": "J5",
+          "value": "=AVERAGE(人物卡!AA3+人物卡!R19+人物卡!R20+人物卡!R21+人物卡!R22+人物卡!R24+人物卡!R28+人物卡!R30+人物卡!R31+人物卡!R45+人物卡!AN19+人物卡!AN20+人物卡!AN21+人物卡!"
+        },
+        {
+          "cell": "K5",
+          "value": "=AVERAGE(人物卡!R42+人物卡!AN21+人物卡!AN28+人物卡!R30+人物卡!AN27+人物卡!AN30+人物卡!AN23+人物卡!R26+人物卡!R17+人物卡!AN41+人物卡!AN45+人物卡!AN46-76)"
+        },
+        {
+          "cell": "L5",
+          "value": "=AVERAGE(人物卡!AG5+人物卡!AA7+人物卡!R16+人物卡!R17+人物卡!R25+人物卡!R27+人物卡!R32+人物卡!R43+人物卡!R46+人物卡!R47+人物卡!R48+人物卡!R49-人物卡!J49+人物卡!AN1"
+        },
+        {
+          "cell": "N5",
+          "value": "=G14+I14"
+        },
+        {
+          "cell": "S5",
+          "value": "=\"敏捷×\"&U5"
+        },
+        {
+          "cell": "T5",
+          "value": "=职业列表!I16"
+        },
+        {
+          "cell": "U5",
+          "value": "=职业列表!J16"
+        },
+        {
+          "cell": "V5",
+          "value": "=J14*U5"
+        },
+        {
+          "cell": "Y5",
+          "value": "=IF(AND(U6>0,U5>0),\"+\",\"\")"
+        },
+        {
+          "cell": "E6",
+          "value": "=IF(E4>0,\"1\",IF(E4=0,\"0\",IF(E4<0,\"-1\")))"
+        },
+        {
+          "cell": "J6",
+          "value": "=G5+H5+I5+J5+K5+L5"
+        },
+        {
+          "cell": "S6",
+          "value": "=\"体质×\"&U6"
+        },
+        {
+          "cell": "T6",
+          "value": "=职业列表!I17"
+        },
+        {
+          "cell": "U6",
+          "value": "=职业列表!J17"
+        },
+        {
+          "cell": "V6",
+          "value": "=H14*U6"
+        },
+        {
+          "cell": "X6",
+          "value": "=IF(U6>0,S6,\"\")"
+        },
+        {
+          "cell": "Y6",
+          "value": "=IF(AND(U7>0,U6>0),\"+\",\"\")"
+        },
+        {
+          "cell": "B7",
+          "value": "=ISNUMBER(B5)"
+        },
+        {
+          "cell": "C7",
+          "value": "=IF(ISBLANK(人物卡!E6),0,IF(人物卡!E6>=0,C5,0))"
+        },
+        {
+          "cell": "E7",
+          "value": "=E6+E5"
+        },
+        {
+          "cell": "N7",
+          "value": "=IF(N5<=1,\"0\",IF(N5<=64,\"-2\",IF(N5<=84,\"-1\",IF(N5<=124,\"0\",IF(N5<=164,\"1\",IF(N5<=204,\"2\",IF(N5<=284,\"3\",IF(N5>284,\"4\",\"0"
+        },
+        {
+          "cell": "O7",
+          "value": "=INT((N5-285)/80)"
+        },
+        {
+          "cell": "P7",
+          "value": "=IF(O7>=0,O7+N7,N7)"
+        },
+        {
+          "cell": "S7",
+          "value": "=\"体型×\"&U7"
+        },
+        {
+          "cell": "T7",
+          "value": "=职业列表!I18"
+        },
+        {
+          "cell": "U7",
+          "value": "=职业列表!J18"
+        },
+        {
+          "cell": "V7",
+          "value": "=I14*U7"
+        },
+        {
+          "cell": "X7",
+          "value": "=IF(U7>0,S7,\"\")"
+        },
+        {
+          "cell": "Y7",
+          "value": "=IF(AND(U8>0,U7>0),\"+\",\"\")"
+        },
+        {
+          "cell": "C8",
+          "value": "=IF(B7=FALSE,\"0\",IF(A5=1,B5,0))"
+        },
+        {
+          "cell": "E8",
+          "value": "=IF(E7=2,\"1\",IF(E7=-2,\"-1\",0))"
+        },
+        {
+          "cell": "G8",
+          "value": "=G5/J6"
+        },
+        {
+          "cell": "H8",
+          "value": "=H5/J6"
+        },
+        {
+          "cell": "I8",
+          "value": "=I5/J6"
+        },
+        {
+          "cell": "J8",
+          "value": "=J5/J6"
+        },
+        {
+          "cell": "K8",
+          "value": "=K5/J6"
+        },
+        {
+          "cell": "L8",
+          "value": "=L5/J6"
+        },
+        {
+          "cell": "S8",
+          "value": "=\"外貌×\"&U8"
+        },
+        {
+          "cell": "T8",
+          "value": "=职业列表!I19"
+        },
+        {
+          "cell": "U8",
+          "value": "=职业列表!J19"
+        },
+        {
+          "cell": "V8",
+          "value": "=K14*U8"
+        },
+        {
+          "cell": "X8",
+          "value": "=IF(U8>0,S8,\"\")"
+        },
+        {
+          "cell": "Y8",
+          "value": "=IF(AND(U9>0,U8>0),\"+\",\"\")"
+        },
+        {
+          "cell": "C9",
+          "value": "=E8-C8-C7"
+        },
+        {
+          "cell": "N9",
+          "value": "=IF(P7=\"-2\",\"-2\",IF(P7=\"-1\",\"-1\",IF(P7=\"0\",\"0\",IF(P7=\"1\",\"+1D4\",IF(P7=2,\"+1D6\",IF(P7>2,\"D6\",0))))))"
+        },
+        {
+          "cell": "O9",
+          "value": "=IF(N9=\"D6\",P7-1,\"0\")"
+        },
+        {
+          "cell": "P9",
+          "value": "=IF(N9=\"D6\",O10,N9)"
+        },
+        {
+          "cell": "S9",
+          "value": "=\"智力×\"&U9"
+        },
+        {
+          "cell": "T9",
+          "value": "=职业列表!I20"
+        },
+        {
+          "cell": "U9",
+          "value": "=职业列表!J20"
+        },
+        {
+          "cell": "V9",
+          "value": "=L14*U9"
+        },
+        {
+          "cell": "X9",
+          "value": "=IF(U9>0,S9,\"\")"
+        },
+        {
+          "cell": "Y9",
+          "value": "=IF(AND(U10>0,U9>0),\"+\",\"\")"
+        },
+        {
+          "cell": "AA9",
+          "value": "=X4&Y4&X5&Y5&X6&Y6&X7&Y7&X8&Y8&X9&Y9&X10&Y10&X11&Y11&X12"
+        },
+        {
+          "cell": "O10",
+          "value": "=\"+\"&O9&\"D6\""
+        },
+        {
+          "cell": "S10",
+          "value": "=\"教育×\"&U10"
+        },
+        {
+          "cell": "T10",
+          "value": "=职业列表!I21"
+        },
+        {
+          "cell": "U10",
+          "value": "=职业列表!J21"
+        },
+        {
+          "cell": "V10",
+          "value": "=N14*U10"
+        },
+        {
+          "cell": "X10",
+          "value": "=IF(U10>0,S10,\"\")"
+        },
+        {
+          "cell": "Y10",
+          "value": "=IF(AND(U11>0,U10>0),\"+\",\"\")"
+        },
+        {
+          "cell": "AA10",
+          "value": "=IF(AB10=职业列表!H25,1,0)"
+        },
+        {
+          "cell": "AF10",
+          "value": "=IF(AA10=1,MAX(V4:V9,V11:V12)+V10,0)"
+        },
+        {
+          "cell": "C11",
+          "value": "=IF(人物卡!H35=\"鞭子\",\"5\",IF(人物卡!H35=\"电锯\",\"10\",IF(人物卡!H35=\"斧\",\"15\",IF(人物卡!H35=\"剑\",\"20\",IF(人物卡!H35=\"绞具\",\"15\",IF(人物卡!H35=\"链枷\",\""
+        }
+      ],
+      "data_validations": [
+        {
+          "type": null,
+          "sqref": "X80",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X66",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X47:X50",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "G14 H14 I14 J14 K14 L14 M14 N14 O14",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X29",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "S4:S9 S10 S11 S12",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X36",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X32",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "O219",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X63",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "O227",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X26",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X59",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X87",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X70",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X25",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X27",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X39",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X30",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X28",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X33",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X89",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X34",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X35",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X52",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X37",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X78",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X38",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X79",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X40",
+          "formula1": null,
+          "formula2": null
+        }
+      ]
+    },
+    {
+      "sheet": "职业列表",
+      "max_row": 348,
+      "max_col": 172,
+      "non_empty": 1613,
+      "formulas": 242,
+      "sample_values": [
+        {
+          "cell": "A1",
+          "value": "序号"
+        },
+        {
+          "cell": "B1",
+          "value": "职业"
+        },
+        {
+          "cell": "D1",
+          "value": "信用评级"
+        },
+        {
+          "cell": "E1",
+          "value": "职业属性"
+        },
+        {
+          "cell": "F1",
+          "value": "技能点"
+        },
+        {
+          "cell": "G1",
+          "value": "本职技能"
+        },
+        {
+          "cell": "K1",
+          "value": "推荐关系人"
+        },
+        {
+          "cell": "M1",
+          "value": "职业介绍"
+        },
+        {
+          "cell": "A2",
+          "value": "0"
+        },
+        {
+          "cell": "B2",
+          "value": "选择职业序号为0，则清除职业模板提示和点数计算器，供强迫症患者使用。"
+        },
+        {
+          "cell": "H2",
+          "value": "右侧下拉框选择自定义职业技能与属性 /  / （excel2007及以下不适用）"
+        },
+        {
+          "cell": "I2",
+          "value": "自定义职业本职技能"
+        },
+        {
+          "cell": "A3",
+          "value": "1"
+        },
+        {
+          "cell": "K3",
+          "value": "列出一些角色在职业工作中可能接触的个人或组织,它们也可以为调查员的个人背景提供灵感。"
+        },
+        {
+          "cell": "M3",
+          "value": "不多于7个本职技能。 / 在职业属性中输入第二职业属性的名字（如外貌、意志、教育、敏捷、力量、体质、体型，留空则视为EDU）并自行设置起始信誉。使用自定义职业前，请先咨询你的KP"
+        },
+        {
+          "cell": "A4",
+          "value": "2"
+        },
+        {
+          "cell": "B4",
+          "value": "会计师"
+        },
+        {
+          "cell": "D4",
+          "value": "30-70"
+        },
+        {
+          "cell": "E4",
+          "value": "教育×4"
+        },
+        {
+          "cell": "G4",
+          "value": "会计，法律，图书馆，聆听，说服，侦查，任意其他两项个人或时代特长。"
+        },
+        {
+          "cell": "K4",
+          "value": "生意伙伴，法律界，金融业界(银行，其他会计师)。"
+        },
+        {
+          "cell": "M4",
+          "value": "会计师可能在企业工作或作为自由会计师，为个体经营者和企业客户担任顾问。 / 他们是优秀的研究者，既勤奋又关注细节，能够通过仔细分析个人和企业事务历史记录、财务报表和其他记录支持其他调查员。"
+        },
+        {
+          "cell": "A5",
+          "value": "3"
+        },
+        {
+          "cell": "B5",
+          "value": "杂技演员"
+        },
+        {
+          "cell": "D5",
+          "value": "9-20"
+        },
+        {
+          "cell": "E5",
+          "value": "教育×2＋敏捷×2"
+        },
+        {
+          "cell": "G5",
+          "value": "攀爬，闪避，跳跃，投掷，侦查，游泳，任意两项其他个人或时代特长。"
+        },
+        {
+          "cell": "K5",
+          "value": "业余运动员圈，体育专栏作家，马戏团，嘉年华管理者。"
+        },
+        {
+          "cell": "M5",
+          "value": "杂技演员可能是参加各级比赛(甚至奥运会)的业余运动员，也可能是专业的演员，在马戏团、嘉年华、歌舞团之类的地方作为娱乐业从业者工作。"
+        },
+        {
+          "cell": "A6",
+          "value": "4"
+        },
+        {
+          "cell": "B6",
+          "value": "演员-戏剧演员"
+        },
+        {
+          "cell": "D6",
+          "value": "9-40"
+        },
+        {
+          "cell": "E6",
+          "value": "教育×2＋外貌×2"
+        },
+        {
+          "cell": "G6",
+          "value": "技艺（表演），乔装，格斗，历史，两项社交技能（取悦、话术、恐吓、说服），心理学，任意一项其他个人或时代特长。"
+        },
+        {
+          "cell": "K6",
+          "value": "戏剧产业，报刊艺术批评家，演员公会。"
+        },
+        {
+          "cell": "M6",
+          "value": "一般指舞台剧演员和电影演员。许多演员有相当深厚的文化素养，认为自己才是“正统”的，倾向于轻视电影业的商业活动。直到20 世纪后期电影业的地位提高，电影演员的薪酬增加，这种情况才发生改变。 / 电影业和电影明星一直是世界人民关注的焦点。许多明星一"
+        },
+        {
+          "cell": "A7",
+          "value": "5"
+        },
+        {
+          "cell": "B7",
+          "value": "演员-电影演员"
+        },
+        {
+          "cell": "D7",
+          "value": "20-90"
+        },
+        {
+          "cell": "E7",
+          "value": "教育×2＋外貌×2"
+        },
+        {
+          "cell": "G7",
+          "value": "技艺（表演），乔装，汽车驾驶，两项社交技能（取悦、话术、恐吓、说服），心理学，任意两项其他个人或时代特长（如骑乘或格斗）。"
+        },
+        {
+          "cell": "K7",
+          "value": "电影工作室，媒体评论员，作家。"
+        },
+        {
+          "cell": "M7",
+          "value": "一般指舞台剧演员和电影演员。许多演员有相当深厚的文化素养，认为自己才是“正统”的，倾向于轻视电影业的商业活动。直到20 世纪后期电影业的地位提高，电影演员的薪酬增加，这种情况才发生改变。 / 电影业和电影明星一直是世界人民关注的焦点。许多明星一"
+        },
+        {
+          "cell": "A8",
+          "value": "6"
+        },
+        {
+          "cell": "B8",
+          "value": "事务所侦探、保安"
+        },
+        {
+          "cell": "D8",
+          "value": "20-45"
+        },
+        {
+          "cell": "E8",
+          "value": "教育×2＋力量或敏捷×2"
+        },
+        {
+          "cell": "G8",
+          "value": "一项社交技能（取悦、话术、恐吓、说服），格斗（斗殴），射击，法律，图书馆，心理学，潜行，追踪。"
+        },
+        {
+          "cell": "K8",
+          "value": "本地执法机构，客户。"
+        },
+        {
+          "cell": "M8",
+          "value": "世界上有许多著名的侦探机构，其中最著名的是平克顿和伯恩斯调查局(后来合并成一家公司)。这样的公司一般有两类工作人员：安保人员和调查人员。 / 企业或个人雇用安保人员来保护自己的资产和人员免受盗贼、刺客和绑匪的威胁。这些安保人员角色使用巡警的职业"
+        },
+        {
+          "cell": "A9",
+          "value": "7"
+        },
+        {
+          "cell": "B9",
+          "value": "精神病医生（古典）"
+        },
+        {
+          "cell": "D9",
+          "value": "10-60"
+        },
+        {
+          "cell": "E9",
+          "value": "教育×4"
+        },
+        {
+          "cell": "G9",
+          "value": "法律，聆听，医学，外语，精神分析，心理学，科学（生物学，化学）。"
+        },
+        {
+          "cell": "I9",
+          "value": " "
+        },
+        {
+          "cell": "K9",
+          "value": "其他精神疾病研究者，医生，有时还有执法机构的侦探。"
+        },
+        {
+          "cell": "M9",
+          "value": "在1920 年代，“精神病医生”这个词专用来称呼治疗精神失常的医生(也就是早期的精神科医生)。精神分析在当时的美国鲜为人知，而且它的基本内容都是性生活和如厕训练之类令大众不齿的东西。精神病学，一种正规的从行为主义发展来的医学理论则要普及得多"
+        },
+        {
+          "cell": "A10",
+          "value": "8"
+        },
+        {
+          "cell": "B10",
+          "value": "动物训练师"
+        },
+        {
+          "cell": "D10",
+          "value": "10-40"
+        },
+        {
+          "cell": "E10",
+          "value": "教育×2＋外貌或意志×2"
+        },
+        {
+          "cell": "G10",
+          "value": "跳跃，聆听，自然，心理学，科学（动物学），潜行，追踪，任意一项其他个人或时代特长。"
+        },
+        {
+          "cell": "I10",
+          "value": " "
+        },
+        {
+          "cell": "K10",
+          "value": "动物园，马戏团，赞助人，演员。"
+        },
+        {
+          "cell": "M10",
+          "value": "动物训练师可能在电影工作室、巡回马戏团、马厩工作或自由工作。不管是训练导盲犬、狮子钻火圈，他们工作时基本要独自一人长时间近距离地照看这些动物。动物训练师可以像对人一样对动物使用「心理学」技能。"
+        },
+        {
+          "cell": "A11",
+          "value": "9"
+        },
+        {
+          "cell": "B11",
+          "value": "文物学家（原作向）"
+        },
+        {
+          "cell": "D11",
+          "value": "30-70"
+        },
+        {
+          "cell": "E11",
+          "value": "教育×4"
+        },
+        {
+          "cell": "G11",
+          "value": "估价，技艺（任一），历史，图书馆，外语，一项社交技能（取悦、话术、恐吓、说服），侦查，任意一项其他个人或时代特长。"
+        },
+        {
+          "cell": "I11",
+          "value": "任意特长数:"
+        },
+        {
+          "cell": "K11",
+          "value": "书商，古董收藏者，历史研究学会。"
+        },
+        {
+          "cell": "M11",
+          "value": "文物学家也许是调查员可以从事的最具有洛夫克拉夫特风格的职业：那些历久弥新的的卓越作品、湮没在古代传说中的神奇力量，总能使他们乐在其中。独立的收入使文物学家能够研究古旧晦涩的文物，或者根据自己的兴趣爱好集中探寻特别的种类。他们通常有着欣赏的眼"
+        },
+        {
+          "cell": "A12",
+          "value": "10"
+        },
+        {
+          "cell": "B12",
+          "value": "古董商"
+        },
+        {
+          "cell": "D12",
+          "value": "30-50"
+        },
+        {
+          "cell": "E12",
+          "value": "教育×4"
+        },
+        {
+          "cell": "G12",
+          "value": "会计，估价，汽车驾驶，两项社交技能（取悦、话术、恐吓、说服），历史，图书馆，导航。"
+        },
+        {
+          "cell": "K12",
+          "value": "本地的历史学家，其他古董商，可能还包括赝造师。"
+        },
+        {
+          "cell": "M12",
+          "value": "古董商通常自己开店，从自己所在的地方转卖物品，或继续扩展业务范围，通过倒卖物品到城市商店赚取利润。"
+        },
+        {
+          "cell": "A13",
+          "value": "11"
+        },
+        {
+          "cell": "B13",
+          "value": "考古学家（原作向）"
+        },
+        {
+          "cell": "D13",
+          "value": "10-40"
+        },
+        {
+          "cell": "E13",
+          "value": "教育×4"
+        },
+        {
+          "cell": "G13",
+          "value": "估价，考古，历史，外语，图书馆，侦查，机械维修，导航或科学（任一：如化学、物理、地理等）。"
+        },
+        {
+          "cell": "H13",
+          "value": "自定义职业属性"
+        },
+        {
+          "cell": "K13",
+          "value": "赞助人，博物馆，大学。"
+        },
+        {
+          "cell": "M13",
+          "value": "考古学家研究探索历史的痕迹。主要来说，是对人类历史相关的物质数据进行各种鉴识、检查、分析。这项工作包含辛苦细致的研究，更不必提情愿亲自下斗铲土的决心。 / 在1920 年代，成功的考古学家会被当成著名冒险家与探险家，名利双收。有人运用科学方法考"
+        },
+        {
+          "cell": "A14",
+          "value": "12"
+        },
+        {
+          "cell": "B14",
+          "value": "建筑师"
+        },
+        {
+          "cell": "D14",
+          "value": "30-70"
+        },
+        {
+          "cell": "E14",
+          "value": "教育×4"
+        },
+        {
+          "cell": "G14",
+          "value": "会计，技艺（技术制图），法律，母语，计算机或图书馆，说服，心理学，科学（数学）。"
+        },
+        {
+          "cell": "H14",
+          "value": "属性名称"
+        },
+        {
+          "cell": "I14",
+          "value": "是否使用"
+        },
+        {
+          "cell": "J14",
+          "value": "使用倍数"
+        },
+        {
+          "cell": "K14",
+          "value": "本地建设和城市规划部门，建筑公司。"
+        },
+        {
+          "cell": "M14",
+          "value": "建筑师掌握设计和营造建筑的知识，不论是个人房屋的改造还是造价数百万美元的地标工程。建筑师与项目经理紧密合作，负责监督施工全程。建筑师必须了解当地的规划法律，健康和安全法规，和基础的公众安全原则。他们既可以在大公司工作，也可以自由工作，这在很"
+        },
+        {
+          "cell": "A15",
+          "value": "13"
+        },
+        {
+          "cell": "B15",
+          "value": "艺术家"
+        },
+        {
+          "cell": "D15",
+          "value": "9-50"
+        },
+        {
+          "cell": "E15",
+          "value": "教育×2＋敏捷或意志×2"
+        },
+        {
+          "cell": "G15",
+          "value": "技艺（任一），历史或自然，一项社交技能（取悦、话术、恐吓、说服），外语，心理学，侦查，任意两项其他个人或时代特长。"
+        },
+        {
+          "cell": "H15",
+          "value": "力量"
+        },
+        {
+          "cell": "I15",
+          "value": "×"
+        },
+        {
+          "cell": "K15",
+          "value": "美术馆，美术批评家，富有的赞助人，广告业者。"
+        },
+        {
+          "cell": "M15",
+          "value": "艺术家在这里可以是画家，雕塑家等等。他们有时沈浸于自己虚幻的想象当中，有时又沐浴在激发热情和理解的灵感之下。不论是否天资优秀，艺术家的内心必须足够强大，这样才能战胜生涯起步时的障碍和挑剔的眼光，并且在自己小有名气以后继续努力。有些艺术家对物"
+        },
+        {
+          "cell": "A16",
+          "value": "14"
+        },
+        {
+          "cell": "B16",
+          "value": "精神病院看护"
+        },
+        {
+          "cell": "D16",
+          "value": "8-20"
+        },
+        {
+          "cell": "E16",
+          "value": "教育×2＋力量或敏捷×2"
+        },
+        {
+          "cell": "G16",
+          "value": "闪避，格斗（斗殴），急救，两项社交技能（取悦、话术、恐吓、说服），聆听，心理学，潜行。"
+        },
+        {
+          "cell": "H16",
+          "value": "敏捷"
+        },
+        {
+          "cell": "I16",
+          "value": "×"
+        },
+        {
+          "cell": "K16",
+          "value": "医护人员，患者和患者家属。允许接触医疗记录、药品或其他医疗用品。"
+        },
+        {
+          "cell": "M16",
+          "value": "尽管少数富有的人会选择私人疗养院，大多精神病患者最终会被安置到州县设置的定点医院。这些地方除了医生护士以外，还会有一支看护队伍。选聘看护的时候，力量和体格往往比医学知识更被看重。"
+        },
+        {
+          "cell": "A17",
+          "value": "15"
+        },
+        {
+          "cell": "B17",
+          "value": "运动员"
+        },
+        {
+          "cell": "D17",
+          "value": "9-70"
+        }
+      ],
+      "sample_formulas": [
+        {
+          "cell": "B3",
+          "value": "=IF(C3=\"\",\"自定义职业\",C3)"
+        },
+        {
+          "cell": "E3",
+          "value": "=附表!AA9"
+        },
+        {
+          "cell": "F3",
+          "value": "=SUM(附表!AF10:AF12)"
+        },
+        {
+          "cell": "G3",
+          "value": "=IF(I3<>\"\",I3&\"，\"&I4&\"，\"&I5&\"，\"&I6&\"，\"&I7&\"，\"&I8&\"，\"&I9&\"，\"&I10,\"不多于8个本职技能。在职业属性中输入第二职业属性的数值（留空则视为EDU）并自行设置起始信誉。使用自定义职业前"
+        },
+        {
+          "cell": "F4",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F5",
+          "value": "=EDU*2+DEX*2"
+        },
+        {
+          "cell": "F6",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "F7",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "F8",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "F9",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F10",
+          "value": "=EDU*2+MAX(APP*2,POW*2)"
+        },
+        {
+          "cell": "F11",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F12",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F13",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F14",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F15",
+          "value": "=EDU*2+MAX(DEX*2,POW*2)"
+        },
+        {
+          "cell": "J15",
+          "value": "=IF(I15=\"√\",2,0)"
+        },
+        {
+          "cell": "F16",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "J16",
+          "value": "=IF(I16=\"√\",2,0)"
+        },
+        {
+          "cell": "F17",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "J17",
+          "value": "=IF(I17=\"√\",2,0)"
+        },
+        {
+          "cell": "F18",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "J18",
+          "value": "=IF(I18=\"√\",2,0)"
+        },
+        {
+          "cell": "F19",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "J19",
+          "value": "=IF(I19=\"√\",2,0)"
+        },
+        {
+          "cell": "F20",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "J20",
+          "value": "=IF(I20=\"√\",2,0)"
+        },
+        {
+          "cell": "F21",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "J21",
+          "value": "=IF(I21=\"√\",IF(SUM(J15:J20,J22:J23)>0,2,4),0)"
+        },
+        {
+          "cell": "F22",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "J22",
+          "value": "=IF(I22=\"√\",2,0)"
+        },
+        {
+          "cell": "F23",
+          "value": "=EDU*2+STR*2"
+        },
+        {
+          "cell": "J23",
+          "value": "=IF(I23=\"√\",2,0)"
+        },
+        {
+          "cell": "F24",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F25",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F26",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F27",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F28",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "F29",
+          "value": "=EDU*2+DEX*2"
+        },
+        {
+          "cell": "F30",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "F31",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "F32",
+          "value": "=EDU*2+STR*2"
+        },
+        {
+          "cell": "F33",
+          "value": "=EDU*2+DEX*2"
+        },
+        {
+          "cell": "F34",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "F35",
+          "value": "=EDU*2+MAX(DEX*2,APP*2)"
+        },
+        {
+          "cell": "F36",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "F37",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "F38",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F39",
+          "value": "=EDU*2+MAX(DEX*2,APP*2)"
+        },
+        {
+          "cell": "F40",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "F41",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F42",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F43",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F44",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "F45",
+          "value": "=EDU*2+DEX*2"
+        },
+        {
+          "cell": "F46",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F47",
+          "value": "=EDU*2+MAX(DEX*2,APP*2,STR*2)"
+        },
+        {
+          "cell": "F48",
+          "value": "=EDU*2+DEX*2"
+        },
+        {
+          "cell": "F49",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "F50",
+          "value": "=EDU*2+DEX*2"
+        },
+        {
+          "cell": "F51",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F52",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "F53",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F54",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "F55",
+          "value": "=EDU*2+MAX(DEX*2,APP*2,STR*2)"
+        },
+        {
+          "cell": "F56",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "F57",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F58",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "F59",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F60",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F61",
+          "value": "=EDU*2+MAX(DEX*2,APP*2)"
+        },
+        {
+          "cell": "F62",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "F63",
+          "value": "=EDU*2+MAX(STR*2,DEX*2)"
+        },
+        {
+          "cell": "F64",
+          "value": "=EDU*2+APP*2"
+        },
+        {
+          "cell": "F65",
+          "value": "=EDU*2+MAX(DEX*2,APP*2)"
+        },
+        {
+          "cell": "F66",
+          "value": "=EDU*2+STR*2"
+        },
+        {
+          "cell": "F67",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F68",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F69",
+          "value": "=EDU*4"
+        },
+        {
+          "cell": "F70",
+          "value": "=EDU*4"
+        }
+      ],
+      "data_validations": [
+        {
+          "type": null,
+          "sqref": "B33:C33",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "R28",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B7:C7",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "R3",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "R2",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B66:C66",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "M2",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B4",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B5",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B31:C31",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B19:C19",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "R4",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "R5",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B10:C10",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B6:C6",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "R9",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B8:C8",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B74:C74",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B30:C30",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B9:C9",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B85:C85",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "H15:H20 H21 H22 H23 I9:J9 I10:J10 I11:J11 R23 R27",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "R10",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B11:C11",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B29:C29",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B13:C13",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "R11",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "B12:C12",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "N59",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "R12",
+          "formula1": null,
+          "formula2": null
+        }
+      ]
+    },
+    {
+      "sheet": "属性注释",
+      "max_row": 192,
+      "max_col": 73,
+      "non_empty": 288,
+      "formulas": 11,
+      "sample_values": [
+        {
+          "cell": "B2",
+          "value": "每个属性由什么决定？"
+        },
+        {
+          "cell": "B3",
+          "value": "力量 STR"
+        },
+        {
+          "cell": "H3",
+          "value": "体质 CON"
+        },
+        {
+          "cell": "N3",
+          "value": "体型 SIZ"
+        },
+        {
+          "cell": "T3",
+          "value": "敏捷 DEX"
+        },
+        {
+          "cell": "Z3",
+          "value": "外貌 APP"
+        },
+        {
+          "cell": "AF3",
+          "value": "智力 INT"
+        },
+        {
+          "cell": "AL3",
+          "value": "意志 POW"
+        },
+        {
+          "cell": "AR3",
+          "value": "教育 EDU"
+        },
+        {
+          "cell": "B4",
+          "value": "3D6×5"
+        },
+        {
+          "cell": "H4",
+          "value": "3D6×5"
+        },
+        {
+          "cell": "N4",
+          "value": "（2D6+6）×5"
+        },
+        {
+          "cell": "T4",
+          "value": "3D6×5"
+        },
+        {
+          "cell": "Z4",
+          "value": "3D6×5"
+        },
+        {
+          "cell": "AF4",
+          "value": "（2D6+6）×5"
+        },
+        {
+          "cell": "AL4",
+          "value": "3D6×5"
+        },
+        {
+          "cell": "AR4",
+          "value": "（2D6+6）×5"
+        },
+        {
+          "cell": "B7",
+          "value": "各个属性的数字意味着什么？"
+        },
+        {
+          "cell": "B8",
+          "value": "力量 STR"
+        },
+        {
+          "cell": "H8",
+          "value": "体质 CON"
+        },
+        {
+          "cell": "N8",
+          "value": "体型 SIZ"
+        },
+        {
+          "cell": "T8",
+          "value": "敏捷 DEX"
+        },
+        {
+          "cell": "Z8",
+          "value": "外貌 APP"
+        },
+        {
+          "cell": "AF8",
+          "value": "智力 INT"
+        },
+        {
+          "cell": "AL8",
+          "value": "意志 POW"
+        },
+        {
+          "cell": "AR8",
+          "value": "教育 EDU"
+        },
+        {
+          "cell": "B9",
+          "value": "0"
+        },
+        {
+          "cell": "C9",
+          "value": "衰弱：没法站起来甚至端起一杯茶｡"
+        },
+        {
+          "cell": "H9",
+          "value": "0"
+        },
+        {
+          "cell": "I9",
+          "value": "死亡"
+        },
+        {
+          "cell": "N9",
+          "value": "0"
+        },
+        {
+          "cell": "O9",
+          "value": "没人知道他去了哪"
+        },
+        {
+          "cell": "T9",
+          "value": "0"
+        },
+        {
+          "cell": "U9",
+          "value": "没有协助无法行动"
+        },
+        {
+          "cell": "Z9",
+          "value": "0"
+        },
+        {
+          "cell": "AA9",
+          "value": "如此的难看｡他人会对你报以恐惧､厌恶和怜悯｡"
+        },
+        {
+          "cell": "AF9",
+          "value": "0"
+        },
+        {
+          "cell": "AG9",
+          "value": "没有智商,无法理解周遭的世界｡"
+        },
+        {
+          "cell": "AL9",
+          "value": "0"
+        },
+        {
+          "cell": "AM9",
+          "value": "0：弱者的心,没有意志力,没有魔法潜能｡"
+        },
+        {
+          "cell": "AR9",
+          "value": "0"
+        },
+        {
+          "cell": "AS9",
+          "value": "新生儿｡"
+        },
+        {
+          "cell": "H11",
+          "value": "1"
+        },
+        {
+          "cell": "I11",
+          "value": "病弱｡卧床不起,没有协助就无法自已｡"
+        },
+        {
+          "cell": "N11",
+          "value": "1"
+        },
+        {
+          "cell": "O11",
+          "value": "婴儿(1~10斤)"
+        },
+        {
+          "cell": "AR11",
+          "value": "15"
+        },
+        {
+          "cell": "AS11",
+          "value": "任何方面都没有受过教育｡"
+        },
+        {
+          "cell": "B13",
+          "value": "15"
+        },
+        {
+          "cell": "C13",
+          "value": "弱者,虚弱｡"
+        },
+        {
+          "cell": "H13",
+          "value": "15"
+        },
+        {
+          "cell": "I13",
+          "value": "健康堪忧。经常需要躺下休息，常年病痛缠身"
+        },
+        {
+          "cell": "N13",
+          "value": "15"
+        },
+        {
+          "cell": "O13",
+          "value": "孩童,或身短体瘦(矮人)(15kg)｡"
+        },
+        {
+          "cell": "T13",
+          "value": "15"
+        },
+        {
+          "cell": "U13",
+          "value": "缓慢笨拙难以行动自如"
+        },
+        {
+          "cell": "Z13",
+          "value": "15"
+        },
+        {
+          "cell": "AA13",
+          "value": "挫｡估计是因为受伤事故或先天如此｡"
+        },
+        {
+          "cell": "AF13",
+          "value": "15"
+        },
+        {
+          "cell": "AG13",
+          "value": "学得很慢,只能理解最常用的数字,或阅读学前级的书"
+        },
+        {
+          "cell": "AL13",
+          "value": "15"
+        },
+        {
+          "cell": "AM13",
+          "value": "意志力弱,经常成为高智力或高意志人士的人的玩物"
+        },
+        {
+          "cell": "AR13",
+          "value": "60"
+        },
+        {
+          "cell": "AS13",
+          "value": "高中毕业｡"
+        },
+        {
+          "cell": "B15",
+          "value": "50"
+        },
+        {
+          "cell": "C15",
+          "value": "普通人水平｡"
+        },
+        {
+          "cell": "H15",
+          "value": "50"
+        },
+        {
+          "cell": "I15",
+          "value": "普通人水平"
+        },
+        {
+          "cell": "N15",
+          "value": "65"
+        },
+        {
+          "cell": "O15",
+          "value": "普通人类体型(中等身高和体重)(75kg)｡"
+        },
+        {
+          "cell": "T15",
+          "value": "50"
+        },
+        {
+          "cell": "U15",
+          "value": "普通人水平"
+        },
+        {
+          "cell": "Z15",
+          "value": "50"
+        },
+        {
+          "cell": "AA15",
+          "value": "普通人水平｡"
+        },
+        {
+          "cell": "AF15",
+          "value": "50"
+        },
+        {
+          "cell": "AG15",
+          "value": "普通人水平｡"
+        },
+        {
+          "cell": "AL15",
+          "value": "50"
+        },
+        {
+          "cell": "AM15",
+          "value": "普通人"
+        },
+        {
+          "cell": "AR15",
+          "value": "70"
+        },
+        {
+          "cell": "AS15",
+          "value": "大学毕业"
+        },
+        {
+          "cell": "B17",
+          "value": "90"
+        },
+        {
+          "cell": "C17",
+          "value": "你见过的力气最大的人"
+        },
+        {
+          "cell": "H17",
+          "value": "90"
+        },
+        {
+          "cell": "I17",
+          "value": "抖落身上的液氮,强壮而精神｡"
+        },
+        {
+          "cell": "N17",
+          "value": "80"
+        },
+        {
+          "cell": "O17",
+          "value": "非常高,强健的体格或非常胖(110kg)｡"
+        },
+        {
+          "cell": "T17",
+          "value": "90"
+        },
+        {
+          "cell": "U17",
+          "value": "高速而灵活,可以达成超凡的技艺(例如伟大的舞者)｡"
+        },
+        {
+          "cell": "Z17",
+          "value": "90"
+        },
+        {
+          "cell": "AA17",
+          "value": "你见过的最漂亮的人,有着天然的吸引力｡"
+        },
+        {
+          "cell": "AF17",
+          "value": "90"
+        },
+        {
+          "cell": "AG17",
+          "value": "超凡之脑,可以理解多门语言或法则｡"
+        },
+        {
+          "cell": "AL17",
+          "value": "90"
+        },
+        {
+          "cell": "AM17",
+          "value": "坚强的心,对沟通不可视之物和魔法有着高潜质｡"
+        },
+        {
+          "cell": "AR17",
+          "value": "80"
+        },
+        {
+          "cell": "AS17",
+          "value": "研究生毕业"
+        },
+        {
+          "cell": "B19",
+          "value": "99"
+        },
+        {
+          "cell": "C19",
+          "value": "世界水平(奥赛举重冠军)｡人类极限｡"
+        },
+        {
+          "cell": "H19",
+          "value": "99"
+        },
+        {
+          "cell": "I19",
+          "value": "铁之刚体｡可以承受住最强的疼痛｡人类极限｡"
+        },
+        {
+          "cell": "N19",
+          "value": "99"
+        },
+        {
+          "cell": "O19",
+          "value": "某方面已经是超大号了(150kg)｡"
+        },
+        {
+          "cell": "T19",
+          "value": "99"
+        },
+        {
+          "cell": "U19",
+          "value": "世界级运动员｡人类极限｡"
+        },
+        {
+          "cell": "Z19",
+          "value": "99"
+        },
+        {
+          "cell": "AA19",
+          "value": "魅力和酷的巅峰(超级名模或世界影星)｡人类极限｡"
+        },
+        {
+          "cell": "AF19",
+          "value": "99"
+        },
+        {
+          "cell": "AG19",
+          "value": "天才(爱因斯坦､达芬奇､特斯拉等等)｡人类极限｡"
+        },
+        {
+          "cell": "AL19",
+          "value": "100"
+        },
+        {
+          "cell": "AM19",
+          "value": "钢铁之心,与灵能领域和不可视世界有着强烈的链接｡"
+        },
+        {
+          "cell": "AR19",
+          "value": "90"
+        },
+        {
+          "cell": "AS19",
+          "value": "博士学位,教授｡"
+        },
+        {
+          "cell": "B21",
+          "value": "140"
+        },
+        {
+          "cell": "C21",
+          "value": "超越人类之力(例如大猩猩或马)｡"
+        },
+        {
+          "cell": "H21",
+          "value": "140"
+        },
+        {
+          "cell": "I21",
+          "value": "超越人类之体格(大象)｡"
+        },
+        {
+          "cell": "N21",
+          "value": "150"
+        },
+        {
+          "cell": "O21",
+          "value": "马或牛(436kg)｡"
+        },
+        {
+          "cell": "T21",
+          "value": "120"
+        },
+        {
+          "cell": "U21",
+          "value": "超越人类之敏捷"
+        }
+      ],
+      "sample_formulas": [
+        {
+          "cell": "A2",
+          "value": "=RANDBETWEEN(1,6)"
+        },
+        {
+          "cell": "A7",
+          "value": "=RANDBETWEEN(1,6)"
+        },
+        {
+          "cell": "A8",
+          "value": "=RANDBETWEEN(1,6)"
+        },
+        {
+          "cell": "A9",
+          "value": "=RANDBETWEEN(1,6)"
+        },
+        {
+          "cell": "A10",
+          "value": "=RANDBETWEEN(1,6)"
+        },
+        {
+          "cell": "A12",
+          "value": "=RANDBETWEEN(1,6)"
+        },
+        {
+          "cell": "A13",
+          "value": "=RANDBETWEEN(1,6)"
+        },
+        {
+          "cell": "A14",
+          "value": "=RANDBETWEEN(1,6)"
+        },
+        {
+          "cell": "A15",
+          "value": "=RANDBETWEEN(1,6)"
+        },
+        {
+          "cell": "A16",
+          "value": "=RANDBETWEEN(1,6)"
+        },
+        {
+          "cell": "A17",
+          "value": "=RANDBETWEEN(1,6)"
+        }
+      ],
+      "data_validations": []
+    },
+    {
+      "sheet": "资产及物价参考",
+      "max_row": 229,
+      "max_col": 29,
+      "non_empty": 1635,
+      "formulas": 345,
+      "sample_values": [
+        {
+          "cell": "B2",
+          "value": "资产参考表"
+        },
+        {
+          "cell": "A6",
+          "value": "必须以本职技能点加至范围下限才可以分配兴趣技能点"
+        },
+        {
+          "cell": "E6",
+          "value": "1920S 美国 美元$"
+        },
+        {
+          "cell": "M6",
+          "value": "2010S 中国 软妹币￥"
+        },
+        {
+          "cell": "U6",
+          "value": "2010S 日本 円￥"
+        },
+        {
+          "cell": "E7",
+          "value": "生活水平"
+        },
+        {
+          "cell": "F7",
+          "value": "信用评级"
+        },
+        {
+          "cell": "G7",
+          "value": "现金"
+        },
+        {
+          "cell": "I7",
+          "value": "其他资产"
+        },
+        {
+          "cell": "K7",
+          "value": "消费水平"
+        },
+        {
+          "cell": "M7",
+          "value": "生活水平"
+        },
+        {
+          "cell": "N7",
+          "value": "信用评级"
+        },
+        {
+          "cell": "O7",
+          "value": "现金"
+        },
+        {
+          "cell": "Q7",
+          "value": "其他资产"
+        },
+        {
+          "cell": "S7",
+          "value": "消费水平"
+        },
+        {
+          "cell": "U7",
+          "value": "生活水平"
+        },
+        {
+          "cell": "V7",
+          "value": "信用评级"
+        },
+        {
+          "cell": "W7",
+          "value": "现金"
+        },
+        {
+          "cell": "Y7",
+          "value": "其他资产"
+        },
+        {
+          "cell": "AA7",
+          "value": "消费水平"
+        },
+        {
+          "cell": "E8",
+          "value": "身无分文"
+        },
+        {
+          "cell": "F8",
+          "value": "0"
+        },
+        {
+          "cell": "G8",
+          "value": "0.5"
+        },
+        {
+          "cell": "I8",
+          "value": "没有"
+        },
+        {
+          "cell": "K8",
+          "value": "0.5"
+        },
+        {
+          "cell": "M8",
+          "value": "身无分文"
+        },
+        {
+          "cell": "N8",
+          "value": "0"
+        },
+        {
+          "cell": "O8",
+          "value": "100"
+        },
+        {
+          "cell": "Q8",
+          "value": "没有"
+        },
+        {
+          "cell": "S8",
+          "value": "50"
+        },
+        {
+          "cell": "U8",
+          "value": "身无分文"
+        },
+        {
+          "cell": "V8",
+          "value": "0"
+        },
+        {
+          "cell": "W8",
+          "value": "1000"
+        },
+        {
+          "cell": "Y8",
+          "value": "没有"
+        },
+        {
+          "cell": "AA8",
+          "value": "500"
+        },
+        {
+          "cell": "A9",
+          "value": "本职技能点也可以分配给信用评级， / 但要记住信用评级的范围由你的职业决定。 / 不过这个范围不是强制的，为了符合角色也可以低于或高于这个范围，但不要太过分"
+        },
+        {
+          "cell": "E9",
+          "value": "拮据"
+        },
+        {
+          "cell": "F9",
+          "value": " 1-9"
+        },
+        {
+          "cell": "G9",
+          "value": "CR x 1"
+        },
+        {
+          "cell": "I9",
+          "value": "CR x 10"
+        },
+        {
+          "cell": "K9",
+          "value": "2"
+        },
+        {
+          "cell": "M9",
+          "value": "拮据"
+        },
+        {
+          "cell": "N9",
+          "value": " 1-9"
+        },
+        {
+          "cell": "O9",
+          "value": "CR × 100"
+        },
+        {
+          "cell": "Q9",
+          "value": "CR × 1000"
+        },
+        {
+          "cell": "S9",
+          "value": "100"
+        },
+        {
+          "cell": "U9",
+          "value": "拮据"
+        },
+        {
+          "cell": "V9",
+          "value": " 1-9"
+        },
+        {
+          "cell": "W9",
+          "value": "CR × 2000"
+        },
+        {
+          "cell": "Y9",
+          "value": "CR × 2万"
+        },
+        {
+          "cell": "AA9",
+          "value": "2000"
+        },
+        {
+          "cell": "E10",
+          "value": "标准"
+        },
+        {
+          "cell": "F10",
+          "value": "  10-49"
+        },
+        {
+          "cell": "G10",
+          "value": "CR × 2"
+        },
+        {
+          "cell": "I10",
+          "value": "CR × 50"
+        },
+        {
+          "cell": "K10",
+          "value": "10"
+        },
+        {
+          "cell": "M10",
+          "value": "标准"
+        },
+        {
+          "cell": "N10",
+          "value": "  10-49"
+        },
+        {
+          "cell": "O10",
+          "value": "CR × 200"
+        },
+        {
+          "cell": "Q10",
+          "value": "CR × 5000"
+        },
+        {
+          "cell": "S10",
+          "value": "1000"
+        },
+        {
+          "cell": "U10",
+          "value": "标准"
+        },
+        {
+          "cell": "V10",
+          "value": "10-49"
+        },
+        {
+          "cell": "W10",
+          "value": "CR × 4000"
+        },
+        {
+          "cell": "Y10",
+          "value": "CR × 15万"
+        },
+        {
+          "cell": "AA10",
+          "value": "25000"
+        },
+        {
+          "cell": "E11",
+          "value": "小康"
+        },
+        {
+          "cell": "F11",
+          "value": "50-89"
+        },
+        {
+          "cell": "G11",
+          "value": "CR × 5"
+        },
+        {
+          "cell": "I11",
+          "value": "CR × 500"
+        },
+        {
+          "cell": "K11",
+          "value": "50"
+        },
+        {
+          "cell": "M11",
+          "value": "小康"
+        },
+        {
+          "cell": "N11",
+          "value": "50-89"
+        },
+        {
+          "cell": "O11",
+          "value": "CR × 500"
+        },
+        {
+          "cell": "Q11",
+          "value": "CR × 4万"
+        },
+        {
+          "cell": "S11",
+          "value": "5000"
+        },
+        {
+          "cell": "U11",
+          "value": "小康"
+        },
+        {
+          "cell": "V11",
+          "value": "50-89"
+        },
+        {
+          "cell": "W11",
+          "value": "CR × 12000"
+        },
+        {
+          "cell": "Y11",
+          "value": "CR × 100万"
+        },
+        {
+          "cell": "AA11",
+          "value": "10万"
+        },
+        {
+          "cell": "A12",
+          "value": "调查员的信用评级初始为０。每个职业都有它特定的信用评级起始点数和增长范围，而玩家在信用评级上的分配也会展现出该调查员不同的风范。"
+        },
+        {
+          "cell": "E12",
+          "value": "富裕"
+        },
+        {
+          "cell": "F12",
+          "value": "90-98"
+        },
+        {
+          "cell": "G12",
+          "value": "CR × 20"
+        },
+        {
+          "cell": "I12",
+          "value": "CR × 2000"
+        },
+        {
+          "cell": "K12",
+          "value": "250"
+        },
+        {
+          "cell": "M12",
+          "value": "富裕"
+        },
+        {
+          "cell": "N12",
+          "value": "90-98"
+        },
+        {
+          "cell": "O12",
+          "value": "CR × 3000"
+        },
+        {
+          "cell": "Q12",
+          "value": "CR × 25万"
+        },
+        {
+          "cell": "S12",
+          "value": "2万"
+        },
+        {
+          "cell": "U12",
+          "value": "富裕"
+        },
+        {
+          "cell": "V12",
+          "value": "90-98"
+        },
+        {
+          "cell": "W12",
+          "value": "CR × 75000"
+        },
+        {
+          "cell": "Y12",
+          "value": "CR × 600万"
+        },
+        {
+          "cell": "AA12",
+          "value": "50万"
+        },
+        {
+          "cell": "E13",
+          "value": "富豪"
+        },
+        {
+          "cell": "F13",
+          "value": "99"
+        },
+        {
+          "cell": "G13",
+          "value": "5万"
+        },
+        {
+          "cell": "I13",
+          "value": "500万+"
+        },
+        {
+          "cell": "K13",
+          "value": "5000"
+        },
+        {
+          "cell": "M13",
+          "value": "富豪"
+        },
+        {
+          "cell": "N13",
+          "value": "99"
+        },
+        {
+          "cell": "O13",
+          "value": "100万"
+        },
+        {
+          "cell": "Q13",
+          "value": "10亿+"
+        },
+        {
+          "cell": "S13",
+          "value": "10万"
+        },
+        {
+          "cell": "U13",
+          "value": "富豪"
+        },
+        {
+          "cell": "V13",
+          "value": "99"
+        },
+        {
+          "cell": "W13",
+          "value": "3000万"
+        },
+        {
+          "cell": "Y13",
+          "value": "300亿+"
+        },
+        {
+          "cell": "AA13",
+          "value": "200万"
+        },
+        {
+          "cell": "E15",
+          "value": "现代 美国 美元$"
+        },
+        {
+          "cell": "M15",
+          "value": "维多利亚时代 英国 英镑£"
+        },
+        {
+          "cell": "U15",
+          "value": "2010S 澳大利亚 澳元$"
+        },
+        {
+          "cell": "E16",
+          "value": "生活水平"
+        },
+        {
+          "cell": "F16",
+          "value": "信用评级"
+        },
+        {
+          "cell": "G16",
+          "value": "现金"
+        },
+        {
+          "cell": "I16",
+          "value": "其他资产"
+        },
+        {
+          "cell": "K16",
+          "value": "消费水平"
+        }
+      ],
+      "sample_formulas": [
+        {
+          "cell": "E93",
+          "value": "=D93*20"
+        },
+        {
+          "cell": "K93",
+          "value": "=J93*20"
+        },
+        {
+          "cell": "Q93",
+          "value": "=P93*20"
+        },
+        {
+          "cell": "V93",
+          "value": "=U93*20"
+        },
+        {
+          "cell": "E94",
+          "value": "=D94*20"
+        },
+        {
+          "cell": "K94",
+          "value": "=J94*20"
+        },
+        {
+          "cell": "Q94",
+          "value": "=P94*20"
+        },
+        {
+          "cell": "V94",
+          "value": "=U94*20"
+        },
+        {
+          "cell": "E95",
+          "value": "=D95*20"
+        },
+        {
+          "cell": "K95",
+          "value": "=J95*20"
+        },
+        {
+          "cell": "Q95",
+          "value": "=P95*20"
+        },
+        {
+          "cell": "V95",
+          "value": "=U95*20"
+        },
+        {
+          "cell": "E96",
+          "value": "=D96*20"
+        },
+        {
+          "cell": "K96",
+          "value": "=J96*20"
+        },
+        {
+          "cell": "Q96",
+          "value": "=P96*20"
+        },
+        {
+          "cell": "V96",
+          "value": "=U96*20"
+        },
+        {
+          "cell": "E97",
+          "value": "=D97*20"
+        },
+        {
+          "cell": "K97",
+          "value": "=J97*20"
+        },
+        {
+          "cell": "Q97",
+          "value": "=P97*20"
+        },
+        {
+          "cell": "V97",
+          "value": "=U97*20"
+        },
+        {
+          "cell": "K98",
+          "value": "=J98*20"
+        },
+        {
+          "cell": "Q98",
+          "value": "=P98*20"
+        },
+        {
+          "cell": "V98",
+          "value": "=U98*20"
+        },
+        {
+          "cell": "E99",
+          "value": "=D99*20"
+        },
+        {
+          "cell": "K99",
+          "value": "=J99*20"
+        },
+        {
+          "cell": "Q99",
+          "value": "=P99*20"
+        },
+        {
+          "cell": "E100",
+          "value": "=D100*20"
+        },
+        {
+          "cell": "K100",
+          "value": "=J100*20"
+        },
+        {
+          "cell": "E101",
+          "value": "=D101*20"
+        },
+        {
+          "cell": "K101",
+          "value": "=J101*20"
+        },
+        {
+          "cell": "Q101",
+          "value": "=P101*20"
+        },
+        {
+          "cell": "E102",
+          "value": "=D102*20"
+        },
+        {
+          "cell": "K102",
+          "value": "=J102*20"
+        },
+        {
+          "cell": "Q102",
+          "value": "=P102*20"
+        },
+        {
+          "cell": "V102",
+          "value": "=U102*20"
+        },
+        {
+          "cell": "E103",
+          "value": "=D103*20"
+        },
+        {
+          "cell": "K103",
+          "value": "=J103*20"
+        },
+        {
+          "cell": "Q103",
+          "value": "=P103*20"
+        },
+        {
+          "cell": "V103",
+          "value": "=U103*20"
+        },
+        {
+          "cell": "E104",
+          "value": "=D104*20"
+        },
+        {
+          "cell": "K104",
+          "value": "=J104*20"
+        },
+        {
+          "cell": "Q104",
+          "value": "=P104*20"
+        },
+        {
+          "cell": "V104",
+          "value": "=U104*20"
+        },
+        {
+          "cell": "Q105",
+          "value": "=P105*20"
+        },
+        {
+          "cell": "V105",
+          "value": "=U105*20"
+        },
+        {
+          "cell": "E106",
+          "value": "=D106*20"
+        },
+        {
+          "cell": "K106",
+          "value": "=J106*20"
+        },
+        {
+          "cell": "V106",
+          "value": "=U106*20"
+        },
+        {
+          "cell": "E107",
+          "value": "=D107*20"
+        },
+        {
+          "cell": "K107",
+          "value": "=J107*20"
+        },
+        {
+          "cell": "V107",
+          "value": "=U107*20"
+        },
+        {
+          "cell": "E108",
+          "value": "=D108*20"
+        },
+        {
+          "cell": "K108",
+          "value": "=J108*20"
+        },
+        {
+          "cell": "V108",
+          "value": "=U108*20"
+        },
+        {
+          "cell": "E109",
+          "value": "=D109*20"
+        },
+        {
+          "cell": "K109",
+          "value": "=J109*20"
+        },
+        {
+          "cell": "Q109",
+          "value": "=P109*20"
+        },
+        {
+          "cell": "V109",
+          "value": "=U109*20"
+        },
+        {
+          "cell": "E110",
+          "value": "=D110*20"
+        },
+        {
+          "cell": "Q110",
+          "value": "=P110*20"
+        },
+        {
+          "cell": "V110",
+          "value": "=U110*20"
+        },
+        {
+          "cell": "E111",
+          "value": "=D111*20"
+        },
+        {
+          "cell": "K111",
+          "value": "=J111*20"
+        },
+        {
+          "cell": "Q111",
+          "value": "=P111*20"
+        },
+        {
+          "cell": "V111",
+          "value": "=U111*20"
+        },
+        {
+          "cell": "E112",
+          "value": "=D112*20"
+        },
+        {
+          "cell": "K112",
+          "value": "=J112*20"
+        },
+        {
+          "cell": "Q112",
+          "value": "=P112*20"
+        },
+        {
+          "cell": "V112",
+          "value": "=U112*20"
+        },
+        {
+          "cell": "E113",
+          "value": "=D113*20"
+        },
+        {
+          "cell": "K113",
+          "value": "=J113*20"
+        },
+        {
+          "cell": "Q113",
+          "value": "=P113*20"
+        },
+        {
+          "cell": "V113",
+          "value": "=U113*20"
+        },
+        {
+          "cell": "AA113",
+          "value": "=Z113*20"
+        },
+        {
+          "cell": "E114",
+          "value": "=D114*20"
+        },
+        {
+          "cell": "K114",
+          "value": "=J114*20"
+        },
+        {
+          "cell": "Q114",
+          "value": "=P114*20"
+        },
+        {
+          "cell": "V114",
+          "value": "=U114*20"
+        },
+        {
+          "cell": "AA114",
+          "value": "=Z114*20"
+        },
+        {
+          "cell": "E115",
+          "value": "=D115*20"
+        }
+      ],
+      "data_validations": [
+        {
+          "type": null,
+          "sqref": "X139:Z139",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "P60",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "AA67",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "Z66:AA66",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X138:Z138",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X137:Z137",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": null,
+          "sqref": "X140:Z140",
+          "formula1": null,
+          "formula2": null
+        }
+      ]
+    },
+    {
+      "sheet": "武器列表 战斗",
+      "max_row": 339,
+      "max_col": 37,
+      "non_empty": 1492,
+      "formulas": 4,
+      "sample_values": [
+        {
+          "cell": "B1",
+          "value": "武器类型"
+        },
+        {
+          "cell": "C1",
+          "value": "技能"
+        },
+        {
+          "cell": "D1",
+          "value": "伤害"
+        },
+        {
+          "cell": "E1",
+          "value": "基础射程"
+        },
+        {
+          "cell": "F1",
+          "value": "贯穿"
+        },
+        {
+          "cell": "G1",
+          "value": "每轮"
+        },
+        {
+          "cell": "H1",
+          "value": "装弹量"
+        },
+        {
+          "cell": "I1",
+          "value": "故障值"
+        },
+        {
+          "cell": "J1",
+          "value": "常见时代"
+        },
+        {
+          "cell": "K1",
+          "value": "价格20s/现代($)"
+        },
+        {
+          "cell": "L1",
+          "value": "发明时间"
+        },
+        {
+          "cell": "M1",
+          "value": "类型"
+        },
+        {
+          "cell": "N1",
+          "value": "注释"
+        },
+        {
+          "cell": "B2",
+          "value": "弓箭"
+        },
+        {
+          "cell": "C2",
+          "value": "弓术"
+        },
+        {
+          "cell": "D2",
+          "value": "1D6+半DB"
+        },
+        {
+          "cell": "E2",
+          "value": "30码"
+        },
+        {
+          "cell": "F2",
+          "value": "×"
+        },
+        {
+          "cell": "G2",
+          "value": "1"
+        },
+        {
+          "cell": "H2",
+          "value": "1"
+        },
+        {
+          "cell": "I2",
+          "value": "97"
+        },
+        {
+          "cell": "J2",
+          "value": "1920s,现代"
+        },
+        {
+          "cell": "K2",
+          "value": "7/75"
+        },
+        {
+          "cell": "L2",
+          "value": "——"
+        },
+        {
+          "cell": "M2",
+          "value": "常规武器"
+        },
+        {
+          "cell": "N2",
+          "value": "一般来说冷兵器都是一回合攻击一次。并且可以格挡甚至缴械。"
+        },
+        {
+          "cell": "O2",
+          "value": "电锯：非常难操作的武器。大失败概率加倍；大失败的情况非常糟糕，可能会锁住使用者的头肩，或者直接切向他们的腿脚，而对使用者造成 2D8 点伤害。或者链条会断裂并缠在使用者的躯干上（2D8 伤害)。故障值可能导致链锯的电机停转、锯条堵塞或脱链。"
+        },
+        {
+          "cell": "T2",
+          "value": "1D6+[DB]/2"
+        },
+        {
+          "cell": "B3",
+          "value": "黄铜指虎"
+        },
+        {
+          "cell": "C3",
+          "value": "斗殴"
+        },
+        {
+          "cell": "D3",
+          "value": "1D3+1+DB"
+        },
+        {
+          "cell": "E3",
+          "value": "接触"
+        },
+        {
+          "cell": "F3",
+          "value": "×"
+        },
+        {
+          "cell": "G3",
+          "value": "1"
+        },
+        {
+          "cell": "H3",
+          "value": "——"
+        },
+        {
+          "cell": "I3",
+          "value": "——"
+        },
+        {
+          "cell": "J3",
+          "value": "1920s,现代"
+        },
+        {
+          "cell": "K3",
+          "value": "1/10"
+        },
+        {
+          "cell": "L3",
+          "value": "——"
+        },
+        {
+          "cell": "T3",
+          "value": "1D3+1+[DB]"
+        },
+        {
+          "cell": "B4",
+          "value": "长鞭"
+        },
+        {
+          "cell": "C4",
+          "value": "鞭子"
+        },
+        {
+          "cell": "D4",
+          "value": "1D3+半DB"
+        },
+        {
+          "cell": "E4",
+          "value": "10英尺"
+        },
+        {
+          "cell": "F4",
+          "value": "×"
+        },
+        {
+          "cell": "G4",
+          "value": "1"
+        },
+        {
+          "cell": "H4",
+          "value": "——"
+        },
+        {
+          "cell": "I4",
+          "value": "——"
+        },
+        {
+          "cell": "J4",
+          "value": "1920s"
+        },
+        {
+          "cell": "K4",
+          "value": "5/50"
+        },
+        {
+          "cell": "L4",
+          "value": "——"
+        },
+        {
+          "cell": "T4",
+          "value": "1D3+[DB]/2"
+        },
+        {
+          "cell": "B5",
+          "value": "燃烧的火把"
+        },
+        {
+          "cell": "C5",
+          "value": "斗殴"
+        },
+        {
+          "cell": "D5",
+          "value": "1D6+燃烧"
+        },
+        {
+          "cell": "E5",
+          "value": "接触"
+        },
+        {
+          "cell": "F5",
+          "value": "×"
+        },
+        {
+          "cell": "G5",
+          "value": "1"
+        },
+        {
+          "cell": "H5",
+          "value": "——"
+        },
+        {
+          "cell": "I5",
+          "value": "——"
+        },
+        {
+          "cell": "J5",
+          "value": "1920s,现代"
+        },
+        {
+          "cell": "K5",
+          "value": "0.05/0.5"
+        },
+        {
+          "cell": "L5",
+          "value": "——"
+        },
+        {
+          "cell": "T5",
+          "value": "1D6"
+        },
+        {
+          "cell": "B6",
+          "value": "电锯"
+        },
+        {
+          "cell": "C6",
+          "value": "电锯"
+        },
+        {
+          "cell": "D6",
+          "value": "2D8"
+        },
+        {
+          "cell": "E6",
+          "value": "接触"
+        },
+        {
+          "cell": "F6",
+          "value": "√"
+        },
+        {
+          "cell": "G6",
+          "value": "1"
+        },
+        {
+          "cell": "H6",
+          "value": "——"
+        },
+        {
+          "cell": "I6",
+          "value": "95"
+        },
+        {
+          "cell": "J6",
+          "value": "现代"
+        },
+        {
+          "cell": "K6",
+          "value": "——/300"
+        },
+        {
+          "cell": "L6",
+          "value": "1926年"
+        },
+        {
+          "cell": "T6",
+          "value": "2D8"
+        },
+        {
+          "cell": "B7",
+          "value": "包皮金属棍(甩棍、大头棍、护身棒)"
+        },
+        {
+          "cell": "C7",
+          "value": "斗殴"
+        },
+        {
+          "cell": "D7",
+          "value": "1D8+DB"
+        },
+        {
+          "cell": "E7",
+          "value": "接触"
+        },
+        {
+          "cell": "F7",
+          "value": "×"
+        },
+        {
+          "cell": "G7",
+          "value": "1"
+        },
+        {
+          "cell": "H7",
+          "value": "——"
+        },
+        {
+          "cell": "I7",
+          "value": "——"
+        },
+        {
+          "cell": "J7",
+          "value": "1920s,现代"
+        },
+        {
+          "cell": "K7",
+          "value": "2/15"
+        },
+        {
+          "cell": "L7",
+          "value": "1940年"
+        },
+        {
+          "cell": "T7",
+          "value": "1D8+[DB]"
+        },
+        {
+          "cell": "B8",
+          "value": "大型棍状物(棒球棍、板球棒、拨火棍等)"
+        },
+        {
+          "cell": "C8",
+          "value": "斗殴"
+        },
+        {
+          "cell": "D8",
+          "value": "1D8+DB"
+        },
+        {
+          "cell": "E8",
+          "value": "接触"
+        },
+        {
+          "cell": "F8",
+          "value": "×"
+        },
+        {
+          "cell": "G8",
+          "value": "1"
+        },
+        {
+          "cell": "H8",
+          "value": "——"
+        },
+        {
+          "cell": "I8",
+          "value": "——"
+        },
+        {
+          "cell": "J8",
+          "value": "1920s,现代"
+        },
+        {
+          "cell": "K8",
+          "value": "3/35"
+        },
+        {
+          "cell": "L8",
+          "value": "——"
+        },
+        {
+          "cell": "T8",
+          "value": "1D8+[DB]"
+        },
+        {
+          "cell": "B9",
+          "value": "小型棍状物(警棍等)"
+        },
+        {
+          "cell": "C9",
+          "value": "斗殴"
+        },
+        {
+          "cell": "D9",
+          "value": "1D6+DB"
+        },
+        {
+          "cell": "E9",
+          "value": "接触"
+        },
+        {
+          "cell": "F9",
+          "value": "×"
+        },
+        {
+          "cell": "G9",
+          "value": "1"
+        },
+        {
+          "cell": "H9",
+          "value": "——"
+        },
+        {
+          "cell": "I9",
+          "value": "——"
+        },
+        {
+          "cell": "J9",
+          "value": "1920s,现代"
+        },
+        {
+          "cell": "K9",
+          "value": "3/35"
+        },
+        {
+          "cell": "L9",
+          "value": "——"
+        },
+        {
+          "cell": "T9",
+          "value": "1D6+[DB]"
+        },
+        {
+          "cell": "B10",
+          "value": "弩"
+        },
+        {
+          "cell": "C10",
+          "value": "弓术"
+        },
+        {
+          "cell": "D10",
+          "value": "1D8+2"
+        },
+        {
+          "cell": "E10",
+          "value": "50码"
+        },
+        {
+          "cell": "F10",
+          "value": "√"
+        },
+        {
+          "cell": "G10",
+          "value": "1/2"
+        },
+        {
+          "cell": "H10",
+          "value": "1"
+        },
+        {
+          "cell": "I10",
+          "value": "96"
+        }
+      ],
+      "sample_formulas": [
+        {
+          "cell": "O185",
+          "value": "=IF($M185=0,\"\",VLOOKUP($M185,附表!I38:M49,2,FALSE))"
+        },
+        {
+          "cell": "Q185",
+          "value": "=IF($M185=0,\"\",VLOOKUP($M185,附表!I38:M49,3,FALSE))"
+        },
+        {
+          "cell": "S185",
+          "value": "=IF($M185=0,\"\",VLOOKUP($M185,附表!I38:M49,4,FALSE))"
+        },
+        {
+          "cell": "M189",
+          "value": "=IF($M185=0,\"\",VLOOKUP($M185,附表!I38:M49,5,FALSE))"
+        }
+      ],
+      "data_validations": [
+        {
+          "type": "list",
+          "sqref": "M185:N187",
+          "formula1": "附表!$I$38:$I$49",
+          "formula2": null
+        }
+      ]
+    },
+    {
+      "sheet": "防具表 载具表",
+      "max_row": 355,
+      "max_col": 34,
+      "non_empty": 1324,
+      "formulas": 0,
+      "sample_values": [
+        {
+          "cell": "B1",
+          "value": "防具类型"
+        },
+        {
+          "cell": "C1",
+          "value": "护甲值"
+        },
+        {
+          "cell": "D1",
+          "value": "MOV / 惩罚"
+        },
+        {
+          "cell": "E1",
+          "value": "覆盖位置"
+        },
+        {
+          "cell": "F1",
+          "value": "使用物种"
+        },
+        {
+          "cell": "G1",
+          "value": "防利器 / 穿刺"
+        },
+        {
+          "cell": "H1",
+          "value": "常见时代"
+        },
+        {
+          "cell": "I1",
+          "value": "价格20s/现代($)"
+        },
+        {
+          "cell": "J1",
+          "value": "类型"
+        },
+        {
+          "cell": "K1",
+          "value": "注释"
+        },
+        {
+          "cell": "Q1",
+          "value": "载具类型"
+        },
+        {
+          "cell": "R1",
+          "value": "技能"
+        },
+        {
+          "cell": "S1",
+          "value": "移动力 / MOV"
+        },
+        {
+          "cell": "T1",
+          "value": "体格 / Build"
+        },
+        {
+          "cell": "U1",
+          "value": "乘客护甲"
+        },
+        {
+          "cell": "V1",
+          "value": "乘客"
+        },
+        {
+          "cell": "W1",
+          "value": "可驾驶体格"
+        },
+        {
+          "cell": "X1",
+          "value": "可乘坐体格"
+        },
+        {
+          "cell": "Y1",
+          "value": "常见时代"
+        },
+        {
+          "cell": "Z1",
+          "value": "类型"
+        },
+        {
+          "cell": "AA1",
+          "value": "注释"
+        },
+        {
+          "cell": "B2",
+          "value": "厚重皮夹克"
+        },
+        {
+          "cell": "C2",
+          "value": "1"
+        },
+        {
+          "cell": "D2",
+          "value": "0"
+        },
+        {
+          "cell": "E2",
+          "value": "躯干"
+        },
+        {
+          "cell": "F2",
+          "value": "人类、人型生物"
+        },
+        {
+          "cell": "G2",
+          "value": "×"
+        },
+        {
+          "cell": "H2",
+          "value": "1920s,现代"
+        },
+        {
+          "cell": "I2",
+          "value": "10/55"
+        },
+        {
+          "cell": "J2",
+          "value": "规 / 则 / 书 / 内 / 的 / 防 / 护 / 物"
+        },
+        {
+          "cell": "K2",
+          "value": "在危险的情形下,米戈通常会披上这些由发着微光的绿色黏液所织成的网状物这种装甲在对抗钝击、火焰、电击等伤害时会提供 8 点装甲值。 /  / 人类也能穿戴这种生化网状物，但会因毛发和肌肉被撕离而在每次脱下装甲时受到 1 点伤害。因为人类并不会分泌合适"
+        },
+        {
+          "cell": "Q2",
+          "value": "经济车"
+        },
+        {
+          "cell": "R2",
+          "value": "汽车驾驶"
+        },
+        {
+          "cell": "S2",
+          "value": "13"
+        },
+        {
+          "cell": "T2",
+          "value": "4"
+        },
+        {
+          "cell": "U2",
+          "value": "1"
+        },
+        {
+          "cell": "V2",
+          "value": "3或4"
+        },
+        {
+          "cell": "W2",
+          "value": "-1,0,1"
+        },
+        {
+          "cell": "X2",
+          "value": "≤2"
+        },
+        {
+          "cell": "Y2",
+          "value": "现代"
+        },
+        {
+          "cell": "Z2",
+          "value": "机动车"
+        },
+        {
+          "cell": "AA2",
+          "value": "规则书内的载具"
+        },
+        {
+          "cell": "B3",
+          "value": "一战标准钢盔"
+        },
+        {
+          "cell": "C3",
+          "value": "2"
+        },
+        {
+          "cell": "D3",
+          "value": "0"
+        },
+        {
+          "cell": "E3",
+          "value": "头部"
+        },
+        {
+          "cell": "F3",
+          "value": "人类、有明显头颅的生物"
+        },
+        {
+          "cell": "G3",
+          "value": "√"
+        },
+        {
+          "cell": "H3",
+          "value": "1920s"
+        },
+        {
+          "cell": "I3",
+          "value": "N/A"
+        },
+        {
+          "cell": "Q3",
+          "value": "标准车"
+        },
+        {
+          "cell": "R3",
+          "value": "汽车驾驶"
+        },
+        {
+          "cell": "S3",
+          "value": "14"
+        },
+        {
+          "cell": "T3",
+          "value": "5"
+        },
+        {
+          "cell": "U3",
+          "value": "2"
+        },
+        {
+          "cell": "V3",
+          "value": "4"
+        },
+        {
+          "cell": "W3",
+          "value": "-1至2"
+        },
+        {
+          "cell": "X3",
+          "value": "≤2"
+        },
+        {
+          "cell": "Y3",
+          "value": "1920s,现代"
+        },
+        {
+          "cell": "B4",
+          "value": "1英寸（2.5厘米）硬木"
+        },
+        {
+          "cell": "C4",
+          "value": "3"
+        },
+        {
+          "cell": "D4",
+          "value": "——"
+        },
+        {
+          "cell": "E4",
+          "value": "——"
+        },
+        {
+          "cell": "F4",
+          "value": "——"
+        },
+        {
+          "cell": "G4",
+          "value": "√"
+        },
+        {
+          "cell": "H4",
+          "value": "——"
+        },
+        {
+          "cell": "I4",
+          "value": "0.5/10 m²"
+        },
+        {
+          "cell": "Q4",
+          "value": "豪华车"
+        },
+        {
+          "cell": "R4",
+          "value": "汽车驾驶"
+        },
+        {
+          "cell": "S4",
+          "value": "15"
+        },
+        {
+          "cell": "T4",
+          "value": "6"
+        },
+        {
+          "cell": "U4",
+          "value": "2"
+        },
+        {
+          "cell": "V4",
+          "value": "4"
+        },
+        {
+          "cell": "W4",
+          "value": "-1至2"
+        },
+        {
+          "cell": "X4",
+          "value": "≤2"
+        },
+        {
+          "cell": "Y4",
+          "value": "现代"
+        },
+        {
+          "cell": "B5",
+          "value": "现代美军头盔"
+        },
+        {
+          "cell": "C5",
+          "value": "5"
+        },
+        {
+          "cell": "D5",
+          "value": "0"
+        },
+        {
+          "cell": "E5",
+          "value": "头部"
+        },
+        {
+          "cell": "F5",
+          "value": "人类、有明显头颅的生物"
+        },
+        {
+          "cell": "G5",
+          "value": "√"
+        },
+        {
+          "cell": "H5",
+          "value": "现代"
+        },
+        {
+          "cell": "I5",
+          "value": "N/A"
+        },
+        {
+          "cell": "Q5",
+          "value": "跑车"
+        },
+        {
+          "cell": "R5",
+          "value": "汽车驾驶"
+        },
+        {
+          "cell": "S5",
+          "value": "16"
+        },
+        {
+          "cell": "T5",
+          "value": "5"
+        },
+        {
+          "cell": "U5",
+          "value": "2"
+        },
+        {
+          "cell": "V5",
+          "value": "1"
+        },
+        {
+          "cell": "W5",
+          "value": "-1,0,1"
+        },
+        {
+          "cell": "X5",
+          "value": "——"
+        },
+        {
+          "cell": "Y5",
+          "value": "现代"
+        },
+        {
+          "cell": "B6",
+          "value": "重型凯芙拉防弹背心"
+        },
+        {
+          "cell": "C6",
+          "value": "8"
+        },
+        {
+          "cell": "D6",
+          "value": "0"
+        },
+        {
+          "cell": "E6",
+          "value": "躯干"
+        },
+        {
+          "cell": "F6",
+          "value": "人类、人型生物"
+        },
+        {
+          "cell": "G6",
+          "value": "√"
+        },
+        {
+          "cell": "H6",
+          "value": "现代"
+        },
+        {
+          "cell": "I6",
+          "value": "N/A"
+        },
+        {
+          "cell": "Q6",
+          "value": "敞篷小卡车"
+        },
+        {
+          "cell": "R6",
+          "value": "汽车驾驶"
+        },
+        {
+          "cell": "S6",
+          "value": "14"
+        },
+        {
+          "cell": "T6",
+          "value": "6"
+        },
+        {
+          "cell": "U6",
+          "value": "2"
+        },
+        {
+          "cell": "V6",
+          "value": "2+"
+        },
+        {
+          "cell": "W6",
+          "value": "-1至2"
+        },
+        {
+          "cell": "X6",
+          "value": "≤3/后斗≤4"
+        },
+        {
+          "cell": "Y6",
+          "value": "1920s,现代"
+        },
+        {
+          "cell": "B7",
+          "value": "1.5 （3.8厘米）英寸防弹玻璃"
+        },
+        {
+          "cell": "C7",
+          "value": "15"
+        },
+        {
+          "cell": "D7",
+          "value": "——"
+        },
+        {
+          "cell": "E7",
+          "value": "——"
+        },
+        {
+          "cell": "F7",
+          "value": "——"
+        },
+        {
+          "cell": "G7",
+          "value": "√"
+        },
+        {
+          "cell": "H7",
+          "value": "现代"
+        },
+        {
+          "cell": "I7",
+          "value": "100 m²"
+        },
+        {
+          "cell": "Q7",
+          "value": "6吨卡车"
+        },
+        {
+          "cell": "R7",
+          "value": "汽车驾驶"
+        }
+      ],
+      "sample_formulas": [],
+      "data_validations": []
+    },
+    {
+      "sheet": "疯狂表",
+      "max_row": 145,
+      "max_col": 8,
+      "non_empty": 80,
+      "formulas": 2,
+      "sample_values": [
+        {
+          "cell": "C2",
+          "value": "疯狂发作—即时症状"
+        },
+        {
+          "cell": "F2",
+          "value": "疯狂发作—总结症状"
+        },
+        {
+          "cell": "C3",
+          "value": "序号"
+        },
+        {
+          "cell": "D3",
+          "value": "症状表现"
+        },
+        {
+          "cell": "F3",
+          "value": "序号"
+        },
+        {
+          "cell": "G3",
+          "value": "症状表现"
+        },
+        {
+          "cell": "C4",
+          "value": "1"
+        },
+        {
+          "cell": "D4",
+          "value": "失忆：调查员会发现自己只记得最后身处的安全地点，却没有任何来到这里的记忆。例如，调查员前一刻还在家中吃着早饭，下一刻就已经直面着不知名的怪物。这将会持续 1D10 轮。"
+        },
+        {
+          "cell": "F4",
+          "value": "1"
+        },
+        {
+          "cell": "G4",
+          "value": "失忆：回过神来，调查员们发现自己身处一个陌生的地方， / 并忘记了自己是谁。记忆会随时间恢复。"
+        },
+        {
+          "cell": "C5",
+          "value": "2"
+        },
+        {
+          "cell": "D5",
+          "value": "假性残疾：调查员陷入了心理性的失明， / 失聪以及躯体缺失感中，持续 1D10 轮。"
+        },
+        {
+          "cell": "F5",
+          "value": "2"
+        },
+        {
+          "cell": "G5",
+          "value": "被窃：调查员在 1D10 小时后恢复清醒，发觉自己被盗，身体毫发无损。如果调查员携带着宝贵之物（见调查员背景），做幸运检定来决定其是否被盗。所有有价值的东西无需检定自动消失。"
+        },
+        {
+          "cell": "C6",
+          "value": "3"
+        },
+        {
+          "cell": "D6",
+          "value": "暴力倾向：调查员陷入了六亲不认的暴力行为中， / 对周围的敌人与友方进行着无差别的攻击，持续 1D10 轮。"
+        },
+        {
+          "cell": "F6",
+          "value": "3"
+        },
+        {
+          "cell": "G6",
+          "value": "遍体鳞伤：调查员在 1D10 小时后恢复清醒，发现自己身上满是拳痕和瘀伤。生命值减少到疯狂前的一半，但这不会造成重伤。调查员没有被窃。这种伤害如何持续到现在由守秘人决定。"
+        },
+        {
+          "cell": "C7",
+          "value": "4"
+        },
+        {
+          "cell": "D7",
+          "value": "偏执：调查员陷入了严重的偏执妄想之中，持续１Ｄ１０轮。有人在 / 暗中窥视着他们，同伴中有人背叛了他们，没有人可以信任，万事皆虚。"
+        },
+        {
+          "cell": "F7",
+          "value": "4"
+        },
+        {
+          "cell": "G7",
+          "value": "暴力倾向：调查员陷入强烈的暴力与破坏欲之中。调查员回过神来可能会理解自己做了什么也可能毫无印象。调查员对谁或何物施以暴力，他们是杀人还是仅仅造成了伤害，由守秘人决定。"
+        },
+        {
+          "cell": "C8",
+          "value": "5"
+        },
+        {
+          "cell": "D8",
+          "value": "人际依赖：守秘人适当参考调查员的背景中重要之人的条目，调查员因为一些原因而降他人误认为了他重要的人并且努力的会与那个人保持那种关系，持续 1D10 轮"
+        },
+        {
+          "cell": "F8",
+          "value": "5"
+        },
+        {
+          "cell": "G8",
+          "value": "极端信念：查看调查员背景中的思想信念，调查员会采取极端和疯狂的表现手段展示他们的思想信念之一。比如一个信教者会在地铁上高声布道。"
+        },
+        {
+          "cell": "C9",
+          "value": "6"
+        },
+        {
+          "cell": "D9",
+          "value": "昏厥：调查员当场昏倒，并需要 1D10 轮才能苏醒。"
+        },
+        {
+          "cell": "F9",
+          "value": "6"
+        },
+        {
+          "cell": "G9",
+          "value": "重要之人：考虑调查员背景中的重要之人，及其重要的原因。在 1D10 小时或更久的时间中， / 调查员将不顾一切地接近那个人，并为他们之间的关系做出行动。"
+        },
+        {
+          "cell": "C10",
+          "value": "7"
+        },
+        {
+          "cell": "D10",
+          "value": "逃避行为：调查员会用任何的手段试图逃离现在所处的位置，即使这意味着开走 / 唯一一辆交通工具并将其它人抛诸脑后，调查员会试图逃离 1D10轮。"
+        },
+        {
+          "cell": "F10",
+          "value": "7"
+        },
+        {
+          "cell": "G10",
+          "value": "被收容：调查员在精神病院病房或警察局牢房中回过神来， / 他们可能会慢慢回想起导致自己被关在这里的事情。"
+        },
+        {
+          "cell": "C11",
+          "value": "8"
+        },
+        {
+          "cell": "D11",
+          "value": "竭嘶底里：调查员表现出大笑，哭泣，嘶吼，害怕等的极端情绪表现，持续 1D10 轮。"
+        },
+        {
+          "cell": "F11",
+          "value": "8"
+        },
+        {
+          "cell": "G11",
+          "value": "逃避行为：调查员恢复清醒时发现自己在很远的地方， / 也许迷失在荒郊野岭，或是在驶向远方的列车或长途汽车上。"
+        },
+        {
+          "cell": "C12",
+          "value": "9"
+        },
+        {
+          "cell": "D12",
+          "value": "恐惧：调查员通过一次 D100 或者由守秘人选择，来从恐惧症状表中选择一个恐惧源， / 就算这一恐惧的事物是并不存在的，调查员的症状会持续1D10 轮。"
+        },
+        {
+          "cell": "F12",
+          "value": "9"
+        },
+        {
+          "cell": "G12",
+          "value": "恐惧：调查员患上一个新的恐惧症状。在恐惧症状表上骰 1 个 D100 来决定症状，或由守秘人选择一个。调查员在 1D10 小时后回过神来，并开始为避开恐惧源而采取任何措施。"
+        },
+        {
+          "cell": "C13",
+          "value": "10"
+        },
+        {
+          "cell": "D13",
+          "value": "躁狂：调查员通过一次 D100 或者由守秘人选择，来从躁狂症状表中选择一个躁狂的诱因， / 这个症状将会持续 1D10 轮。"
+        },
+        {
+          "cell": "F13",
+          "value": "10"
+        },
+        {
+          "cell": "G13",
+          "value": "狂躁：调查员患上一个新的狂躁症状。在狂躁症状表上骰 1 个 d100 来决定症状，或由守秘人选择一个。调查员会在 1d10 小时后恢复理智。在这次疯狂发作中，调查员将完全沉浸于其新的狂躁症状。这症状是否会表现给旁人则取决于守秘人和此调查员。"
+        },
+        {
+          "cell": "C15",
+          "value": "恐惧症状表"
+        },
+        {
+          "cell": "F15",
+          "value": "狂躁症状表"
+        },
+        {
+          "cell": "C16",
+          "value": "序号"
+        },
+        {
+          "cell": "D16",
+          "value": "具体症状"
+        },
+        {
+          "cell": "F16",
+          "value": "序号"
+        },
+        {
+          "cell": "G16",
+          "value": "具体症状"
+        },
+        {
+          "cell": "C17",
+          "value": "0"
+        },
+        {
+          "cell": "F17",
+          "value": "0"
+        },
+        {
+          "cell": "C23",
+          "value": "疯狂与理智可选规则"
+        },
+        {
+          "cell": "C27",
+          "value": "看透疯狂"
+        },
+        {
+          "cell": "F27",
+          "value": "多重理智检定"
+        },
+        {
+          "cell": "C29",
+          "value": "当一个调查员陷入疯狂的时候，他可能会有短暂一刻的清醒或看穿现实， / 这或许会对调查员们提供一些帮助"
+        },
+        {
+          "cell": "F29",
+          "value": "遇到了多数的神话生物时， / KP可以要求玩家对每一个神话生物单独各自进行理智损失检定， / 并对其中损失量最高的那一次作为损失结果。 / 这在调查员遇到多个神话生物的时候非常实用。 /  / 比如玩家遇到了三个星之彩和一个克总 / 玩家对三个星之彩骰了三次1D8"
+        },
+        {
+          "cell": "C34",
+          "value": "精 / 神 / 固 / 化"
+        },
+        {
+          "cell": "D34",
+          "value": "一旦一个调查员的san值低于他所拥有的克苏鲁神话技能时，他的人格将会出现一次根本性的改变，他将对自身在宇宙中的地位有一个透彻的理解。 /  / 调查员可以选择自己对真实的理解是习惯还是不为所动，或者是知道真相而不会再次动摇。"
+        },
+        {
+          "cell": "H39",
+          "value": "好味"
+        },
+        {
+          "cell": "D40",
+          "value": "无论对现实怎么想          从这一刻起调查员所有的理智损失都会减半。 /                                 这种转变将会是永久性的。"
+        },
+        {
+          "cell": "C44",
+          "value": "疯狂与理智少见规则"
+        },
+        {
+          "cell": "C48",
+          "value": "失败的 / 理智检定"
+        },
+        {
+          "cell": "D48",
+          "value": "KP会让pc做出一个不由自主的动作 / 比如眼角嘴角抽动，战栗，尖叫，甚至呕吐"
+        },
+        {
+          "cell": "F48",
+          "value": "习惯恐惧"
+        },
+        {
+          "cell": "G48",
+          "value": "遭遇特定神话存在(比如深潜者)时，玩家应记录其引发的理智损失累计值； / 累计损失不应超过单次遭遇该神话存在而损失的最大理智值。 / 每个幕间成长阶段，将理智累计损失减少 1"
+        },
+        {
+          "cell": "C52",
+          "value": "潜在疯狂"
+        },
+        {
+          "cell": "D52",
+          "value": "任何理智损失都会导致调查员再次陷入疯狂发作 / 调查员很容易产生幻觉"
+        },
+        {
+          "cell": "F52",
+          "value": "从疯狂中恢复"
+        },
+        {
+          "cell": "G52",
+          "value": "从临时性疯狂中恢复：1D10 小时，或经过良好的休息之后。"
+        },
+        {
+          "cell": "G54",
+          "value": "从不定性疯狂中恢复：每月治疗结束时的检定通过后； / 守秘人也可以允许在下一个幕间成长时自动恢复。"
+        },
+        {
+          "cell": "C55",
+          "value": "疯狂的 / 副作用"
+        },
+        {
+          "cell": "D55",
+          "value": "恐惧症：潜在疯狂中，必须战斗或逃跑，否则技能检定承受1个惩罚骰。"
+        },
+        {
+          "cell": "D57",
+          "value": "躁狂症：潜在疯狂中，必须沉浸于躁狂症中，否则技能检定承受1个惩罚骰。"
+        },
+        {
+          "cell": "G57",
+          "value": "私人/家庭护理治疗(每月投 1D100)：  / 01-95：成功(或小于精神分析技能)；回复 1D3 点理智，进行理智检定，若成功则脱离疯狂。 / 96-00：失败；失去 1D6 点理智。"
+        },
+        {
+          "cell": "C59",
+          "value": "幻觉与现实认知检定"
+        },
+        {
+          "cell": "D59",
+          "value": "进行理智检定来看穿幻觉： / 失败：失去1点SAN值；如果处于潜在疯狂则疯狂发作 / 成功：看穿幻觉"
+        },
+        {
+          "cell": "G60",
+          "value": "收容机构治疗(每月投 1D100)：  / 01-50：成功(或小于精神分析技能)；回复 3 点理智，进行一个理智检定，若成功则脱离疯狂 / 51-95：没有疗效。 / 96-00：失败；失去 1D6 点理智。"
+        }
+      ],
+      "sample_formulas": [
+        {
+          "cell": "D17",
+          "value": "=IF(C17=0,\"请在左侧输入数字\",VLOOKUP(C17,附表!M114:N213,2,FALSE))"
+        },
+        {
+          "cell": "G17",
+          "value": "=IF(F17=0,\"请在左侧输入数字\",VLOOKUP(F17,附表!S114:T213,2,FALSE))"
+        }
+      ],
+      "data_validations": [
+        {
+          "type": null,
+          "sqref": "F2:G2",
+          "formula1": null,
+          "formula2": null
+        },
+        {
+          "type": "list",
+          "sqref": "C17:C18 F17:F18",
+          "formula1": "附表!$M$113:$M$213",
+          "formula2": null
+        }
+      ]
+    },
+    {
+      "sheet": "更新说明",
+      "max_row": 395,
+      "max_col": 50,
+      "non_empty": 498,
+      "formulas": 0,
+      "sample_values": [
+        {
+          "cell": "D1",
+          "value": "QwQ友情链接"
+        },
+        {
+          "cell": "P1",
+          "value": "神楽桜（丛雨Official）的版本都在这里啦"
+        },
+        {
+          "cell": "AB1",
+          "value": "贝尔（1686891632）的版本都在这里啦"
+        },
+        {
+          "cell": "AN1",
+          "value": "史前版本都在这里啦"
+        },
+        {
+          "cell": "D3",
+          "value": "七版规则书"
+        },
+        {
+          "cell": "F3",
+          "value": "https://www.lanzous.com/i98fmti"
+        },
+        {
+          "cell": "P3",
+          "value": "2020.02.24更新 版本号：CY20.02.2"
+        },
+        {
+          "cell": "AB3",
+          "value": "2019.11.7更新 版本号：19.11.1"
+        },
+        {
+          "cell": "AN3",
+          "value": "声明"
+        },
+        {
+          "cell": "P4",
+          "value": "更新"
+        },
+        {
+          "cell": "Q4",
+          "value": "以下改动参考了规则书翻译与规则书英文原版，与表格用户提出的建议和反馈。 / 属性表：“体质”和“体型”的二分值和五分值修复（原来需要保存关闭再打开才可以显示这些值），在“教育”下方写入“知识”，因为“幸运”不是属性（当然“MOV”也不是），所以"
+        },
+        {
+          "cell": "AB4",
+          "value": "人物表更新"
+        },
+        {
+          "cell": "AC4",
+          "value": "修复武器表第三行不显示成功率与技能的问题"
+        },
+        {
+          "cell": "AN4",
+          "value": "声 / 明"
+        },
+        {
+          "cell": "AO4",
+          "value": "原卡由秋叶EXODUS制作 / 原卡由秋叶EXODUS制作 / 原卡由秋叶EXODUS制作 / 重要的事情说三遍，这个卡不是我原创的！ / 此卡最开始改于咕咕改COC七版人物卡1.8.1最终版 / 期间经过多次更新，此次更新脱离咕咕改版版本。"
+        },
+        {
+          "cell": "D5",
+          "value": "玩家手册"
+        },
+        {
+          "cell": "F5",
+          "value": "https://www.lanzous.com/i7jb4qh"
+        },
+        {
+          "cell": "AC5",
+          "value": "增加“其他资产表”“剩余资产” / 修复其他资产表总值计算"
+        },
+        {
+          "cell": "D7",
+          "value": "怪物之锤"
+        },
+        {
+          "cell": "F7",
+          "value": "https://www.lanzous.com/i7jb9hi"
+        },
+        {
+          "cell": "AC7",
+          "value": "将“本职属性”移动到“剩余点数”前 / 更改雷达图位置 / 删除其余装饰性介绍"
+        },
+        {
+          "cell": "D9",
+          "value": "法术大典"
+        },
+        {
+          "cell": "F9",
+          "value": "https://www.lanzous.com/i7jbble"
+        },
+        {
+          "cell": "D11",
+          "value": "coc跑团群"
+        },
+        {
+          "cell": "F11",
+          "value": "https://www.lanzous.com/i76887g"
+        },
+        {
+          "cell": "AB11",
+          "value": "职业列表更新"
+        },
+        {
+          "cell": "AC11",
+          "value": "更改自定义职业点数的计算方式 / 允许自定义职业自定义属性倍数和计算方式 / 允许自定义职业选择或取消教育与幸运"
+        },
+        {
+          "cell": "D13",
+          "value": "空白人物卡更新文件夹（密码29mb）"
+        },
+        {
+          "cell": "F13",
+          "value": "https://www.lanzous.com/b00nb3n2d"
+        },
+        {
+          "cell": "AB14",
+          "value": "属性注释更新"
+        },
+        {
+          "cell": "AC14",
+          "value": "修复部分bug"
+        },
+        {
+          "cell": "AB15",
+          "value": "武器列表更新"
+        },
+        {
+          "cell": "AC15",
+          "value": "更改催泪瓦斯的注释"
+        },
+        {
+          "cell": "D16",
+          "value": "一些问答"
+        },
+        {
+          "cell": "AB16",
+          "value": "更新说明更新"
+        },
+        {
+          "cell": "AC16",
+          "value": "更新“跑团群”"
+        },
+        {
+          "cell": "AN16",
+          "value": "从咕咕1.8.1到现在的更新"
+        },
+        {
+          "cell": "D17",
+          "value": "Q：本卡是无偿使用的嘛 / A：是哒，虽然觉得不太可能但是如果你是花了钱才得到这份人物卡的话，您可能是盗版软件的受害者233"
+        },
+        {
+          "cell": "AB17",
+          "value": "备注"
+        },
+        {
+          "cell": "AC17",
+          "value": "注：最近特别特别忙于是没怎么更新抱歉哇quq"
+        },
+        {
+          "cell": "AC18",
+          "value": "另注：格斗/射击①②的串联显示是我为了很多职业技能的特殊性设计的，并不是bug。 / emmm不过现在看起来有点多余，下一个版本会修改成互相独立的技能"
+        },
+        {
+          "cell": "D19",
+          "value": "Q：本卡可以进行改造吗，改造之后可以传播吗 / A：可以～"
+        },
+        {
+          "cell": "P19",
+          "value": "备注"
+        },
+        {
+          "cell": "Q19",
+          "value": "太多了（悲），懒得分类了"
+        },
+        {
+          "cell": "AC20",
+          "value": "再注：因为最近破解我的卡的人越来越多~ 再加上想改我的卡的人越来越多~ 于是解除了密码，耶"
+        },
+        {
+          "cell": "D21",
+          "value": "Q：本卡可以丢到群里或者上传到网站上之类的吗 / A：请你一定要这样做呜呜呜"
+        },
+        {
+          "cell": "P21",
+          "value": "2020.02.11更新 版本号：CY20.02.1（区分不重名）"
+        },
+        {
+          "cell": "AC21",
+          "value": "最后一注：用爱发电不代表有权利道德绑架❤"
+        },
+        {
+          "cell": "P22",
+          "value": "人物卡更新"
+        },
+        {
+          "cell": "Q22",
+          "value": "更改了弩的需求技能描述，弓→弓术，现在可以在人物卡和导入里正确显示该武器的成功率了"
+        },
+        {
+          "cell": "AB22",
+          "value": "2019.8.25更新 版本号：19.8.3"
+        },
+        {
+          "cell": "AO22",
+          "value": "增强“信用范围”“剩余职业点”“剩余兴趣点”存在感"
+        },
+        {
+          "cell": "AB23",
+          "value": "人物表更新"
+        },
+        {
+          "cell": "AC23",
+          "value": "添加自选护甲移动力减值是否开启"
+        },
+        {
+          "cell": "AO23",
+          "value": "删除“资产表”“初始现金”，增加“货币单位”，为“资产说明”分格"
+        },
+        {
+          "cell": "D24",
+          "value": "补充说明"
+        },
+        {
+          "cell": "Q24",
+          "value": "在规则书Version2002版本中（最新版本）译名“学问”→“学识”此处同步更改"
+        },
+        {
+          "cell": "AC24",
+          "value": "修复武器栏bug"
+        },
+        {
+          "cell": "AO24",
+          "value": "将“随身物品”“神话相关”“调查员精力”位置变更 / 增加“主流货币换算” / 增加“法术一览”"
+        },
+        {
+          "cell": "D25",
+          "value": "工作薄及工作表锁定：如果你想在我的基础上进行人物卡的修改，想要解除工作簿和工作表锁定的话，请联系我的QQ（2224263497），我会提供密码"
+        },
+        {
+          "cell": "AC25",
+          "value": "修复移动力年龄减值bug"
+        },
+        {
+          "cell": "P26",
+          "value": "职业列表更新"
+        },
+        {
+          "cell": "Q26",
+          "value": "修复了了法医职业的本职技能错误"
+        },
+        {
+          "cell": "AC26",
+          "value": "修复“自定义经历包”“技能增长”无法输入非数值的bug"
+        },
+        {
+          "cell": "AC27",
+          "value": "修复“自定义年龄补正”无效的bug"
+        },
+        {
+          "cell": "AO27",
+          "value": "将【属性和掷骰】表的“您的角色可能”移动至【人物卡】，并联系至“属性” / 增加职业介绍框格 / 将【分支技能】的“艺术与手艺”、“科学”、“格斗”、“射击”移动至【人物表】 / 增强“状态（State）”、“精神状态”的存在感 / 增加“自定义艺术/手艺"
+        },
+        {
+          "cell": "D28",
+          "value": "联系方式"
+        },
+        {
+          "cell": "Q28",
+          "value": "修复了古典艺术家职业的技能点计算公式错误"
+        },
+        {
+          "cell": "AB28",
+          "value": "简化表更新"
+        },
+        {
+          "cell": "AC28",
+          "value": "修复.stbug"
+        },
+        {
+          "cell": "D29",
+          "value": "神楽桜【丛雨Official】（2224263497），人物卡有任何问题或者建议请及时联系我"
+        },
+        {
+          "cell": "AB29",
+          "value": "备注"
+        },
+        {
+          "cell": "AC29",
+          "value": "抱歉又出了一堆bug。。半夜肝卡脑子不清醒而且最近出了很多大事所以出现了很多bug qwq"
+        },
+        {
+          "cell": "P30",
+          "value": "资产及物价参考更新"
+        },
+        {
+          "cell": "Q30",
+          "value": "修复了现代美元的信用评级对照表格的一个错误"
+        },
+        {
+          "cell": "AB30",
+          "value": "2019.8.21更新 版本号：19.8.2"
+        },
+        {
+          "cell": "D31",
+          "value": "我的骰娘：丛雨：QQ272594304，是设定是自设的，不是柚子社那一个哦OAO"
+        },
+        {
+          "cell": "AB31",
+          "value": "人物表更新"
+        },
+        {
+          "cell": "AC31",
+          "value": "合并“自定义艺术”“自定义技能” / 将“自定义其他技能”改为“自定义子技能”（包括艺术与手艺、格斗、射击、科学、驾驶） / 解锁技能初始值（如果不是要自定义技能请不要动好嘛w）"
+        },
+        {
+          "cell": "D33",
+          "value": "我的群聊：COC克苏鲁跑团咖啡厅（894927747），不是那么正经的群聊"
+        },
+        {
+          "cell": "P33",
+          "value": "更新说明更新"
+        },
+        {
+          "cell": "Q33",
+          "value": "规则书链接更新，添加本表格更新链接，可随时访问查看本表有没有更新"
+        },
+        {
+          "cell": "AC34",
+          "value": "修复“年龄补正：”bug / 将年龄的出错“警告”改为“提示”"
+        },
+        {
+          "cell": "D35",
+          "value": "感谢名单（有遗漏随时联系窝）"
+        },
+        {
+          "cell": "P35",
+          "value": "更改"
+        },
+        {
+          "cell": "Q35",
+          "value": "对一些表格的版式和美观度进行了更新，表格名称修改，小细节修改"
+        },
+        {
+          "cell": "D36",
+          "value": "感谢人"
+        },
+        {
+          "cell": "G36",
+          "value": "备注"
+        },
+        {
+          "cell": "AC36",
+          "value": "交换“魔法”、“幸运”与“移动力”的位置 /  / 删除“幸运”最大值 / 删除“大成功”“大失败”计数 / 删除“消耗规则” / 添加“幸运困难成功率”“幸运极难成功率” / 添加“移动方式”"
+        },
+        {
+          "cell": "D37",
+          "value": "帕琪（806672431）"
+        },
+        {
+          "cell": "G37",
+          "value": "第一位给我提供建议的人，谢谢你！"
+        },
+        {
+          "cell": "P37",
+          "value": "备注"
+        },
+        {
+          "cell": "Q37",
+          "value": "有什么问题随时联系窝！联系方式在左边，在左边啦——"
+        },
+        {
+          "cell": "AN37",
+          "value": "分 / 支 / 技 / 能 / 更 / 改"
+        },
+        {
+          "cell": "AO37",
+          "value": "增加“技能成功等级阶段介绍”图"
+        },
+        {
+          "cell": "D38",
+          "value": "梦之雨（2923502026）"
+        },
+        {
+          "cell": "G38",
+          "value": "使用骰娘的时候发现了导入不对劲，谢谢你告诉我，表格才有了更准确的技能名称"
+        },
+        {
+          "cell": "AO38",
+          "value": "增加“技能可选规则”： / -“专业技能：可以转移的技能优势” / -“可选规则：给技能等级按个保险” / -“语系地图”（来自维基百科）"
+        },
+        {
+          "cell": "D39",
+          "value": "浅田阳子（3065875927）"
+        },
+        {
+          "cell": "G39",
+          "value": "一位强迫症man，请放心，现在已经居中啦！观感上升大成功！"
+        },
+        {
+          "cell": "P39",
+          "value": "2020.01.16更新 版本号：20.1"
+        },
+        {
+          "cell": "D40",
+          "value": "哦哦君（554983922）"
+        },
+        {
+          "cell": "G40",
+          "value": "煲哦哦鸽"
+        },
+        {
+          "cell": "P40",
+          "value": "人物表更新"
+        },
+        {
+          "cell": "Q40",
+          "value": "修复了【人物卡→法术一览】的锁定问题"
+        },
+        {
+          "cell": "D41",
+          "value": "反智（——）"
+        },
+        {
+          "cell": "G41",
+          "value": "谢谢你指出的很多意见，并利用你的电脑帮助了我许多麻烦的事情"
+        },
+        {
+          "cell": "D42",
+          "value": "本杰猫（690013210）"
+        },
+        {
+          "cell": "G42",
+          "value": "谢谢你可以帮我测试和协助2020年的第一次更新！"
+        },
+        {
+          "cell": "P42",
+          "value": "简化卡更新"
+        },
+        {
+          "cell": "Q42",
+          "value": "快捷输入描述微调"
+        },
+        {
+          "cell": "AC42",
+          "value": "添加“自定义经历包”"
+        },
+        {
+          "cell": "AN42",
+          "value": "职 / 业 / 列 / 表 / 更 / 改"
+        },
+        {
+          "cell": "AO42",
+          "value": "增强“自定义职业”、“自定义职业本职技能”的存在感 / 增加“推荐关系人”列表 / 增加“职业介绍”列表"
+        },
+        {
+          "cell": "D43",
+          "value": "Schatten（1010233005）"
+        },
+        {
+          "cell": "G43",
+          "value": "如此细微的错误都能发现，谢谢你！"
+        },
+        {
+          "cell": "AB43",
+          "value": "简化表更新"
+        },
+        {
+          "cell": "AC43",
+          "value": "锁定自定义经历包编辑"
+        },
+        {
+          "cell": "D44",
+          "value": "か博丽西鹿☆（1206678982）"
+        },
+        {
+          "cell": "G44",
+          "value": "是西鹿鹿，谢谢西鹿鹿"
+        }
+      ],
+      "sample_formulas": [],
+      "data_validations": []
+    }
+  ]
+}

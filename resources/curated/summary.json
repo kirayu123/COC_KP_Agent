@@ -1,0 +1,65 @@
+[
+  {
+    "category": "mythos_entities",
+    "name": "神话实体与神格",
+    "priority": "high",
+    "count": 83,
+    "use": "旧日支配者、外神、重要神话存在；用于实体识别、主题判断、遭遇提示和背景检索。"
+  },
+  {
+    "category": "creatures_encounters",
+    "name": "怪物与遭遇",
+    "priority": "high",
+    "count": 51,
+    "use": "神话生物、怪物、异常存在；用于遭遇管理、SAN/战斗提示、调查线索补充。"
+  },
+  {
+    "category": "npc_persons",
+    "name": "人物与 NPC 原型",
+    "priority": "high",
+    "count": 56,
+    "use": "经典人物、作者人物、可转化为 NPC 的档案；用于 NPC 卡、关系图谱和人物识别。"
+  },
+  {
+    "category": "tomes_artifacts",
+    "name": "典籍、道具与禁忌知识",
+    "priority": "high",
+    "count": 37,
+    "use": "神秘书籍、禁忌知识、奇物；用于线索卡、图书馆调查、阅读代价和道具库。"
+  },
+  {
+    "category": "locations_timeline",
+    "name": "地点、年代与世界观",
+    "priority": "high",
+    "count": 54,
+    "use": "地点、年表、地理、历史背景；用于时代一致性检查、场景生成和地点索引。"
+  },
+  {
+    "category": "rules_kp_reference",
+    "name": "跑团与 KP 参考",
+    "priority": "high",
+    "count": 2,
+    "use": "跑团介绍、主持资料、规则相关入口、推荐书目；用于 demo 文档、帮助系统和规则检索入口。"
+  },
+  {
+    "category": "research_articles",
+    "name": "设定考据与主题文章",
+    "priority": "medium",
+    "count": 114,
+    "use": "考据、科学、创作、主题解读；用于补充线索、生成调查材料和扩展背景。"
+  },
+  {
+    "category": "narrative_corpus",
+    "name": "叙事语料与风格参考",
+    "priority": "medium",
+    "count": 834,
+    "use": "原创故事、原著译文、漫画、诗歌；用于语气/氛围参考、场景描写和少量示例检索。"
+  },
+  {
+    "category": "media_misc",
+    "name": "媒体、社区与低优先级资料",
+    "priority": "low",
+    "count": 37,
+    "use": "视频、社群、站点介绍、周边和其他不稳定资料；默认不进入第一版 RAG 主索引。"
+  }
+]

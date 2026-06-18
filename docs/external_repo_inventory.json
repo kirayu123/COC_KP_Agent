@@ -1,0 +1,987 @@
+[
+  {
+    "name": "achtung-cthulhu-coc7",
+    "path": "external/achtung-cthulhu-coc7",
+    "file_count": 82,
+    "size_bytes": 3308024,
+    "license": "unknown",
+    "stack": [
+      "html/css"
+    ],
+    "source_dirs": [
+      "src"
+    ],
+    "has_readme": true,
+    "readme_head": "# Achtung! Cthulhu (CoC 7th)\n![version](https://img.shields.io/badge/version-1.03-green.svg)\n\nThis is a [**Roll20**](https://roll20.net/) character sheet for **Achtung! Cthulhu** role-playing game published by [*Modiphius*](https://www.modiphius.net/) based upon **Call of Cthulhu 7th Edition** rules published by [*Chaosium*](https://www.chaosium.com/). It is not designed for *Call of Cthulhu 6th Edition*, nor *Savage Worlds*.\n\nThis sheet supports the [**Roll20 Compendium**](https://roll20.net/compendium/coc/) for *Call of Cthulhu*, and entries from *Monsters*, *Occupations*, *Items*, *Spells*, and *Talents* sections can be imported.\n\nHowever, it is not compatible with **Roll20 Official Character Sheet** for *Call of Cthulhu 7th Edition*. This means that a character created with a game using the official sheet cannot be imported in a game using this character sheet, and so is the revert.\n\n# Table of contents\n* [Features](#features)\n* [Tricks](#tricks)\n* [Changelog](#changelog)\n* [License](#license)\n\n# Features\n* Bonus and Penalty dice\n* Quick Rolls bar\n* Whisper to GM toggle\n* Edit and View modes\n* Sheet types (PC/NPC/Creature)\n* Themes (Achtung! Cthulhu/Call of Cthulhu)\n* Customizable Skills list\n* Skills ordering based on user language\n* Pulp Cthulhu Skills and Talents\n* Repeating Weapons, Items, Assets and Spells\n* Roll20 Compendium integration (Drag'n'Drop)\n* Printable sheet\n\n# Tricks\n* **Luck**, **HP**, **MP**, **SAN** and **Cash** : either raw number or sum like `10+4` or `6-3` can be entered.\n* **Skill Points** (Edit Mode) : switch between *Base*, *Occupation*, *Interests* or *Advancement* for appropriate counting.\n* **Weapon Damage** : formula like `4d6/3y` can be entered for damage radius.\n* **Weapon Range** : formula like `str/5` or `str*2` can be entered.\n\n# Changelog\n\n## v1.03 (2025-01-11)\n- Fix extreme damage formula (maximum weapon damage + maximum damage bonus + impalement)\n- Fix chatlog action button call based upon character name instead of character id\n- Fix occupation and interest skill points totals update on skill points reset\n- Fix monster attacks extreme damages and damage bonus\n- Fix Show Scores parameter not checked by default\n- Replace attribute \"imp\" by \"dmg-max\"\n- Add Call of Cthulhu dark visual theme\n- Add printable sheet option with print friendly styles\n- Add persistant insanity cap number bubble box and recalc button\n- Add major wound cap number bubble box\n- Add description roll template (for out of sheet macros)\n- Add empty ",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".gitattributes",
+      ".gitignore",
+      "achtung-cthulhu-coc7.css",
+      "achtung-cthulhu-coc7.html",
+      "achtung-cthulhu-coc7.jpg",
+      "img",
+      "readme.md",
+      "sheet.json",
+      "src",
+      "translation",
+      "translation.json"
+    ]
+  },
+  {
+    "name": "AI-RPG-Engine",
+    "path": "external/AI-RPG-Engine",
+    "file_count": 32,
+    "size_bytes": 139219,
+    "license": "MIT",
+    "stack": [
+      "foundry",
+      "html/css",
+      "node/js",
+      "python",
+      "react",
+      "vite"
+    ],
+    "source_dirs": [],
+    "has_readme": true,
+    "readme_head": "# AI-RPG-Engine\n\n[English](./README.md) | [简体中文](./README_zh.md)\n\nA modular AI-driven RPG engine powered by LLMs, featuring RAG-based consistent memory\n\nDesigned to support **any Tabletop RPG** — stats, attributes, prompts, and game mechanics are defined per-module, and the frontend dynamically renders based on the backend's schema.\n\n### 🎮 Beyond TTRPGs: Visual Novels & Galgames\n\nBecause the engine is entirely **schema-driven**, it is not limited to traditional tabletop RPGs. By simply modifying the `module.json` and prompts, the engine seamlessly transforms into a dynamic **Visual Novel / Galgame Engine**:\n\n## 🎮 Live Demo\n\nExperience the engine in action without any setup:\n👉 **[Playable Sample](https://mytools-cyj.pages.dev/vtt)**\n\n## Architecture\n\n```\nbackend/\n├── main.py                    # FastAPI application entry point\n├── requirements.txt\n├── tools.json                 # LLM tool-calling definitions (Gemini / Groq)\n├── engine/                    # Core engine package\n│   ├── models.py              # Module schema (attributes, terminology, …)\n│   ├── module_loader.py       # Discovers and loads modules from modules/\n│   ├── memory.py              # RAG-based session memory with entity indexing\n│   ├── providers.py           # Multi-provider AI abstraction (support Gemini, Groq for now)\n│   └── dice.py                # Generic dice roller (NdM±K)\n└── modules/                   # Drop-in module definitions\n    ├── coc_alone_against_flames/\n    │   ├── module.json        # Module metadata, schema & terminology\n    │   ├── content.md         # Adventure content (sections, NPCs, items)\n    │   └── prompts.md         # System prompt, guardrail & entity prompts\n    └── dnd5e_goblin_cave/\n        ├── module.json\n        ├── content.md\n        └── prompts.md\n\nfrontend/\n├── package.json\n└── src/\n    └── pages/\n        └── VTTPage.tsx        # Schema-driven RPG session UI\n```\n\n## Module System\n\nEach module is a folder under `backend/modules/` containing:\n\n| File | Purpose |\n|------|---------|\n| `module.json` | ID, name, system, terminology, game schema (bars, attributes, dice) |\n| `content.md` | Adventure content fed to the AI as world knowledge |\n| `prompts.md` | Prompt templates (`BASE_SYSTEM_PROMPT`, `GUARDRAIL_SYSTEM_PROMPT`, etc.) |\n\n### module.json Schema\n\n```json\n{\n  \"id\": \"my-module-id\",\n  \"name\": \"My Adventure\",\n  \"system\": \"My TTRPG System\",\n  \"description\": \"A short description shown in the module picker.\",\n  \"terminology\": {\n    \"gm_name\": \"Game Ma",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".gitignore",
+      "backend",
+      "deploy.bat",
+      "deploy_with_ollama.bat",
+      "frontend",
+      "LICENSE",
+      "README.md",
+      "README_zh.md"
+    ]
+  },
+  {
+    "name": "call-of-cthulhu-foundryvtt-investigator-wizard",
+    "path": "external/call-of-cthulhu-foundryvtt-investigator-wizard",
+    "file_count": 5,
+    "size_bytes": 7556,
+    "license": "LICENSE",
+    "stack": [
+      "foundry"
+    ],
+    "source_dirs": [],
+    "has_readme": true,
+    "readme_head": "<h1 align=\"center\">Call of Cthulhu 7th Edition Investigator Wizard for Foundry VTT</h1>\n<p align=\"center\">\n  <a href=\"#usage\">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\n  <a href=\"#issues\">Issues</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\n  <a href=\"#licenses\">Licenses</a>\n</p>\n\n## Overview.\n\nThis content package comes with the basic Archetypes, Occupations, Setups, and Skills to speed up using the investigator wizard, for use with the [Call of Cthulhu 7th Edition implementation for Foundry Virtual Tabletop.](https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT)\n\nIf you have any suggestions or feedback, please visit us on Discord in the `#chaosium` channel on the [Foundry Discord Server](discord.gg/foundryvtt)\n\nFor the list of changes, see: [CHANGELOG](https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/blob/develop/.github/CHANGELOG.md).\n\n## Usage.\n\nInstall the CoC7 system in Foundry VTT from the Game Systems tab, using the following manifest:\n`https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/latest/download/system.json`\n\nInstall this module in Foundry VTT from the Add-on Modules tab tab, using the following manifest:\n`https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/releases/latest/download/module.json`\n\nIn your world under Game Settings click Manage Modules, tick \"Call of Cthulhu - FoundryVTT - Investigator Wizard\", and Save Module Settings\n\n## Issues.\n\nIf you find any issues with the module please raise a bug report https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/issues\n\n## Licenses.\n\nFoundry VTT support is covered by [Limited License Agreement for Module Development](https://foundryvtt.com/article/license/).\n\nThis project uses some assets from Game Icons, thanks to its [authors](https://game-icons.net/about.html#authors).\n\nThis system uses trademarks and/or copyrights owned by Chaosium Inc/Moon Design Publications LLC, which are used under [Chaosium Inc's Fan Material Policy](https://www.chaosium.com/fan-material-policy/). We are expressly prohibited from charging you to use or access this content. This system is not published, endorsed, or specifically approved by Chaosium Inc. For more information about Chaosium Inc's products, please visit www.chaosium.com.\n\n> Permission is given for users to make derivative use of the work on the Foundry VTT platform. No rig",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": true,
+    "module_json": {
+      "id": "call-of-cthulhu-foundryvtt-investigator-wizard",
+      "title": "Call of Cthulhu - FoundryVTT - Investigator Wizard",
+      "version": "1.0.6",
+      "compatibility": {
+        "minimum": "12",
+        "verified": "14"
+      },
+      "relationships": {
+        "systems": [
+          {
+            "id": "CoC7",
+            "type": "system",
+            "compatibility": {
+              "minimum": "8.10"
+            }
+          }
+        ]
+      },
+      "packs": [
+        {
+          "name": "investigator-wizard",
+          "label": "Investigator Wizard",
+          "path": "packs/investigator-wizard",
+          "type": "Item",
+          "system": "CoC7",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          }
+        }
+      ],
+      "description": "This content package comes with the Archetypes, Occupations, Setups, and Skills to speed up using the investigator wizard.",
+      "authors": [
+        {
+          "name": "Miskatonic Investigative Society"
+        }
+      ],
+      "url": "https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard",
+      "manifest": "https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/releases/latest/download/module.json",
+      "download": "https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/releases/download/1.0.6/module.zip"
+    },
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".github",
+      "LICENSE",
+      "module.json",
+      "README.md"
+    ]
+  },
+  {
+    "name": "Call_of_Cthulhu_7e_NPC",
+    "path": "external/Call_of_Cthulhu_7e_NPC",
+    "file_count": 10,
+    "size_bytes": 1625137,
+    "license": "unknown",
+    "stack": [
+      "html/css"
+    ],
+    "source_dirs": [],
+    "has_readme": true,
+    "readme_head": "# Call_of_Cthulhu_7e_NPC\nCall of Cthulhu 7th Edition Character Sheet for Roll20, mashed up with the D&amp;D 5E OGL Character Sheet\n",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      "coc_7e_npc.css",
+      "coc_7e_npc.html",
+      "preview",
+      "README.md",
+      "translation.json"
+    ]
+  },
+  {
+    "name": "callofcthulhubot",
+    "path": "external/callofcthulhubot",
+    "file_count": 53,
+    "size_bytes": 2213041,
+    "license": "MIT",
+    "stack": [
+      "python"
+    ],
+    "source_dirs": [],
+    "has_readme": true,
+    "readme_head": "# Shoggoth Helper - A Discord Bot for Call of Cthulhu RPG\n\nShoggoth Helper is a Discord Bot for the Call of Cthulhu 7th edition tabletop RPG. It's intent is to be a simple tool used to facilitate the Game's Master, known in Call of Cthulhu as the Keeper, to run their game with their team of investigators in any Discord Server. This bot is best paired with other dice rolling bots.\n\n## Support\n\n[Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=hugo.sjrp@gmail.com&lc=US&no_note=0&item_name=thank+you+for+supporting+my+work!&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted) if you can to help me do more coding!!!\n\n## Getting Started\n\nThese instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.\n\n### Prerequisites\n\nTo run this code you will need: \n1) Install and run Python 3.\n2) to get a Discord Bot Token in the Discord Development Portal and save it under a variable DISCORD_TOKEN in a local .env file.\n3) to get the third-party libraries listed in requirements.txt.\n\n### Installing\n\nGetting Python 3.\n\n```\nGet Python 3 in: https://www.python.org/downloads/\n```\n\nGetting a Discord Bot Token:\n\n```\nLink for Discord Development Portal: https://discord.com/developers/applications\nInstructions on how to get the Discord Bot Token: https://realpython.com/how-to-make-a-discord-bot-python/\n```\n\nGetting Third-Party libraries.\n\n```\nUse pip install to install the libraries present in requirements.txt\nSome IDEs will provide you with the option to install them already.\n```\n\n## Running on Discord\n\nOnce you set it up for running in it locally, run bot.py and main.py to get the bot running. You can locally personalize your bot by adding .jpg and .png files to images, add, change and edit rule checklists in rules in .txt and even add unsettling references to the gods folder. Right now, those files are populated with stuff from my personal use, that you can use for testing.\n\n## Built With\n\n* [PyCharm](https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html) - IDE\n\n## Contributing\n\nAt the moment, we will not be taking Pull requests, but feel free to clone this repository.\n\n## Disclaimers\n\nRules .txt files are not ment to substitute the Keeper's book. The images are also only ment for the purpose of testing, I do not claim ownership for any of them.\n\n## Authors\n\n* **Hugo Padilha Figueira** -",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": true,
+    "requirements_head": "aiohttp==3.6.2\nasync-timeout==3.0.1\nattrs==19.3.0\nbeautifulsoup4==4.9.1\nbs4==0.0.1\ncertifi==2020.6.20\nchardet==3.0.4\ndiscord.py==1.4.0\nidna==2.10\nmultidict==4.7.6\nnumpy==1.19.1\npython-dotenv==0.14.0\nrequests==2.24.0\nsoupsieve==2.0.1\nurllib3==1.25.10\nyarl==1.5.1\n",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".gitignore",
+      ".idea",
+      "bot.py",
+      "gods",
+      "images",
+      "LICENSE",
+      "main.py",
+      "mremachine",
+      "README.md",
+      "requirements.txt",
+      "rules",
+      "test.py"
+    ]
+  },
+  {
+    "name": "Chronicle-Keeper",
+    "path": "external/Chronicle-Keeper",
+    "file_count": 31,
+    "size_bytes": 290275,
+    "license": "MIT",
+    "stack": [
+      "foundry"
+    ],
+    "source_dirs": [
+      "scripts",
+      "templates"
+    ],
+    "has_readme": true,
+    "readme_head": "# Chronicle Keeper - AI Dungeon Master\n\nAn AI-powered Dungeon Master module for Foundry VTT using Ollama for local LLM hosting. Features robust memory management for long-term campaign continuity.\n\n![Foundry VTT](https://img.shields.io/badge/Foundry-v11%2Fv12-green)\n![D&D 5e](https://img.shields.io/badge/System-D%26D%205e-red)\n\n## Features\n\n### 🎭 AI Dungeon Master\nChronicle Keeper acts as a co-DM, handling descriptive duties so you can focus on rules and pacing.\n\n*   **Auto-Narration**: Automatically describes the outcome of skill checks and saving throws based on the roll result.\n    *   *Example:* Player rolls a Nat 20 Acrobatics -> \"You effortlessly vault over the goblin, landing with a flourish.\"\n    *   *Example:* Player fails a Stealth check -> \"Your scabbard scrapes loudly against the stone wall, echoing through the chamber.\"\n    \n*   **Combat Narrator**: Turns dry \"hit for 8 damage\" logs into visceral combat descriptions.\n    *   *Example:* \"The sword bites deep into the orc's shoulder, forcing a pained grunt as dark blood sprays across the floor.\"\n    \n*   **NPC Roleplay**: The AI can \"possess\" any NPC.\n    *   Use `/npc [name] [instruction]` to have them speak.\n    *   The AI knows their personality, stats, and current context from your notes.\n\n*   **Scene Awareness**: The AI reads the current Scene's journal notes to understand the environment (lighting, smells, sounds).\n\n### 🧠 Multi-layered Memory\n(The module remembers details so you don't have to look them up)\n- **Short-term**: Remembers the last ~50 messages of conversation.\n- **Long-term**: Stores important story beats (quests, major decisions).\n- **Entities**: Tracks NPCs, locations, and factions.\n- **Semantic Search**: \"What did the innkeeper say about the dragon?\" retrieves the exact memory.\n\n## Requirements\n\n- Foundry VTT v11 or v12\n- D&D 5e system (v3.0+)\n- [Ollama](https://ollama.ai) running locally\n\n## Installation\n\n### 1. Install Ollama\n\nDownload and install from [ollama.ai](https://ollama.ai).\n\n### 2. Pull a Model\n\n```bash\n# Recommended for most systems\nollama pull llama3:8b\n\n# For better quality (requires more RAM)\nollama pull llama3:70b\n\n# For embeddings (semantic search)\nollama pull nomic-embed-text\n```\n\n### 3. Install the Module\n\n**Option A: Manifest URL**\n1. In Foundry, go to Add-on Modules\n2. Click \"Install Module\"\n3. Paste manifest URL: `https://github.com/chronicle-keeper/chronicle-keeper-v2/releases/latest/download/module.json`\n\n**Option B: Manual Install**\n1. Download the ",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": true,
+    "module_json": {
+      "id": "chronicle-keeper",
+      "title": "Chronicle Keeper - AI Dungeon Master",
+      "description": "An AI-powered Dungeon Master using Ollama for local LLM hosting, featuring robust memory management for long-term campaign continuity.",
+      "version": "2.0.0",
+      "compatibility": {
+        "minimum": "11",
+        "verified": "13"
+      },
+      "authors": [
+        {
+          "name": "Chronicle Keeper Team",
+          "url": "https://github.com/The-RavenKing/Chronicle-Keeper"
+        }
+      ],
+      "relationships": {
+        "systems": [
+          {
+            "id": "dnd5e",
+            "type": "system",
+            "compatibility": {
+              "minimum": "3.0.0"
+            }
+          }
+        ]
+      },
+      "esmodules": [
+        "scripts/main.js"
+      ],
+      "styles": [
+        "styles/chronicle-keeper.css"
+      ],
+      "languages": [
+        {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+        }
+      ],
+      "socket": true,
+      "url": "https://github.com/The-RavenKing/Chronicle-Keeper",
+      "manifest": "https://github.com/The-RavenKing/Chronicle-Keeper/releases/latest/download/module.json",
+      "download": "https://github.com/The-RavenKing/Chronicle-Keeper/releases/latest/download/module.zip",
+      "license": "MIT",
+      "readme": "README.md",
+      "bugs": "https://github.com/The-RavenKing/Chronicle-Keeper/issues",
+      "changelog": "https://github.com/The-RavenKing/Chronicle-Keeper/blob/main/CHANGELOG.md",
+      "flags": {
+        "chronicle-keeper": {
+          "memory": {},
+          "entities": {},
+          "sessions": []
+        }
+      }
+    },
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".gitignore",
+      "CHANGELOG.md",
+      "lang",
+      "LICENSE",
+      "module.json",
+      "module.zip",
+      "README.md",
+      "scripts",
+      "styles",
+      "templates"
+    ]
+  },
+  {
+    "name": "coc-dice-bot",
+    "path": "external/coc-dice-bot",
+    "file_count": 43,
+    "size_bytes": 432397,
+    "license": "unknown",
+    "stack": [
+      "html/css",
+      "python"
+    ],
+    "source_dirs": [
+      "apps",
+      "scripts"
+    ],
+    "has_readme": true,
+    "readme_head": "# CoC Dice Bot (Discord)\n\nA Discord bot for **Call of Cthulhu 7th Edition**, focused on rules accuracy, clarity, and extensibility.\nBuilt as a personal passion project to support real tabletop play rather than a novelty dice roller.\n\n---\n\n## Features\n\n### Core Dice & Checks\n\n* **/roll** – Roll arbitrary dice expressions (`d20`, `2d6+1`, `1d100`, etc.)\n* **/check** – Call of Cthulhu 7e skill or target checks\n\n  * Accurate d100 mechanics\n  * **Bonus / Penalty dice** implemented per RAW\n  * Transparent **candidate roll visualization** (shows all possible tens combinations)\n  * Success tiers: Fail, Success, Hard, Extreme, Critical, Fumble\n\n### Skill System\n\n* Normalized **SQL / SQLite schema** for skills and categories\n* Canonical skill keys (language-independent)\n* **Multilingual support (EN / ZH)** via i18n tables and alias resolution\n* Supports derived skills (e.g. **Dodge = DEX / 2**)\n* Case-insensitive and alias-based skill lookup\n\n### UI & Readability\n\n* Restored **classic tabletop-style /check embed**\n* Large, clear roll display\n* Visible Hard / Extreme thresholds\n* Bonus/Penalty candidate rolls marked explicitly\n\n### Design Goals\n\n* Rules correctness over shortcuts\n* Transparent mechanics (no hidden rerolls)\n* Clean separation between mechanics, UI, and app layer\n* Designed to support future extensions:\n\n  * Keeper-configurable house rules (critical/fumble ranges)\n  * Luck spending\n  * Additional languages\n\n---\n\n## Project Structure\n\n```\ncoc-dice-bot/\n├─ apps/\n│  ├─ discord_bot/        # Discord slash-command app\n│  │  └─ main.py\n│  └─ dashboard/          # (Optional) web dashboard\n├─ cocbot/                # Core library\n│  ├─ mechanics/          # Dice, checks, rules logic\n│  ├─ db/                 # SQLite repositories\n│  └─ ui/                 # Embed builders\n├─ data/\n│  ├─ sql/                # Schema & seed SQL (clean, keyed)\n│  └─ seed/               # Excel sources (skills, careers)\n├─ scripts/\n│  └─ apply_sql.py        # Apply SQL migrations\n└─ README.md\n```\n\n---\n\n## Invite the Bot\n\nYou can invite **CoC Dice Bot** to your own Discord server using the official OAuth2 link below:\n\n👉 [https://discord.com/oauth2/authorize?client_id=1429217082297548812&permissions=2147502080&integration_type=0&scope=bot+applications.commands](https://discord.com/oauth2/authorize?client_id=1429217082297548812&permissions=2147502080&integration_type=0&scope=bot+applications.commands)\n\n> You must have **Manage Server** permission to add the bot.\n> The bot requests on",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".env.example",
+      ".gitignore",
+      "apps",
+      "cocbot",
+      "data",
+      "README.md",
+      "scripts"
+    ]
+  },
+  {
+    "name": "coc-keeper-runtime",
+    "path": "external/coc-keeper-runtime",
+    "file_count": 658,
+    "size_bytes": 4167433,
+    "license": "MIT",
+    "stack": [
+      "python"
+    ],
+    "source_dirs": [
+      "src"
+    ],
+    "has_readme": true,
+    "readme_head": "# Discord AI Keeper\n\n本地模型驱动的 **d100 horror investigation** 跑团系统。多个真人玩家在 Discord 里跑团，AI 扮演 Keeper 叙事、NPC 扮演、规则结算。\n\n## 核心目标\n\n- 多个真人玩家在 Discord 里直接跑团\n- AI 负责 Keeper 叙事、NPC 扮演、场景推进\n- d100 规则由本地代码托管（确定性结算）\n- 模组结构化，可迁移、可复用\n- 长期角色档案和模组实例状态分离\n\n## Architecture\n\n```\n                       ┌───────────────────────────────────────┐\n                       │           Discord Users               │\n                       └──────────────┬────────────────────────┘\n                                      │ slash commands / messages\n                                      ▼\n                       ┌───────────────────────────────────────┐\n                       │    discord_bot / commands.py          │\n                       │    /start /begin_module /action       │\n                       │    /roll /sheet /end_round /status    │\n                       └──────┬──────────┬──────────┬──────────┘\n                              │          │          │\n         ┌────────────────────┘          │          └──────────────────┐\n         │                               │                            │\n         ▼                               ▼                            ▼\n ┌───────────────┐            ┌──────────────────┐       ┌──────────────────┐\n │ surface/      │            │ scene/ round.py   │       │ narrator/        │\n │ SessionBoard  │            │ WAITING→COLLECTING│       │ SimpleNarrator   │\n │ SceneBoard    │            │ →RESOLVING→NARRATE│       │ (placeholder)    │\n │ BlockerBoard  │            └──────┬───────────┘       └──────────────────┘\n │ Consequence   │                   │\n │ Board         │                   │ fires TriggerEvent\n │ ClueBoard     │                   ▼\n │ Character     │            ┌────────────────────────────────┐\n │ CardBoard     │            │ trigger/ engine.py             │\n │ CharListBoard │            │ TriggerEngine                  │\n │ Board (ABC)   │            │ → match event_type             │\n └───────────────┘            │ → collect reactions            │\n                              │ → sort by priority             │\n                              │ → create TriggerChain          │\n                              │ → record audit trail            │\n                              │ → persist to Store             │\n                              │ → resume / recover chains      │\n                              └──────────┬─────────────────────┘\n                                         │\n                    ┌────────────────────┴────────────────",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": true,
+    "pyproject_head": "[project]\nname = \"dm-bot\"\nversion = \"0.1.0\"\ndescription = \"Discord-native local AI DM runtime\"\nreadme = \"README.md\"\nrequires-python = \">=3.12\"\ndependencies = [\n  \"d20>=1.1.2\",\n  \"discord.py>=2.7.0\",\n  \"fastapi>=0.116.0\",\n  \"httpx>=0.28.0\",\n  \"openai>=2.0.0\",\n  \"orjson>=3.11.0\",\n  \"pydantic>=2.11.0\",\n  \"pydantic-settings>=2.10.0\",\n  \"structlog>=25.0.0\",\n  \"tenacity>=9.1.0\",\n  \"uvicorn>=0.35.0\",\n]\n\n[dependency-groups]\ndev = [\n  \"pytest>=9.0.0\",\n  \"pytest-asyncio>=1.3.0\",\n  \"pytest-bdd>=8.0.0\",\n  \"vcrpy>=6.0.0\",\n]\n\n[build-system]\nrequires = [\"hatchling\"]\nbuild-backend = \"hatchling.build\"\n\n[tool.hatch.build.targets.wheel]\npackages = [\"src/dm_bot\"]\n\n[tool.pytest.ini_options]\npythonpath = [\"src\", \".\"]\ntestpaths = [\"tests\"]\nasyncio_mode = \"auto\"\n",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".env.example",
+      ".gitignore",
+      ".planning",
+      "AGENTS.md",
+      "data",
+      "debug_test.py",
+      "docs",
+      "file",
+      "LICENSE",
+      "output.txt",
+      "pr-body.md",
+      "pyproject.toml",
+      "pytest.ini",
+      "README.md",
+      "src",
+      "temp_charsheet.html",
+      "temp_charsheet.js",
+      "tests",
+      "tools",
+      "uv.lock"
+    ]
+  },
+  {
+    "name": "CoC7-FoundryVTT",
+    "path": "external/CoC7-FoundryVTT",
+    "file_count": 745,
+    "size_bytes": 8788161,
+    "license": "GPL-3.0",
+    "stack": [
+      "foundry",
+      "node/js"
+    ],
+    "source_dirs": [
+      "scripts",
+      "compendiums"
+    ],
+    "has_readme": true,
+    "readme_head": "<h1 align=\"center\">Call of Cthulhu 7th Edition for Foundry VTT</h1>\n<p align=\"center\">\n  <img src=\"https://img.shields.io/github/repo-size/Miskatonic-Investigative-Society/CoC7-FoundryVTT.svg\">\n  <a href=\"https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/commits/develop\">\n    <img src=\"https://img.shields.io/github/last-commit/Miskatonic-Investigative-Society/CoC7-FoundryVTT.svg\">\n  </a>\n  <a href=\"https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/issues\">\n    <img src=\"https://img.shields.io/github/issues/Miskatonic-Investigative-Society/CoC7-FoundryVTT.svg\">\n  </a>\n  <img src=\"https://img.shields.io/github/license/Miskatonic-Investigative-Society/CoC7-FoundryVTT.svg\">\n  <img src=\"https://img.shields.io/github/downloads/Miskatonic-Investigative-Society/CoC7-FoundryVTT/latest/total\">\n  <img src=\"https://img.shields.io/github/downloads/Miskatonic-Investigative-Society/CoC7-FoundryVTT/total\">\n</p>\n<p align=\"center\">\n  <a href=\"#usage\">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\n  <a href=\"#contributing\">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\n  <a href=\"#licenses\">Licenses</a>\n</p>\n\n## Overview.\n\n*Read this in other languages: [English](README.md), [简体中文](README_zh-CN.md).*\n\nAn implementation of the Call of Cthulhu 7th Edition game system for [Foundry Virtual Tabletop](http://foundryvtt.com). This provides sheets and system in addition to some compendiums as examples.\n\nIf you have any suggestions or feedback, please visit us on Discord in the `#chaosium` channel on the [Foundry Discord Server](discord.gg/foundryvtt), or see: [CONTRIBUTING](https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/blob/develop/.github/CONTRIBUTING.md)\n\nFor the list of changes, see: [CHANGELOG](https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/blob/develop/.github/CHANGELOG.md).\n\n### Disclaimer.\n\nThis project does not include any materials from the official books and you will have to enter manually the weapons, skills, items, etc… to be able to play. We have just provided some basics skills that you can use as example.\n\n## Usage.\n\nInstall in Foundry VTT from the Game Systems tab, using the following manifest:\n`https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/latest/download/system.json`\n\nYou can also search for \"Call of Cthulhu 7th edition\" on the package finder.\n\n- Compendium \"Examples\" contains a 1920's Character Sheet, you just need to import it to start a new Charac",
+    "has_package_json": true,
+    "package_json": {
+      "name": "fvtt-coc7",
+      "version": "2.0.0",
+      "description": "An implementation of the Call of Cthulhu 7th Edition game system for Foundry Virtual Tabletop.",
+      "scripts": {
+        "build": "webpack --mode production",
+        "compendiums-build": "node scripts/compendiums-build.js",
+        "eslint": "eslint coc7/ scripts/",
+        "game-icons-build": "node scripts/game-icons-build.js",
+        "init": "node scripts/init.js",
+        "manuals-build": "node scripts/manuals-build.js",
+        "roll-requests-build": "node scripts/roll-requests-build.js",
+        "standard": "standard",
+        "translations-check": "node scripts/translations-check.js",
+        "watch": "webpack --mode development"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT.git"
+      },
+      "keywords": [],
+      "author": "Miskatonic Investigative Society",
+      "license": "GPL-3.0",
+      "bugs": {
+        "url": "https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/issues"
+      },
+      "homepage": "https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT#readme",
+      "type": "module",
+      "devDependencies": {
+        "@stylistic/eslint-plugin": "^5.10.0",
+        "classic-level": "^3.0.0",
+        "copy-webpack-plugin": "^14.0.0",
+        "css-loader": "^7.0.0",
+        "css-minimizer-webpack-plugin": "^8.0.0",
+        "decompress": "^4.0.0",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-jsdoc": "^62.0.0",
+        "less-loader": "^12.0.0",
+        "mini-css-extract-plugin": "^2.0.0",
+        "node-fetch": "^3.0.0",
+        "remarkable": "^2.0.0",
+        "thread-loader": "^4.0.0",
+        "webpack-cli": "^7.0.0",
+        "webpackbar": "^7.0.0"
+      }
+    },
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".editorconfig",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      "coc7",
+      "compendiums",
+      "cspell.json",
+      "docs",
+      "eslint.config.js",
+      "LICENSE",
+      "package.json",
+      "README.md",
+      "README_zh-CN.md",
+      "scripts",
+      "static",
+      "styles",
+      "webpack.config.js"
+    ]
+  },
+  {
+    "name": "Cocai",
+    "path": "external/Cocai",
+    "file_count": 126,
+    "size_bytes": 2762349,
+    "license": "AGPL",
+    "stack": [
+      "html/css",
+      "python"
+    ],
+    "source_dirs": [
+      "src"
+    ],
+    "has_readme": true,
+    "readme_head": "# <img src=\"public/logo_light.png\" width=\"36px\" /> CoCai\n\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n[![prek](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/j178/prek/master/docs/assets/badge-v0.json)](https://github.com/j178/prek)\n[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)\n[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)\n[![HitCount](https://hits.dwyl.com/StarsRail/Cocai.svg?style=flat-square)](http://hits.dwyl.com/StarsRail/Cocai)\n![Coverage Status](docs/coverage.svg)\n![License](https://img.shields.io/github/license/StarsRail/Cocai)\n\nA chatbot that plays Call of Cthulhu (CoC) with you, powered by AI.\n\n<img width=\"866\" alt=\"image\" src=\"https://github.com/user-attachments/assets/59b159f8-ace5-4df0-bb4a-a33dff190d99\">\n\n[Video demo](https://www.youtube.com/watch?v=8wagQoMPOKY)\n\n## Demo\n\nCheck out this transcript:\n\n<img width=\"786\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e039276c-d495-4596-b547-acfc66ce6a84\">\n\nIn the first message, I asked Cocai to generate a character for me:\n\n> Can you generate a character for me? Let's call him \"Don Joe\". Describe what kind of guy he is, then tabulate his stats.\n\nUnder the hood, Cocai used [Cochar](https://www.cochar.pl/). In the first couple of attempts, Cocai forgot to provide some required parameters. Cocai fixed that problem and successfully generated a character profile from Cochar.\n\nThen, I asked Cocai what I -- playing the character of Mr. Don Joe -- can do, being stuck in a dark cave. It suggested a couple of options and described the potential outcomes associated with each choice.\n\nI then asked Cocai to roll a skill check for me, Spot Hidden. Based on the chat history, Cocai was able to recall that Mr. Joe had a Spot Hidden skill of 85%. It rolled the dice, got a successful outcome, and took some inspiration from its 2nd response to progress the story.\n\nThanks to the chain-of-thought (CoT) visualization feature, you can unfold the tool-using steps and verify yourself that Cocai was indeed able to recall the precise value of Joe's Spot Hidden skill:\n\n<img width=\"771\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8ae52b80-b3c0-4978-9649-64039a5c113e\">\n\n## Architecture\n\nProminent dependencies of _Cocai_ include:\n\n```me",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": true,
+    "pyproject_head": "[project]\nname = \"cocai\"\nversion = \"0.1.0\"\ndescription = \"A chatbot that plays Call of Cthulhu (CoC) with you, powered by AI.\"\nreadme = \"README.md\"\nrequires-python = \">=3.14\"\ndependencies = [\n    \"aiosqlite>=0.20.0\",\n    \"arize-phoenix-otel>=0.15.0\",\n    \"boto3>=1.35.39\",\n    \"chainlit>=2.0.0\",\n    \"cochar>=1.0.1\",\n    \"llama-index-core>=0.14.18,<0.15\",\n    \"llama-index-embeddings-ollama>=0.9.0\",\n    \"llama-index-llms-ollama>=0.10.0\",\n    \"llama-index-llms-openai-like>=0.7.1\",\n    \"llama-index-llms-openai>=0.7.0,<0.8\",\n    \"llama-index-tools-tavily-research>=0.5.0\",\n    \"openinference-instrumentation-llama-index>=2\",\n    \"opentelemetry-proto>=1.12.0\",\n    \"rich>=13.8.0\",\n    \"ruff>=0.6.3\",\n    \"tomlkit>=0.13.2\",\n    \"llama-index==0.14.18\",\n    \"llama-index-memory-mem0>=1.0.0\",\n    \"jinja2>=3.1.5\",\n    \"llama-index-vector-stores-qdrant>=0.10.0\",\n    \"llama-index-utils-workflow>=0.10.0\",\n    \"httpx>=0.27.2\",\n    \"tenacity>=9.0.0\",\n    # rname is pinned at 0.3.7 because of a breaking change in 1.0.0 that causes issues with Cochar.\n    \"rname~=0.3.7\",\n    \"python-statemachine[diagrams]>=3.0.0\",\n]\n\n[dependency-groups]\ndev = [\n    \"coverage-badge>=1.1.2\",\n    \"pytest>=8.4.2\",\n    \"pytest-asyncio>=1.2.0\",\n    \"pytest-cov>=7.0.0\",\n    \"setuptools>=75.0.0,<81\",\n]\n\n[tool.ruff]\ncache-dir = \".cache/ruff\"\n",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".chainlit",
+      ".dockerignore",
+      ".github",
+      ".gitignore",
+      ".idea",
+      ".pre-commit-config.yaml",
+      ".python-version",
+      ".vscode",
+      "chainlit.md",
+      "DEVELOPMENT.md",
+      "docker-compose.yaml",
+      "Dockerfile",
+      "docs",
+      "game_modules",
+      "justfile",
+      "LICENSE",
+      "prompts",
+      "public",
+      "pyproject.toml",
+      "pytest.ini",
+      "README.md",
+      "src",
+      "tests",
+      "tmuxinator.yaml",
+      "uv.lock"
+    ]
+  },
+  {
+    "name": "cthulhu",
+    "path": "external/cthulhu",
+    "file_count": 51,
+    "size_bytes": 175086,
+    "license": "unknown",
+    "stack": [
+      "html/css",
+      "node/js"
+    ],
+    "source_dirs": [
+      "src"
+    ],
+    "has_readme": true,
+    "readme_head": "Ole Martins notes for Cthulhu Character Sheet App:\n\nCthulhu SVG logo courtesy of Pcon:\nhttp://pcon.github.io/design/cthulhu/\nCheers!\n\nIcons courtesy of Glyph iconset by Frexy:\nhttp://glyph.smarticons.co/\nhttps://github.com/frexy/glyph-iconset/\n\nThis project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).\n\nBelow you will find some information on how to perform common tasks.<br>\nYou can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).\n\n## Table of Contents\n\n- [Updating to New Releases](#updating-to-new-releases)\n- [Sending Feedback](#sending-feedback)\n- [Folder Structure](#folder-structure)\n- [Available Scripts](#available-scripts)\n  - [npm start](#npm-start)\n  - [npm test](#npm-test)\n  - [npm run build](#npm-run-build)\n  - [npm run eject](#npm-run-eject)\n- [Displaying Lint Output in the Editor](#displaying-lint-output-in-the-editor)\n- [Installing a Dependency](#installing-a-dependency)\n- [Importing a Component](#importing-a-component)\n- [Adding a Stylesheet](#adding-a-stylesheet)\n- [Post-Processing CSS](#post-processing-css)\n- [Adding Images and Fonts](#adding-images-and-fonts)\n- [Using the `public` Folder](#using-the-public-folder)\n- [Adding Bootstrap](#adding-bootstrap)\n- [Adding Flow](#adding-flow)\n- [Adding Custom Environment Variables](#adding-custom-environment-variables)\n- [Can I Use Decorators?](#can-i-use-decorators)\n- [Integrating with a Node Backend](#integrating-with-a-node-backend)\n- [Proxying API Requests in Development](#proxying-api-requests-in-development)\n- [Using HTTPS in Development](#using-https-in-development)\n- [Generating Dynamic `<meta>` Tags on the Server](#generating-dynamic-meta-tags-on-the-server)\n- [Running Tests](#running-tests)\n  - [Filename Conventions](#filename-conventions)\n  - [Command Line Interface](#command-line-interface)\n  - [Version Control Integration](#version-control-integration)\n  - [Writing Tests](#writing-tests)\n  - [Testing Components](#testing-components)\n  - [Using Third Party Assertion Libraries](#using-third-party-assertion-libraries)\n  - [Initializing Test Environment](#initializing-test-environment)\n  - [Focusing and Excluding Tests](#focusing-and-excluding-tests)\n  - [Coverage Reporting](#coverage-reporting)\n  - [Continuous Integration](#continuous-integration)\n  - [Disabling jsdom](#disabling-jsdom)\n  - [Experimental Snapshot Testing](#experime",
+    "has_package_json": true,
+    "package_json": {
+      "name": "cthulhu",
+      "version": "0.1.0",
+      "private": true,
+      "devDependencies": {
+        "react-router": "^3.0.0",
+        "react-scripts": "0.7.0"
+      },
+      "dependencies": {
+        "react": "^15.4.0",
+        "react-dom": "^15.4.0"
+      },
+      "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+      }
+    },
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".gitattributes",
+      ".gitignore",
+      "cthulhu.sublime-project",
+      "cthulhu.sublime-workspace",
+      "package.json",
+      "public",
+      "README.md",
+      "src"
+    ]
+  },
+  {
+    "name": "cthulhu-editor",
+    "path": "external/cthulhu-editor",
+    "file_count": 173,
+    "size_bytes": 22782446,
+    "license": "GPL-2.0",
+    "stack": [
+      "html/css",
+      "node/js",
+      "python",
+      "react",
+      "vite"
+    ],
+    "source_dirs": [
+      "src",
+      "scripts"
+    ],
+    "has_readme": true,
+    "readme_head": "# Arkham Registry\n\nA modern, responsive web-based character sheet editor compatible with **Call of Cthulhu 7th Edition**.\n\n[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://arkham-registry.online/)\n\n## Overview\n\nArkham Registry is a comprehensive tool designed for Keepers and Players to manage investigator sheets easily. It provides a clean, digital interface that mimics the classic character sheet while adding modern features like automatic calculations, multi-language support, and easy data management.\n\n### 📂 Examples\n\n|                           Thumbnail                           | Name             |                       JSON                       |                                                                                        Action                                                                                        |\n| :-----------------------------------------------------------: | :--------------- | :----------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |\n| <img src=\"examples/ethan-caldwell-thumbnail.png\" width=\"80\">  | Ethan Caldwell   |  [📄](examples/investigator-ethan-caldwell.json)  |      [📥 Import](https://arkham-registry.online/#/import/https%3A%2F%2Fraw.githubusercontent.com%2Fecyrbe%2Fcthulhu-editor%2Fmain%2Fexamples%2Finvestigator-ethan-caldwell.json)      |\n|   <img src=\"examples/thomas-reed-thumbnail.png\" width=\"80\">   | Thomas Reed      |   [📄](examples/investigator-thomas-reed.json)    |       [📥 Import](https://arkham-registry.online/#/import/https%3A%2F%2Fraw.githubusercontent.com%2Fecyrbe%2Fcthulhu-editor%2Fmain%2Fexamples%2Finvestigator-thomas-reed.json)        |\n|   <img src=\"examples/alan-weiss-thumbnail.png\" width=\"80\">    | Alan Weiss       |    [📄](examples/investigator-alan-weiss.json)    |        [📥 Import](https://arkham-registry.online/#/import/https%3A%2F%2Fraw.githubusercontent.com%2Fecyrbe%2Fcthulhu-editor%2Fmain%2Fexamples%2Finvestigator-alan-weiss.json)        |\n| <img src=\"examples/margaret-o-neil-thumbnail.png\" width=\"80\"> | Margaret O'Neill | [📄](examples/investigator-margaret-o’neill.json) | [📥 Import](https://arkham-registry.online/#/import/https%3A%2F%2Fraw.githubusercontent.com%2Fecyrbe%2Fcthulhu-editor%2Fmain%2Fexamples%2Finvestigator-margaret-o%E2%80%99neill.json) |\n|  <img src=\"examples/rachel-mille",
+    "has_package_json": true,
+    "package_json": {
+      "name": "cthulhu-editor",
+      "private": true,
+      "version": "0.0.0",
+      "type": "module",
+      "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "generate:flags": "python3 scripts/generate-flags-font.py"
+      },
+      "dependencies": {
+        "dexie": "^4.2.1",
+        "i18next": "^25.8.0",
+        "i18next-browser-languagedetector": "^8.2.0",
+        "jotai": "^2.16.2",
+        "leaflet": "^1.9.4",
+        "react": "^19.2.4",
+        "react-dom": "^19.2.4",
+        "react-hot-toast": "^2.6.0",
+        "react-i18next": "^16.5.3",
+        "react-leaflet": "^5.0.0",
+        "react-router-dom": "^7.13.0",
+        "zod": "^4.3.6"
+      },
+      "devDependencies": {
+        "@eslint/js": "^9.39.1",
+        "@types/leaflet": "^1.9.21",
+        "@types/node": "^24.10.1",
+        "@types/react": "^19.2.9",
+        "@types/react-dom": "^19.2.3",
+        "@vitejs/plugin-react": "^5.1.1",
+        "eslint": "^9.39.1",
+        "eslint-plugin-react-hooks": "^7.0.1",
+        "eslint-plugin-react-refresh": "^0.4.24",
+        "globals": "^16.5.0",
+        "typescript": "~5.9.3",
+        "typescript-eslint": "^8.54.0",
+        "vite": "^7.2.4"
+      }
+    },
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".github",
+      ".gitignore",
+      "CHANGELOG.md",
+      "docs",
+      "eslint.config.js",
+      "examples",
+      "index.html",
+      "LICENSE",
+      "package-lock.json",
+      "package.json",
+      "public",
+      "README.md",
+      "scripts",
+      "src",
+      "tsconfig.app.json",
+      "tsconfig.json",
+      "tsconfig.node.json",
+      "vite.config.ts"
+    ]
+  },
+  {
+    "name": "cthulhu-roller",
+    "path": "external/cthulhu-roller",
+    "file_count": 76,
+    "size_bytes": 1448122,
+    "license": "MIT",
+    "stack": [
+      "rust"
+    ],
+    "source_dirs": [
+      "src",
+      "scripts"
+    ],
+    "has_readme": true,
+    "readme_head": "# Cthulhu Roller\n\n**Cthulhu Roller** is a Call of Cthulhu RPG 7e dice roller bot for Discord.\n\n> This is an unofficial, fan-made, open-source project, not affiliated with or endorsed by [Chaosium](https://www.chaosium.com/) or [Black Monk Games](https://blackmonk.pl/). Trademarks and copyrights belong to their respective owners.\n\n*Also, see [Delta Green](https://gitlab.com/mtczekajlo/cthulhu-roller/-/tree/delta-green) and [Achtung! Cthulhu](https://gitlab.com/mtczekajlo/cthulhu-roller/-/tree/achtung-cthulhu) branches.*\n\n## Installation\n\n[Discord OAuth2](https://discord.com/developers/docs/topics/oauth2)\n\nand\n\n```bash\ncp .env.example .env && vim .env\n```\n\nFor character sheet functionalities use `--all-features`.\n\nFor easy service installation use\n\n```bash\nscripts/install-service.sh [--all-features]\n```\n\n## Usage\n\nIn grim depths of cold waters always seek\n\n```text\n/help\n```\n\n![help](docs/help.png)\n\n### CRoll\n\nSkill test with optional bonus and penalty dice.\n\nBonus (`+`) and penalty (`-`) dice are being resolved automatically for easier adding circumstances of the roll, for example: test you firearms skill test of threshold `70`, you've been aiming entire previous round (bonus), target is really big (bonus) but moving fast (penalty) so you can roll `70++-`.\n\nSyntax: `<threshold><optional modifier dice symbols>`\n\nExamples: `30+` `20--` `50` `50+` `50-` `70++` `20++---`\n\n```text\n/croll 50\n```\n\n![croll](docs/croll.png)\n\n### Roll\n\nGeneric dice roller with multiplier and modifier (modifier is not multiplied).\n\nSyntax: `<optional number of dice>` `d/k` `<sides>` `<optional multiplier>` `<optional modifier>`\n\nExamples: `2d4` `3k6` `24k6+10` `12d8x3` `4k12*2` `6d6x6+6` `d4-2` `k8+k4` `1k6+1k4+1`\n\n```text\n/roll 2d6+4\n```\n\n![roll](docs/roll.png)\n\n### Improve\n\nImprove skill test.\n\nSyntax: `<threshold>`\n\nExamples: `40` `60`\n\n```text\n/improve 40\n```\n\n![improve](docs/improve.png)\n\n### Initiative\n\nInitiative test roller with optional bonus and penalty dice.\n\nInitiative order is defined by: dexterity test success level, dexterity value and lowest roll value.\n\nBonus and penalty dice are being resolved automatically for easier adding circumstances of the roll, for example: you gain bonus die for initiative roll for being prepared (armed) at the beginning of fight. (see `/croll` command)\n\nUse `/next_round`, `/previous_round` commands to manipulate the arrow pointing at the character.\n\nCommand `/end_fight` clears the \"battle\" data.\n\nSyntax: `<character_name>` `<dexterity>` `<cha",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".env.example",
+      ".gitignore",
+      ".gitlab-ci.yml",
+      "Cargo.lock",
+      "Cargo.toml",
+      "ci",
+      "docs",
+      "LICENSE",
+      "README.md",
+      "rustfmt.toml",
+      "scripts",
+      "src"
+    ]
+  },
+  {
+    "name": "cthulhu_bot",
+    "path": "external/cthulhu_bot",
+    "file_count": 29,
+    "size_bytes": 343778,
+    "license": "unknown",
+    "stack": [
+      "rust"
+    ],
+    "source_dirs": [
+      "src"
+    ],
+    "has_readme": true,
+    "readme_head": "# Unofficial Cthulhu Bot\n\n[![Test](https://github.com/caphosra/cthulhu_bot/actions/workflows/test.yml/badge.svg)](https://github.com/caphosra/cthulhu_bot/actions/workflows/test.yml)\n[![Build](https://github.com/caphosra/cthulhu_bot/actions/workflows/build.yml/badge.svg)](https://github.com/caphosra/cthulhu_bot/actions/workflows/build.yml)\n[![GitHub issues](https://img.shields.io/github/issues/caphosra/cthulhu_bot)](https://github.com/caphosra/cthulhu_bot/issues)\n\n<p align=\"center\">\n    <img width=\"500\" height=\"400\" src=\"https://raw.githubusercontent.com/caphosra/cthulhu_bot/master/img/icon.png\">\n</p>\n\nThis bot emulates dice rolling. It is tuned for CoC, but you can use this for general purposes.\n\n**Note that  Chaosium Inc. owns the copyright of Call of Cthulhu.**\n\n[Invite this bot!](https://discord.com/api/oauth2/authorize?client_id=811123481370558505&permissions=277025572928&scope=bot%20applications.commands)\n\n## Commands available\n\n|Command|Frequently used|Description|\n|:---|:---:|:---|\n|`/choose`||Makes a random choice.|\n|`/cs`|:star:|Creates a character sheet.|\n|`/op6`||Does an opposed roll following the Call of Cthulhu 6th Edition.|\n|`/op7`||Does an opposed roll following the Call of Cthulhu 7th Edition.|\n|`/roll`|:star:|Rolls designated dices. Expressions supported by [Tyche](https://github.com/Gawdl3y/tyche-rs) can be used.|\n|`/skill`|:star:|Does a skill roll. Alias for `/sk6`.|\n|`/sk6`||Does a skill roll following the Call of Cthulhu 6th Edition.|\n|`/sk7`|:star:|Does a skill roll following the Call of Cthulhu 7th Edition.|\n|`/skdg`||Does a skill roll following the Delta Green.|\n|`/skbrp`||Does a skill roll following the BRP 2023.|\n\n### Roll dices\n\nCommand: `/roll` dice:`3d5 + 2d4`\n\n<p align=\"center\">\n    <img width=\"250\" height=\"122\" src=\"https://raw.githubusercontent.com/caphosra/cthulhu_bot/master/img/01.png\">\n</p>\n\n### Attempts a skill roll.\n\nCommand: `/skill` value:`50` comment:`Listen`\n\n<p align=\"center\">\n    <img width=\"250\" height=\"120\" src=\"https://raw.githubusercontent.com/caphosra/cthulhu_bot/master/img/02.png\">\n</p>\n\n### Create a character sheet\n\nCommand: `/cs`\n\n<p align=\"center\">\n    <img width=\"250\" height=\"171\" src=\"https://raw.githubusercontent.com/caphosra/cthulhu_bot/master/img/03.png\">\n</p>\n\n## Memo\n\nInspired by [Sidekick](https://github.com/ArtemGr/Sidekick), which is no longer available.\n\nIf you find a security threat to this bot or have some requests, feel free to contact caphosra[at]gmail.com\n",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".github",
+      ".gitignore",
+      "Cargo.toml",
+      "cmd_macro",
+      "config.json",
+      "doc",
+      "Dockerfile",
+      "heroku.yml",
+      "img",
+      "README.md",
+      "src"
+    ]
+  },
+  {
+    "name": "dorian",
+    "path": "external/dorian",
+    "file_count": 6,
+    "size_bytes": 6835,
+    "license": "MIT",
+    "stack": [
+      "python"
+    ],
+    "source_dirs": [],
+    "has_readme": true,
+    "readme_head": "# Dorian\n\n## Call of Cthulhu 7E dice roller bot for Discord\n\n[Discord Bot entry.](https://top.gg/bot/698078321472176200)\n\n## Usage\n\nA Call of Cthulhu dice roller bot for Discord.\n\nCreated for simplicity. Rolls a d100 with optional bonus or penalty dice, and optional threshold for determining levels of success or failure.\n\n```text\n/croll [[number=1][die type]]...[[score][threshold]]\n\nDie Types:\n    b: Bonus dice (can't be chained with Penalty)\n    p: Penalty dice (can't be chained with Bonus)\n    t: Threshold to determine success/fail. Score is required if a threshold is set.\n\nExamples:\n    /croll\n    36\n\n    /croll 60t\n    Hard Success: 24\n\n    /croll b\n    70/30 + 5 = 35\n\n    /croll 2p70t\n    Failure: 0/50/70 + 4 = 74\n```\n\n## Notes\n\nNeeds environmental variable DORIAN_TOKEN to be set if you want to run this yourself. See `set_env.sh.example` for a Linux/OSX method.\n\nUsing py-cord v2 library.\n\nPlease open an issue for any bugs or feature requests.\n",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".gitignore",
+      "dorian.py",
+      "dorian.service.example",
+      "LICENSE",
+      "README.md",
+      "set_env.sh.example"
+    ]
+  },
+  {
+    "name": "fvtt-CoC7-amnesia",
+    "path": "external/fvtt-CoC7-amnesia",
+    "file_count": 10,
+    "size_bytes": 17829,
+    "license": "unknown",
+    "stack": [
+      "foundry"
+    ],
+    "source_dirs": [
+      "scripts"
+    ],
+    "has_readme": true,
+    "readme_head": "# Amnesia Module for Foundry VTT\n\n## Overview\n\nThe **Amnesia** is a module for Foundry Virtual Tabletop (Foundry VTT) designed for use with the Call of Cthulhu 7th Edition (CoC7e) system. It provides tools for the Keeper to reset characters' skills to their base values, only to have their true value revealed when the character rolls them.\n\nI wrote this module after playing the *Forget Me Not* scenario from *The Things We Leave Behind*. In an in-person game, it's simple to hand players a blank sheet and let them fill in their skill values as they discover them. However, this process is more challenging in a virtual tabletop (VTT) environment, especially during one-shots where players may be unfamiliar with the system or how to update character sheets, placing additional responsibility on the Keeper.\n\n---\n\n## Features\n\n### 1. **Skill Reset Macro**\n- Creates a macro (\"Amnesia: Reset Skills\") for GMs to reset character skills to their base values, allowing the Keeper to reset the skills of one or more characters with a single click.\n\n### 2. **Skill Reveal**\n- Hooks into the actor sheet to reveal hidden skill values to players only after they have rolled the skill.\n\n### 3. **Dhole's House Integration**\n- Hidden character skill values are read directly from Dhole's House format JSON character sheets.\n\n---\n\n## Installation\n\n1. Download or clone this repository into your Foundry VTT `Data/modules` directory.\n2. Restart your Foundry VTT server.\n3. Enable the **Amnesia** module in your game world via the **Manage Modules** menu.\n4. Select the directory containing character files via the **Configure Settings** menu.\n\n---\n\n## Usage\n\n**Ensure the module is enabled and the GM is logged in.**\n\n### Create Characters\n1. Create characters for your game on (Dhole's House)[https://dholeshouse.org/] and export them to a JSON file\n2. Put these files into the directory you specified in the module settings.\n3. Create a Character in Foundry with a name matching the JSON file\n\n### Reset Skills Macro\n1. The module will automatically create a macro named **Amnesia: Reset Skills** in the Macro Directory.\n2. Drag the macro into your Macro Hotbar and click the macro to open the dialog.\n3. Select one or more characters from the list and click **Reset** to reset their skills to base values.\n\n### Skill Reveal\n- Players whose skills are at base values will have their hidden value revealed once they click on the skill name on their character sheet.\n- This feature is automatically enabled whe",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": true,
+    "module_json": {
+      "id": "amnesia",
+      "title": "Amnesia",
+      "description": "A Foundry VTT module to manage hidden skills for Call of Cthulhu 7th Edition characters which only allows characters to see their true skill values during after rolling them.",
+      "version": "1.0.0",
+      "system": [
+        "CoC7"
+      ],
+      "license": "MIT",
+      "authors": [
+        {
+          "name": "James Alday",
+          "url": "https://github.com/JamesAlday"
+        }
+      ],
+      "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+      },
+      "packs": [],
+      "esmodules": [
+        "scripts/amnesia.js"
+      ],
+      "languages": [
+        {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+        }
+      ],
+      "manifest": "https://raw.githubusercontent.com/JamesAlday/fvtt-CoC7-amnesia/refs/heads/master/module.json",
+      "download": "https://github.com/JamesAlday/fvtt-CoC7-amnesia/archive/refs/heads/master.zip"
+    },
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      "lang",
+      "module.json",
+      "readme.md",
+      "scripts"
+    ]
+  },
+  {
+    "name": "GameMasterAI",
+    "path": "external/GameMasterAI",
+    "file_count": 51,
+    "size_bytes": 1499705,
+    "license": "MIT",
+    "stack": [
+      "node/js",
+      "vue"
+    ],
+    "source_dirs": [],
+    "has_readme": true,
+    "readme_head": "# GameMaster.AI\n\nGameMaster.AI is a web-based application designed to deliver a single-player tabletop role-playing game (TTRPG) experience, guided by an AI Dungeon Master. Utilizing cutting-edge AI language models such as GPT-3.5-turbo and GPT-4, this platform offers a seamless integration of an AI Dungeon Master with an AI notetaker to craft an immersive narrative for games like Dungeons & Dragons.\n\nThe project originated from Cole Porter (Deck of DM Things on YouTube) and was supported by a dedicated Patreon community. When the project grew beyond the scope manageable by Cole, the decision was made to open-source GameMaster.AI and discontinue the Patreon.\n\n## Table of Contents\n\n- [Prerequisites](#prerequisites)\n- [Setting up External Dependencies](#setting-up-external-dependencies)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contributing](#contributing)\n- [License](#license)\n- [Credits](#credits)\n- [Contact](#contact)\n\n## Prerequisites\n\nRequired software and libraries are listed in the project’s `package.json` file found in the root directory.\n\n## Setting up External Dependencies\n\n### .env File\n\nFor proper functioning of the application, you must set up the following environment variables:\n\n#### MongoDB Atlas\n\n- **Purpose**: Storing game save data and user accounts.\n- **Setup**:\n  1. Sign up or log in to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).\n  2. Create a new cluster and follow the setup guide.\n  3. Retrieve your connection string by navigating to the 'Connect' section of your cluster.\n  4. In your `.env` file, add `MONGODB_URI=your_connection_string`.\n\n#### OpenAI API\n\n- **Purpose**: Interacting with AI models for generating and managing game content.\n- **Setup**:\n  1. Sign up for an account at [OpenAI](https://openai.com/).\n  2. Generate an API key in the API section.\n  3. In your `.env` file, add `OPENAI_API_KEY=your_api_key`.\n\n#### SESSION_SECRET and JWT_SECRET\n\nThese are cryptographic keys used for securing sessions and token-based authentication respectively. Despite local deployment, it's crucial to use unique and random strings to prevent potential security breaches.\n\n### Installation\n\n1. Ensure that you have npm installed on your machine. If not, download and install [npm](https://www.npmjs.com/get-npm).\n2. In the project's root directory, execute `npm install` to install dependencies.\n   - If you encounter any issues, such as permissions errors, consult the npm troubleshooting guide (https://docs.npmjs.com/getting-star",
+    "has_package_json": true,
+    "package_json": {
+      "name": "unified-gamemasterai",
+      "version": "1.0.0",
+      "description": "A Web-based app for AI-driven TTRPG experiences",
+      "main": "server.js",
+      "scripts": {
+        "start": "concurrently \"npm run server\" \"npm --prefix ./client/gamemasterai run serve\"",
+        "server": "cd server && npm start",
+        "client": "cd client && npm run serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "prod": "NODE_ENV=production node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/your-repo.git"
+      },
+      "author": "Your Name",
+      "license": "UNLICENSED",
+      "bugs": {
+        "url": "https://github.com/your-repo/issues"
+      },
+      "homepage": "https://github.com/your-repo#readme",
+      "dependencies": {
+        "axios": "^1.3.6",
+        "bcrypt": "^5.1.0",
+        "body-parser": "^1.20.2",
+        "bootstrap": "^5.2.3",
+        "bootstrap-vue": "^2.23.1",
+        "core-js": "^3.8.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.0.3",
+        "openai": "^3.2.1",
+        "passport": "^0.6.0",
+        "passport-local": "^1.0.0",
+        "vue": "^3.2.13",
+        "vue-router": "^4.0.13",
+        "vuex": "^4.1.0"
+      },
+      "devDependencies": {
+        "@babel/core": "^7.12.16",
+        "@babel/eslint-parser": "^7.12.16",
+        "@vue/cli-plugin-babel": "~5.0.0",
+        "@vue/cli-plugin-eslint": "~5.0.0",
+        "@vue/cli-service": "~5.0.0",
+        "concurrently": "^8.2.2",
+        "eslint": "^7.32.0",
+        "eslint-plugin-vue": "^8.0.3",
+        "raw-loader": "^4.0.2"
+      },
+      "eslintConfig": {
+        "root": true,
+        "env": {
+          "node": true
+        },
+        "extends": [
+          "plugin:vue/vue3-essential",
+          "eslint:recommended"
+        ],
+        "parserOptions": {
+          "parser": "@babel/eslint-parser"
+        },
+        "rules": {}
+      },
+      "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead",
+        "not ie 11"
+      ]
+    },
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      ".DS_Store",
+      ".gitignore",
+      "client",
+      "LICENSE",
+      "package-lock.json",
+      "package.json",
+      "README.md",
+      "server",
+      "server.js"
+    ]
+  },
+  {
+    "name": "roll20-character-sheets",
+    "path": "external/roll20-character-sheets",
+    "file_count": 5,
+    "size_bytes": 1309292,
+    "license": "unknown",
+    "stack": [
+      "html/css"
+    ],
+    "source_dirs": [],
+    "has_readme": false,
+    "readme_head": "",
+    "has_package_json": false,
+    "package_json": null,
+    "has_pyproject": false,
+    "pyproject_head": "",
+    "has_requirements": false,
+    "requirements_head": "",
+    "has_module_json": false,
+    "module_json": null,
+    "has_system_json": false,
+    "system_json": null,
+    "top_level": [
+      "Call_of_Cthulhu_7th_Ed"
+    ]
+  }
+]

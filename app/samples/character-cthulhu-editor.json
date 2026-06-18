@@ -1,0 +1,43 @@
+{
+  "version": "demo",
+  "identity": {
+    "name": "沈曼青",
+    "player": "示例玩家",
+    "occupation": "古籍修复师",
+    "age": "31",
+    "sex": "女",
+    "residence": "雾港",
+    "birthplace": "上海"
+  },
+  "characteristics": {
+    "str": 45,
+    "dex": 50,
+    "pow": 60,
+    "con": 55,
+    "app": 50,
+    "edu": 75,
+    "siz": 50,
+    "int": 70
+  },
+  "trackers": {
+    "hp": 11,
+    "mp": 12,
+    "sanity": 60,
+    "luck": 52,
+    "hpMax": 11,
+    "mpMax": 12,
+    "sanityInitial": 60,
+    "sanityMax": 99,
+    "majorWound": false,
+    "tempInsane": false,
+    "indefInsane": false
+  },
+  "skills": [
+    { "type": "standard", "id": "1", "key": "spot_hidden", "base": 25, "current": 55, "checked": false },
+    { "type": "standard", "id": "2", "key": "library_use", "base": 20, "current": 75, "checked": false },
+    { "type": "standard", "id": "3", "key": "listen", "base": 20, "current": 45, "checked": false },
+    { "type": "standard", "id": "4", "key": "psychology", "base": 10, "current": 50, "checked": false },
+    { "type": "standard", "id": "5", "key": "dodge", "base": "DEX/2", "current": 25, "checked": false }
+  ],
+  "notes": "示例 cthulhu-editor / Arkham Registry 风格人物卡。"
+}
