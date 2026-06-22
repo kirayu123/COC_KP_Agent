@@ -12,9 +12,10 @@ from pypdf import PdfReader
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "resources"
+DOCUMENTS = ROOT / "documents"
+OUT = DOCUMENTS / "supplemental"
 SITE_OUT = OUT / "cthulhuclub"
-PDF_OUT = OUT / "rulebooks-md"
+PDF_OUT = DOCUMENTS / "resources" / "rulebooks"
 
 BASE = "https://www.cthulhuclub.com"
 
@@ -412,7 +413,7 @@ def convert_pdfs():
 
 
 def write_readme(site_records, pdf_records):
-    readme = OUT / "README.md"
+    readme = OUT / "RESOURCE_LIBRARY.md"
     site_count = len([r for r in site_records if r.get("markdown")])
     pdf_count = len([r for r in pdf_records if r.get("markdown")])
     readme.write_text(
@@ -424,9 +425,9 @@ def write_readme(site_records, pdf_records):
                 "",
                 "## 内容",
                 "",
-                f"- `cthulhuclub/markdown/`：从 Cthulhu Club 抓取并转换的非模组资料页，共 {site_count} 篇。",
-                f"- `cthulhuclub/raw_html/`：对应原始 HTML，方便后续重新清洗。",
-                f"- `rulebooks-md/`：用户本地 PDF 转换出的 Markdown，共 {pdf_count} 份。",
+                f"- `documents/supplemental/cthulhuclub/markdown/`：从 Cthulhu Club 抓取并转换的非模组资料页，共 {site_count} 篇。",
+                f"- `documents/supplemental/cthulhuclub/raw_html/`：对应原始 HTML，方便后续重新清洗。",
+                f"- `documents/resources/rulebooks/`：用户本地 PDF 转换出的 Markdown，共 {pdf_count} 份。",
                 "",
                 "## 版权边界",
                 "",

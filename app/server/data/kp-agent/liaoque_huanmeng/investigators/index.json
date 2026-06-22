@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "kp-agent-investigator-index-v1",
+  "moduleId": "doors-to-darkness-liaoque-huanmeng",
+  "defaultActiveIds": [
+    "pc-liaoqie-lin-yun",
+    "pc-liaoqie-xu-jingshu",
+    "pc-liaoqie-qiao-miles",
+    "pc-liaoqie-mara-klein"
+  ],
+  "files": [
+    {
+      "id": "pc-liaoqie-lin-yun",
+      "name": "林云舟",
+      "occupation": "验尸官办公室助理",
+      "currentLocationId": "loc-resnick-apartment-exterior",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/investigators/pc-liaoqie-lin-yun.json",
+      "contextUse": [
+        "医学",
+        "司法科学",
+        "尸体判断",
+        "官方协助"
+      ]
+    },
+    {
+      "id": "pc-liaoqie-xu-jingshu",
+      "name": "许静书",
+      "occupation": "校园报记者",
+      "currentLocationId": "loc-resnick-apartment-exterior",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/investigators/pc-liaoqie-xu-jingshu.json",
+      "contextUse": [
+        "校园关系",
+        "采访",
+        "图书馆使用",
+        "社交突破"
+      ]
+    },
+    {
+      "id": "pc-liaoqie-qiao-miles",
+      "name": "乔纳森·迈尔斯",
+      "occupation": "私家侦探",
+      "currentLocationId": "loc-resnick-apartment-exterior",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/investigators/pc-liaoqie-qiao-miles.json",
+      "contextUse": [
+        "侦查",
+        "潜入",
+        "锁匠",
+        "跟踪",
+        "灰色行动"
+      ]
+    },
+    {
+      "id": "pc-liaoqie-mara-klein",
+      "name": "玛拉·克莱因",
+      "occupation": "药剂师",
+      "currentLocationId": "loc-resnick-apartment-exterior",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/investigators/pc-liaoqie-mara-klein.json",
+      "contextUse": [
+        "药学",
+        "化学",
+        "黑色残留物",
+        "成瘾判断"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "kp-agent-npc-v1",
+  "id": "npc-black-servants",
+  "name": "黑仆",
+  "type": "creature",
+  "role": "终局暴徒群体",
+  "defaultSceneIds": ["scene-final-slaughterhouse"],
+  "defaultLocationIds": ["loc-slaughterhouse"],
+  "currentStatus": ["终局压力", "群体敌人"],
+  "publicProfile": "受黑血影响的暴徒或仆从，适合在终局制造数量压力。",
+  "keeperProfile": {
+    "useWhen": "调查员进入屠宰场、触发终局战斗或需要群体威胁时读取。",
+    "secrets": ["数量和强度应根据队伍状态调整", "可被环境、火力或黑血弱点间接影响"],
+    "playNotes": "不要在早期读取或展示这张卡，避免把终局战斗提前变成既定事实。"
+  },
+  "stats": {
+    "characteristics": { "str": 55, "con": 55, "siz": 55, "dex": 50, "app": 20, "int": 35, "pow": 30, "edu": 20 },
+    "hp": { "current": 11, "max": 11 },
+    "san": { "current": 0, "max": 0 },
+    "mp": 6,
+    "mov": 8,
+    "skills": { "fighting_brawl": 45, "dodge": 25, "spot_hidden": 30 }
+  }
+}

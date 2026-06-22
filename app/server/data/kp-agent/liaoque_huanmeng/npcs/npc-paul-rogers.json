@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "kp-agent-npc-v1",
+  "id": "npc-paul-rogers",
+  "name": "保罗·罗杰斯",
+  "type": "npc",
+  "role": "黑血中间贩子",
+  "defaultSceneIds": ["scene-find-paul-rogers", "scene-rogers-house", "scene-rogers-interrogated", "scene-death-from-above"],
+  "defaultLocationIds": ["loc-city-records", "loc-rogers-house", "loc-night-street"],
+  "currentStatus": ["害怕多佛", "拒绝供出幕后"],
+  "publicProfile": "红色莫西干发，左眼旁有酒渍状胎记。可作为校园黑血交易和供应链调查的桥梁。",
+  "keeperProfile": {
+    "useWhen": "学生提到罗杰斯、调查员查找住址、跟踪校园交易、搜索住处或审问他时读取。",
+    "secrets": ["知道屠宰场方向", "害怕多佛", "可能被夜魇灭口"],
+    "playNotes": "他更害怕幕后老板而非调查员。直接审问通常得到回避，筹码或强力检定才能推进。"
+  },
+  "stats": {
+    "characteristics": { "str": 50, "con": 55, "siz": 55, "dex": 60, "app": 45, "int": 65, "pow": 45, "edu": 55 },
+    "hp": { "current": 11, "max": 11 },
+    "san": { "current": 35, "max": 45 },
+    "mp": 9,
+    "mov": 8,
+    "skills": { "fast_talk": 55, "stealth": 50, "psychology": 45, "spot_hidden": 45, "drive_auto": 40, "dodge": 35 }
+  }
+}

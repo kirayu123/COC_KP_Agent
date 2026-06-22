@@ -8,7 +8,9 @@ import {
   storyEdges,
   storyNodes,
   type StoryClue,
+  type StoryClueState,
   type StoryNode,
+  type StoryNodeStatus,
 } from '../data/storyGraphDemo'
 
 type Props = { campaign: CampaignState }
@@ -18,7 +20,7 @@ type Pt = { x: number; y: number }
 const NODE_W = 180
 const NODE_H = 122
 
-const statusLabels: Record<StoryNode['status'], string> = {
+const statusLabels: Record<StoryNodeStatus, string> = {
   locked: '未接触',
   available: '可前往',
   active: '进行中',
@@ -28,7 +30,7 @@ const statusLabels: Record<StoryNode['status'], string> = {
   unavailable: '已关闭',
 }
 
-const clueStateLabels: Record<StoryClue['state'], string> = {
+const clueStateLabels: Record<StoryClueState, string> = {
   hidden: '隐藏',
   available: '可发现',
   revealed: '已揭示',
@@ -82,7 +84,7 @@ function useLayout() {
 }
 
 export function StoryGraphDemo({ campaign }: Props) {
-  const [selectedNodeId, setSelectedNodeId] = useState('scene-black-blood-analysis')
+  const [selectedNodeId, setSelectedNodeId] = useState(storyNodes[0]?.id ?? '')
   const [selectedTrackId, setSelectedTrackId] = useState<string | null>(investigatorTracks[0]?.id ?? null)
   const [transform, setTransform] = useState<Transform>({ x: 20, y: 20, scale: 0.72 })
 
@@ -103,11 +105,20 @@ export function StoryGraphDemo({ campaign }: Props) {
   const selectedTrack = investigatorTracks.find((t) => t.id === selectedTrackId)
   const investigatorNodeIds = new Set(investigatorTracks.map((t) => t.locationNodeId))
 
-  function nodeStatus(node: StoryNode) {
-    return (sg?.nodeStatuses[node.id] ?? node.status) as StoryNode['status']
+  function defaultNodeStatus(node: StoryNode): StoryNodeStatus {
+    return node.id === storyNodes[0]?.id ? 'active' : 'locked'
+  }
+
+  function nodeStatus(node: StoryNode): StoryNodeStatus {
+    return (sg?.nodeStatuses[node.id] ?? defaultNodeStatus(node)) as StoryNodeStatus
   }
   function clueState(nodeId: string, clue: StoryClue) {
-    return (sg?.clueStates[`${nodeId}::${clue.title}`] ?? clue.state) as StoryClue['state']
+    return (sg?.clueStates[`${nodeId}::${clue.title}`] ?? 'hidden') as StoryClueState
+  }
+  function edgeCompleted(edge: (typeof storyEdges)[number]) {
+    const from = nodeById(edge.from)
+    const to = nodeById(edge.to)
+    return nodeStatus(from) === 'completed' && nodeStatus(to) !== 'locked' && nodeStatus(to) !== 'unavailable'
   }
 
   useEffect(() => {
@@ -117,11 +128,17 @@ export function StoryGraphDemo({ campaign }: Props) {
   const moduleStats = useMemo(() => {
     const completed = storyNodes.filter((n) => nodeStatus(n) === 'completed').length
     const danger = storyNodes.filter((n) => nodeStatus(n) === 'danger').length
-    const revealedClues = storyNodes.flatMap((n) => n.clues).filter((c) => { const s = sg?.clueStates[`${storyNodes.find(n => n.clues.includes(c))?.id}::${c.title}`] ?? c.state; return s === 'revealed' || s === 'understood' }).length
+    const phase = storyNodes.find((node) => nodeStatus(node) === 'active')?.phase ?? selectedNode.phase
+    const revealedClues = storyNodes.reduce((count, node) => {
+      return count + node.clues.filter((clue) => {
+        const state = clueState(node.id, clue)
+        return state === 'revealed' || state === 'understood'
+      }).length
+    }, 0)
     const totalClues = storyNodes.flatMap((n) => n.clues).length
-    return { completed, danger, revealedClues, totalClues }
+    return { completed, danger, revealedClues, totalClues, phase }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [sg])
+  }, [sg, selectedNode.phase])
 
   useEffect(() => {
     const el = viewportRef.current
@@ -165,7 +182,7 @@ export function StoryGraphDemo({ campaign }: Props) {
           <h2>了却幻梦 · 剧情图谱</h2>
         </div>
         <div className="story-metrics">
-          <Metric label="阶段" value="深入调查" />
+          <Metric label="阶段" value={moduleStats.phase} />
           <Metric label="场景" value={`${moduleStats.completed}/${storyNodes.length}`} />
           <Metric label="线索" value={`${moduleStats.revealedClues}/${moduleStats.totalClues}`} />
           <Metric label="危险" value={moduleStats.danger} />
@@ -218,7 +235,7 @@ export function StoryGraphDemo({ campaign }: Props) {
           <div className="story-side-block">
             <SectionTitle title="已完成走向" />
             <ol className="completed-beats-list">
-              {completedBeats.map((beat) => <li key={beat}>{beat}</li>)}
+              {completedBeats.length ? completedBeats.map((beat) => <li key={beat}>{beat}</li>) : <li>暂无已完成走向。</li>}
             </ol>
           </div>
         </aside>
@@ -273,14 +290,14 @@ export function StoryGraphDemo({ campaign }: Props) {
                   return (
                     <g key={key}>
                       <path
-                        className={`edge-path edge-${edge.strength}${edge.completed ? ' is-completed' : ''}`}
+                        className={`edge-path edge-${edge.strength}${edgeCompleted(edge) ? ' is-completed' : ''}`}
                         d={d}
                         fill="none"
                         markerEnd={`url(#${markerId})`}
                       />
                       {edge.label && (
                         <text
-                          className={`edge-text edge-${edge.strength}${edge.completed ? ' is-completed' : ''}`}
+                          className={`edge-text edge-${edge.strength}${edgeCompleted(edge) ? ' is-completed' : ''}`}
                           x={mid.x} y={mid.y}
                           textAnchor="middle"
                           dominantBaseline="middle"

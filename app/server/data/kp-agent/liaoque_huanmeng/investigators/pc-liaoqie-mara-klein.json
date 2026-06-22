@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "kp-agent-investigator-v1",
+  "id": "pc-liaoqie-mara-klein",
+  "name": "玛拉·克莱因",
+  "player": "示例玩家D",
+  "type": "investigator",
+  "occupation": "药剂师",
+  "age": 31,
+  "sex": "女",
+  "residence": "河街药房",
+  "birthplace": "普罗维登斯",
+  "currentLocationId": "loc-resnick-apartment-exterior",
+  "status": {
+    "hp": { "current": 10, "max": 10 },
+    "san": { "current": 65, "max": 65 },
+    "mp": { "current": 13 },
+    "luck": 61,
+    "conditions": ["识别药物"]
+  },
+  "characteristics": { "str": 45, "con": 55, "siz": 50, "dex": 55, "app": 55, "int": 70, "pow": 65, "edu": 75 },
+  "derived": { "mov": 8, "build": 0, "damageBonus": "0" },
+  "skills": [
+    { "key": "pharmacy", "label": "药学", "final": 70 },
+    { "key": "chemistry", "label": "化学", "final": 55 },
+    { "key": "persuade", "label": "说服", "final": 50 },
+    { "key": "biology", "label": "生物学", "final": 45 },
+    { "key": "medicine", "label": "医学", "final": 45 },
+    { "key": "library_use", "label": "图书馆使用", "final": 45 },
+    { "key": "spot_hidden", "label": "侦查", "final": 40 },
+    { "key": "dodge", "label": "闪避", "final": 27 }
+  ],
+  "equipment": ["试剂盒", "酒精灯", "药房钥匙", "账簿副本"],
+  "appearance": "手套总是一尘不染，对气味非常敏感。",
+  "background": {
+    "ideology": "所有药物都只是剂量不同的毒。",
+    "significantPeople": "一位死于成瘾的兄长。",
+    "meaningfulLocations": "河街药房后间的小实验台。",
+    "treasuredPossessions": "兄长留下的怀表。",
+    "traits": "冷静、细致，对成瘾者抱有复杂同情。",
+    "darkSecret": "曾非法调配镇痛剂给无力就医的人。",
+    "injuriesScars": "右臂有化学灼伤疤痕。",
+    "phobiasManias": "看到黑色液体会本能紧张。",
+    "personalDescription": "被邀请鉴定雷斯尼克现场的异常残留物。",
+    "investigatorExperiences": "熟悉药物滥用和地下酒精交易。",
+    "mythosEncounters": "无",
+    "spells": "无",
+    "allies": "药房顾客、医院护士、禁酒令时期的边缘人"
+  },
+  "privateNotes": "适合承担黑血检验、药物成瘾和毒性判断。"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "kp-agent-npc-v1",
+  "id": "npc-walter-resnick",
+  "name": "沃尔特·雷斯尼克",
+  "type": "npc",
+  "role": "死亡触发点 / 大学生",
+  "defaultSceneIds": ["scene-resnick-death"],
+  "defaultLocationIds": ["loc-resnick-room", "loc-coroner-office"],
+  "currentStatus": ["已死亡", "关键导入"],
+  "publicProfile": "大学生，死亡事件的中心人物。调查员在开局阶段只知道他死在校外公寓或相关报告中。",
+  "keeperProfile": {
+    "useWhen": "调查员进入房间、查看尸体、调取尸检报告或询问死者近况时读取。",
+    "secrets": ["黑舌", "小玻璃瓶", "死因不明", "可能引发理智检定 0/1D4"],
+    "playNotes": "在楼下开场阶段不需要读取尸体细节；进入屋内后再作为恐怖冲击和物证来源。"
+  },
+  "stats": {
+    "characteristics": { "str": 40, "con": 45, "siz": 55, "dex": 45, "app": 55, "int": 60, "pow": 50, "edu": 55 },
+    "hp": { "current": 0, "max": 10 },
+    "san": { "current": 0, "max": 50 },
+    "mp": 0,
+    "mov": 8,
+    "skills": {}
+  }
+}

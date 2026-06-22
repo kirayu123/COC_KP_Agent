@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "kp-agent-investigator-v1",
+  "id": "pc-liaoqie-qiao-miles",
+  "name": "乔纳森·迈尔斯",
+  "player": "示例玩家C",
+  "type": "investigator",
+  "occupation": "私家侦探",
+  "age": 38,
+  "sex": "男",
+  "residence": "城郊事务所",
+  "birthplace": "纽约",
+  "currentLocationId": "loc-resnick-apartment-exterior",
+  "status": {
+    "hp": { "current": 12, "max": 12 },
+    "san": { "current": 50, "max": 50 },
+    "mp": { "current": 10 },
+    "luck": 58,
+    "conditions": ["受雇调查"]
+  },
+  "characteristics": { "str": 60, "con": 60, "siz": 60, "dex": 55, "app": 45, "int": 65, "pow": 50, "edu": 60 },
+  "derived": { "mov": 8, "build": 0, "damageBonus": "0" },
+  "skills": [
+    { "key": "spot_hidden", "label": "侦查", "final": 60 },
+    { "key": "locksmith", "label": "锁匠", "final": 55 },
+    { "key": "stealth", "label": "潜行", "final": 50 },
+    { "key": "handgun", "label": "手枪", "final": 50 },
+    { "key": "psychology", "label": "心理学", "final": 45 },
+    { "key": "intimidate", "label": "恐吓", "final": 45 },
+    { "key": "drive_auto", "label": "汽车驾驶", "final": 45 },
+    { "key": "dodge", "label": "闪避", "final": 35 }
+  ],
+  "equipment": ["撬锁工具", "左轮手枪", "旧皮夹", "烟盒"],
+  "appearance": "外套有烟味，说话很少，眼神总在房间角落停留。",
+  "background": {
+    "ideology": "人都会撒谎，痕迹不会。",
+    "significantPeople": "雷斯尼克家属雇佣他查明自然死亡背后的真相。",
+    "meaningfulLocations": "城郊的小侦探事务所。",
+    "treasuredPossessions": "一枚退役警徽。",
+    "traits": "多疑、务实，愿意走灰色路线。",
+    "darkSecret": "离开警局的真正原因并不光彩。",
+    "injuriesScars": "肋骨有旧枪伤留下的疼痛。",
+    "phobiasManias": "不喜欢安静过头的走廊。",
+    "personalDescription": "接受雷斯尼克家人的委托来到现场。",
+    "investigatorExperiences": "处理过失踪、勒索和非法酒交易。",
+    "mythosEncounters": "无",
+    "spells": "无",
+    "allies": "旧警局同僚、地下酒馆线人"
+  },
+  "privateNotes": "适合推动潜入、跟踪和强硬询问，但应让违法风险通过压力条体现。"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "kp-agent-npc-v1",
+  "id": "npc-jacob-dover",
+  "name": "雅各布·多佛",
+  "type": "npc",
+  "role": "幕后黑血贩子 / 主要反派",
+  "defaultSceneIds": ["scene-jacob-dover-inquiry", "scene-dover-apartment", "scene-final-slaughterhouse"],
+  "defaultLocationIds": ["loc-city-records", "loc-dover-apartment", "loc-slaughterhouse"],
+  "currentStatus": ["隐藏幕后", "操控黑血交易"],
+  "publicProfile": "本地多佛家族相关人物。早期只应作为档案或传闻中的名字出现。",
+  "keeperProfile": {
+    "useWhen": "多佛公开记录、多佛公寓、日志、黑血源头或屠宰场终局时读取。",
+    "secrets": ["利用祖辈日志呼唤黑血", "包装黑血为毒品", "可驱使手下和神话威胁"],
+    "playNotes": "暴露前不要让玩家直接知道他的幕后身份。用记录、账目、住址和恐惧反应逐步拼出。"
+  },
+  "stats": {
+    "characteristics": { "str": 45, "con": 55, "siz": 65, "dex": 55, "app": 45, "int": 70, "pow": 80, "edu": 65 },
+    "hp": { "current": 12, "max": 12 },
+    "san": { "current": 0, "max": 40 },
+    "mp": 16,
+    "mov": 8,
+    "skills": { "occult": 70, "intimidate": 60, "persuade": 55, "psychology": 55, "handgun": 40, "dodge": 30 }
+  }
+}

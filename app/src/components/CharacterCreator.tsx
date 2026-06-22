@@ -92,7 +92,7 @@ function buildLocalBackstory(name: string, occupation: OccupationTemplate): Back
   return {
     ideology: `${displayName}相信真相必须留下记录，即使记录本身会带来危险。`,
     significantPeople: `一位曾帮助其入行的${occupation.contacts.split('、')[0] ?? '旧识'}，如今突然失联。`,
-    meaningfulLocations: '雾港市政档案馆，那里保存着一份与其过去有关的旧卷宗。',
+    meaningfulLocations: '校园旧记录室，那里保存着一份与其过去有关的旧卷宗。',
     treasuredPossessions: '一本边角磨损的笔记本，夹着几张没有日期的收据。',
     traits: '谨慎、好奇，对不合逻辑的细节异常敏感。',
     darkSecret: '曾在一次采访中隐瞒了关键证词，此事至今仍能被人用来威胁。',

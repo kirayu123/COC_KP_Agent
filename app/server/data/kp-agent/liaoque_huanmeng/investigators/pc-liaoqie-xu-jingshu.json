@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "kp-agent-investigator-v1",
+  "id": "pc-liaoqie-xu-jingshu",
+  "name": "许静书",
+  "player": "示例玩家B",
+  "type": "investigator",
+  "occupation": "校园报记者",
+  "age": 23,
+  "sex": "女",
+  "residence": "大学宿舍",
+  "birthplace": "阿卡姆",
+  "currentLocationId": "loc-resnick-apartment-exterior",
+  "status": {
+    "hp": { "current": 9, "max": 9 },
+    "san": { "current": 55, "max": 55 },
+    "mp": { "current": 11 },
+    "luck": 68,
+    "conditions": ["校内关系网"]
+  },
+  "characteristics": { "str": 40, "con": 50, "siz": 45, "dex": 65, "app": 60, "int": 75, "pow": 55, "edu": 70 },
+  "derived": { "mov": 9, "build": 0, "damageBonus": "0" },
+  "skills": [
+    { "key": "library_use", "label": "图书馆使用", "final": 65 },
+    { "key": "fast_talk", "label": "话术", "final": 60 },
+    { "key": "spot_hidden", "label": "侦查", "final": 55 },
+    { "key": "psychology", "label": "心理学", "final": 50 },
+    { "key": "photography", "label": "摄影", "final": 50 },
+    { "key": "charm", "label": "魅惑", "final": 45 },
+    { "key": "listen", "label": "聆听", "final": 45 },
+    { "key": "dodge", "label": "闪避", "final": 32 }
+  ],
+  "equipment": ["袖珍相机", "采访本", "学生证", "校园报通行条"],
+  "appearance": "短发、圆框眼镜，总把相机藏在大衣里。",
+  "background": {
+    "ideology": "被权威压下去的事实，才最值得写出来。",
+    "significantPeople": "一名因校园丑闻被迫退学的旧友。",
+    "meaningfulLocations": "校园报编辑室。",
+    "treasuredPossessions": "一台二手袖珍相机。",
+    "traits": "敏锐、嘴快，容易被不公激怒。",
+    "darkSecret": "曾伪造采访来源保护线人。",
+    "injuriesScars": "无明显伤疤。",
+    "phobiasManias": "害怕被锁进没有窗户的房间。",
+    "personalDescription": "因雷斯尼克死亡传闻介入调查。",
+    "investigatorExperiences": "追踪过校内非法酒会。",
+    "mythosEncounters": "无",
+    "spells": "无",
+    "allies": "校园报、宿舍管理员、部分学生社团"
+  },
+  "privateNotes": "适合把队伍推向校园证词、校报资料和学生圈传闻。"
+}

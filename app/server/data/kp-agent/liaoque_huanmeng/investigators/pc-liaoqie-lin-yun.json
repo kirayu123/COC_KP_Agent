@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "kp-agent-investigator-v1",
+  "id": "pc-liaoqie-lin-yun",
+  "name": "林云舟",
+  "player": "示例玩家A",
+  "type": "investigator",
+  "occupation": "验尸官办公室助理",
+  "age": 29,
+  "sex": "男",
+  "residence": "验尸官办公室",
+  "birthplace": "波士顿",
+  "currentLocationId": "loc-resnick-apartment-exterior",
+  "status": {
+    "hp": { "current": 11, "max": 11 },
+    "san": { "current": 60, "max": 60 },
+    "mp": { "current": 12 },
+    "luck": 52,
+    "conditions": ["专业介入"]
+  },
+  "characteristics": { "str": 45, "con": 55, "siz": 55, "dex": 50, "app": 50, "int": 70, "pow": 60, "edu": 75 },
+  "derived": { "mov": 8, "build": 0, "damageBonus": "0" },
+  "skills": [
+    { "key": "medicine", "label": "医学", "final": 70 },
+    { "key": "science_forensics", "label": "司法科学", "final": 55 },
+    { "key": "spot_hidden", "label": "侦查", "final": 50 },
+    { "key": "psychology", "label": "心理学", "final": 45 },
+    { "key": "library_use", "label": "图书馆使用", "final": 45 },
+    { "key": "listen", "label": "聆听", "final": 40 },
+    { "key": "dodge", "label": "闪避", "final": 25 }
+  ],
+  "equipment": ["验尸工具包", "笔记本", "密封证物袋", "钢笔"],
+  "appearance": "干净的深色外套，袖口总有淡淡消毒水味。",
+  "background": {
+    "ideology": "尸体不会说谎，只有活人才会。",
+    "significantPeople": "一位严厉但可靠的验尸官导师。",
+    "meaningfulLocations": "验尸官办公室的冷藏间。",
+    "treasuredPossessions": "一本记录异常死因的黑皮笔记。",
+    "traits": "克制、谨慎，对异常生理细节极其敏感。",
+    "darkSecret": "曾替导师隐瞒一次程序瑕疵，担心被警方追责。",
+    "injuriesScars": "左手拇指有解剖刀留下的细长伤疤。",
+    "phobiasManias": "害怕听见空房间里的咀嚼声。",
+    "personalDescription": "被派往雷斯尼克死亡现场协助判断死因。",
+    "investigatorExperiences": "第一次接触真正无法解释的尸体。",
+    "mythosEncounters": "无",
+    "spells": "无",
+    "allies": "验尸官办公室、少数警局文员"
+  },
+  "privateNotes": "适合承担开局专业入口，但不应在进入房间前让他直接处理尸体细节。"
+}

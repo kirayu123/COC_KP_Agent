@@ -4,7 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EXTERNAL = ROOT / "external"
-OUT = ROOT / "docs" / "external_repo_inventory.json"
+OUT = ROOT / "documents" / "project" / "external_repo_inventory.json"
 
 
 README_NAMES = ["README.md", "readme.md", "README", "readme"]

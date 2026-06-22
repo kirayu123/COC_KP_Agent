@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "kp-agent-npc-v1",
+  "id": "creature-raw-head-black-bone",
+  "name": "腥首乌骸",
+  "type": "creature",
+  "role": "可选高危怪物",
+  "defaultSceneIds": ["scene-final-slaughterhouse"],
+  "defaultLocationIds": ["loc-slaughterhouse"],
+  "currentStatus": ["可选启用", "高危险", "只适合终局"],
+  "publicProfile": "可选终局怪物。只有在队伍强度、节奏和恐怖升级都合适时才启用。",
+  "keeperProfile": {
+    "useWhen": "KP 明确想提高终局难度，或模组已进入屠宰场高潮时读取。",
+    "secrets": ["强度高，可能造成团灭", "启用前应用污物、血渍和异常声响铺垫"],
+    "playNotes": "默认不出场。不要让普通调查阶段读取它。"
+  },
+  "stats": {
+    "characteristics": { "str": 90, "con": 80, "siz": 90, "dex": 50, "app": 0, "int": 45, "pow": 50, "edu": 0 },
+    "hp": { "current": 30, "max": 30 },
+    "san": { "current": 0, "max": 0 },
+    "mp": 10,
+    "mov": 7,
+    "build": 2,
+    "damageBonus": "+1D6",
+    "skills": { "fighting_brawl": 65, "dodge": 25 }
+  }
+}

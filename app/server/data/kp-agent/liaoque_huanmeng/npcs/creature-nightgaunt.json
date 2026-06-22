@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "kp-agent-npc-v1",
+  "id": "creature-nightgaunt",
+  "name": "夜魇",
+  "type": "creature",
+  "role": "多佛驱使的神话仆从",
+  "defaultSceneIds": ["scene-death-from-above", "scene-final-slaughterhouse"],
+  "defaultLocationIds": ["loc-night-street", "loc-slaughterhouse"],
+  "currentStatus": ["飞行", "神话威胁", "中后段压力"],
+  "publicProfile": "早期只应表现为高处阴影、抓痕或不合常理的袭击迹象。",
+  "keeperProfile": {
+    "useWhen": "死从天降、夜间追踪、终局或玩家已接近多佛反制时读取。",
+    "secrets": ["可被多佛派出灭口", "适合先用剪影、失踪、爪痕预兆"],
+    "playNotes": "不要太早正面登场；它是节奏升级工具，而不是开场素材。"
+  },
+  "stats": {
+    "characteristics": { "str": 80, "con": 60, "siz": 80, "dex": 80, "app": 0, "int": 60, "pow": 60, "edu": 0 },
+    "hp": { "current": 18, "max": 18 },
+    "san": { "current": 0, "max": 0 },
+    "mp": 12,
+    "mov": 8,
+    "build": 1,
+    "damageBonus": "+1D4",
+    "skills": { "stealth": 70, "fighting_brawl": 45, "dodge": 40 }
+  }
+}

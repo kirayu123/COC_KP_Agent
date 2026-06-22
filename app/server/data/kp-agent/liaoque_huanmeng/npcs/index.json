@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "kp-agent-npc-index-v1",
+  "moduleId": "doors-to-darkness-liaoque-huanmeng",
+  "files": [
+    {
+      "id": "npc-walter-resnick",
+      "name": "沃尔特·雷斯尼克",
+      "type": "npc",
+      "role": "死亡触发点",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/npcs/npc-walter-resnick.json",
+      "defaultSceneIds": [
+        "scene-resnick-death"
+      ],
+      "defaultLocationIds": [
+        "loc-resnick-room",
+        "loc-coroner-office"
+      ],
+      "useWhen": [
+        "进入房间",
+        "尸检",
+        "医学",
+        "死因",
+        "雷斯尼克"
+      ]
+    },
+    {
+      "id": "npc-thomas-swanson",
+      "name": "托马斯·斯旺森",
+      "type": "npc",
+      "role": "雷斯尼克邻居",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/npcs/npc-thomas-swanson.json",
+      "defaultSceneIds": [
+        "scene-resnick-death"
+      ],
+      "defaultLocationIds": [
+        "loc-resnick-apartment-exterior"
+      ],
+      "useWhen": [
+        "楼下",
+        "邻居",
+        "证词",
+        "开场",
+        "询问"
+      ]
+    },
+    {
+      "id": "npc-paul-rogers",
+      "name": "保罗·罗杰斯",
+      "type": "npc",
+      "role": "黑血中间贩子",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/npcs/npc-paul-rogers.json",
+      "defaultSceneIds": [
+        "scene-find-paul-rogers",
+        "scene-rogers-house",
+        "scene-rogers-interrogated",
+        "scene-death-from-above"
+      ],
+      "defaultLocationIds": [
+        "loc-city-records",
+        "loc-rogers-house",
+        "loc-night-street"
+      ],
+      "useWhen": [
+        "罗杰斯",
+        "校园交易",
+        "跟踪",
+        "审问",
+        "住处"
+      ]
+    },
+    {
+      "id": "npc-jacob-dover",
+      "name": "雅各布·多佛",
+      "type": "npc",
+      "role": "幕后黑血贩子 / 主要反派",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/npcs/npc-jacob-dover.json",
+      "defaultSceneIds": [
+        "scene-jacob-dover-inquiry",
+        "scene-dover-apartment",
+        "scene-final-slaughterhouse"
+      ],
+      "defaultLocationIds": [
+        "loc-city-records",
+        "loc-dover-apartment",
+        "loc-slaughterhouse"
+      ],
+      "useWhen": [
+        "多佛",
+        "幕后",
+        "日志",
+        "屠宰场",
+        "黑血源头"
+      ]
+    },
+    {
+      "id": "npc-willis-carter",
+      "name": "威利斯·卡特",
+      "type": "npc",
+      "role": "多佛公寓邻居 / 潜在目击者",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/npcs/npc-willis-carter.json",
+      "defaultSceneIds": [
+        "scene-dover-apartment",
+        "scene-final-slaughterhouse"
+      ],
+      "defaultLocationIds": [
+        "loc-dover-apartment",
+        "loc-slaughterhouse"
+      ],
+      "useWhen": [
+        "多佛公寓",
+        "邻居",
+        "噪音",
+        "目击者"
+      ]
+    },
+    {
+      "id": "npc-black-blood-addicts",
+      "name": "黑血成瘾学生",
+      "type": "npc",
+      "role": "校园线索群体",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/npcs/npc-black-blood-addicts.json",
+      "defaultSceneIds": [
+        "scene-campus-inquiry"
+      ],
+      "defaultLocationIds": [
+        "loc-campus"
+      ],
+      "useWhen": [
+        "校园",
+        "学生",
+        "成瘾",
+        "黑血传闻"
+      ]
+    },
+    {
+      "id": "npc-black-servants",
+      "name": "黑仆",
+      "type": "creature",
+      "role": "终局暴徒群体",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/npcs/npc-black-servants.json",
+      "defaultSceneIds": [
+        "scene-final-slaughterhouse"
+      ],
+      "defaultLocationIds": [
+        "loc-slaughterhouse"
+      ],
+      "useWhen": [
+        "屠宰场",
+        "战斗",
+        "黑仆",
+        "终局"
+      ]
+    },
+    {
+      "id": "creature-nightgaunt",
+      "name": "夜魇",
+      "type": "creature",
+      "role": "多佛驱使的神话仆从",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/npcs/creature-nightgaunt.json",
+      "defaultSceneIds": [
+        "scene-death-from-above",
+        "scene-final-slaughterhouse"
+      ],
+      "defaultLocationIds": [
+        "loc-night-street",
+        "loc-slaughterhouse"
+      ],
+      "useWhen": [
+        "死从天降",
+        "夜魇",
+        "高处袭击",
+        "终局"
+      ]
+    },
+    {
+      "id": "creature-raw-head-black-bone",
+      "name": "腥首乌骸",
+      "type": "creature",
+      "role": "可选高危怪物",
+      "file": "app/server/data/kp-agent/liaoque_huanmeng/npcs/creature-raw-head-black-bone.json",
+      "defaultSceneIds": [
+        "scene-final-slaughterhouse"
+      ],
+      "defaultLocationIds": [
+        "loc-slaughterhouse"
+      ],
+      "useWhen": [
+        "可选怪物",
+        "终局升级",
+        "高难度战斗"
+      ]
+    }
+  ]
+}

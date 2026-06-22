@@ -7,14 +7,16 @@ import {
   storyEdges,
   storyNodes,
   type StoryClue,
+  type StoryClueState,
   type StoryNode,
+  type StoryNodeStatus,
 } from '../data/storyGraphDemo'
 
 type Props = {
   campaign: CampaignState
 }
 
-const statusLabels: Record<StoryNode['status'], string> = {
+const statusLabels: Record<StoryNodeStatus, string> = {
   locked: '未接触',
   available: '可前往',
   active: '进行中',
@@ -24,7 +26,7 @@ const statusLabels: Record<StoryNode['status'], string> = {
   unavailable: '已关闭',
 }
 
-const clueStateLabels: Record<StoryClue['state'], string> = {
+const clueStateLabels: Record<StoryClueState, string> = {
   hidden: '隐藏',
   available: '可发现',
   revealed: '已揭示',
@@ -43,19 +45,48 @@ function nodeById(id: string) {
 }
 
 export function StoryGraphDemoV1({ campaign }: Props) {
-  const [selectedNodeId, setSelectedNodeId] = useState('scene-black-blood-analysis')
+  const [selectedNodeId, setSelectedNodeId] = useState(storyNodes[0]?.id ?? '')
   const [selectedTrackId, setSelectedTrackId] = useState<string | null>(investigatorTracks[0]?.id ?? null)
   const selectedNode = nodeById(selectedNodeId)
   const selectedTrack = investigatorTracks.find((track) => track.id === selectedTrackId)
   const investigatorNodeIds = new Set(investigatorTracks.map((track) => track.locationNodeId))
+  const sg = campaign.storyGraph
+
+  function defaultNodeStatus(node: StoryNode): StoryNodeStatus {
+    return node.id === storyNodes[0]?.id ? 'active' : 'locked'
+  }
+
+  function nodeStatus(node: StoryNode): StoryNodeStatus {
+    return (sg?.nodeStatuses[node.id] ?? defaultNodeStatus(node)) as StoryNodeStatus
+  }
+
+  function clueState(nodeId: string, clue: StoryClue): StoryClueState {
+    return (sg?.clueStates[`${nodeId}::${clue.title}`] ?? 'hidden') as StoryClueState
+  }
+
+  function edgeCompleted(edge: (typeof storyEdges)[number]) {
+    const from = nodeById(edge.from)
+    const to = nodeById(edge.to)
+    return nodeStatus(from) === 'completed' && nodeStatus(to) !== 'locked' && nodeStatus(to) !== 'unavailable'
+  }
 
   const moduleStats = useMemo(() => {
-    const completed = storyNodes.filter((node) => node.status === 'completed').length
-    const danger = storyNodes.filter((node) => node.status === 'danger').length
-    const revealedClues = storyNodes.flatMap((node) => node.clues).filter((clue) => clue.state === 'revealed' || clue.state === 'understood').length
+    const completed = storyNodes.filter((node) => nodeStatus(node) === 'completed').length
+    const danger = storyNodes.filter((node) => nodeStatus(node) === 'danger').length
+    const phase = storyNodes.find((node) => nodeStatus(node) === 'active')?.phase ?? selectedNode.phase
+    const revealedClues = storyNodes.reduce(
+      (count, node) =>
+        count +
+        node.clues.filter((clue) => {
+          const state = clueState(node.id, clue)
+          return state === 'revealed' || state === 'understood'
+        }).length,
+      0,
+    )
     const totalClues = storyNodes.flatMap((node) => node.clues).length
-    return { completed, danger, revealedClues, totalClues }
-  }, [])
+    return { completed, danger, revealedClues, totalClues, phase }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sg, selectedNode.phase])
 
   return (
     <section className="story-page" aria-label="剧情图谱">
@@ -65,7 +96,7 @@ export function StoryGraphDemoV1({ campaign }: Props) {
           <h2>了却幻梦 · 剧情图谱</h2>
         </div>
         <div className="story-metrics" aria-label="模组整体进行情况">
-          <Metric label="阶段" value="深入调查" />
+          <Metric label="阶段" value={moduleStats.phase} />
           <Metric label="场景" value={`${moduleStats.completed}/${storyNodes.length}`} />
           <Metric label="线索" value={`${moduleStats.revealedClues}/${moduleStats.totalClues}`} />
           <Metric label="危险" value={moduleStats.danger} />
@@ -150,7 +181,7 @@ export function StoryGraphDemoV1({ campaign }: Props) {
                   const to = nodeById(edge.to)
                   return (
                     <line
-                      className={`edge-line edge-${edge.strength} ${edge.completed ? 'is-completed' : ''}`}
+                      className={`edge-line edge-${edge.strength} ${edgeCompleted(edge) ? 'is-completed' : ''}`}
                       key={`${edge.from}-${edge.to}`}
                       x1={from.x ?? 50}
                       y1={from.y ?? 50}
@@ -167,7 +198,7 @@ export function StoryGraphDemoV1({ campaign }: Props) {
                   const to = nodeById(edge.to)
                   return (
                     <span
-                      className={`edge-label edge-${edge.strength} ${edge.completed ? 'is-completed' : ''}`}
+                      className={`edge-label edge-${edge.strength} ${edgeCompleted(edge) ? 'is-completed' : ''}`}
                       key={`${edge.from}-${edge.to}-label`}
                       style={{ left: `${((from.x ?? 50) + (to.x ?? 50)) / 2}%`, top: `${((from.y ?? 50) + (to.y ?? 50)) / 2}%` }}
                     >
@@ -181,10 +212,14 @@ export function StoryGraphDemoV1({ campaign }: Props) {
                 const selected = selectedNode.id === node.id
                 const occupied = investigatorNodeIds.has(node.id)
                 const focusedByInvestigator = selectedTrack?.locationNodeId === node.id
-                const revealedClues = node.clues.filter((clue) => clue.state === 'revealed' || clue.state === 'understood').length
+                const status = nodeStatus(node)
+                const revealedClues = node.clues.filter((clue) => {
+                  const state = clueState(node.id, clue)
+                  return state === 'revealed' || state === 'understood'
+                }).length
                 return (
                   <button
-                    className={`story-node is-${node.status} ${selected ? 'is-selected' : ''} ${occupied ? 'has-investigator' : ''} ${
+                    className={`story-node is-${status} ${selected ? 'is-selected' : ''} ${occupied ? 'has-investigator' : ''} ${
                       focusedByInvestigator ? 'is-focused-by-investigator' : ''
                     }`}
                     type="button"
@@ -194,7 +229,7 @@ export function StoryGraphDemoV1({ campaign }: Props) {
                   >
                     <span className="node-status">
                       <i />
-                      {statusLabels[node.status]}
+                      {statusLabels[status]}
                     </span>
                     <strong>{node.title}</strong>
                     <small>{node.location}</small>
@@ -211,9 +246,7 @@ export function StoryGraphDemoV1({ campaign }: Props) {
           <div className="completed-beats">
             <SectionTitle title="已完成剧本走向" detail="这条线是本桌实际跑出来的历史" />
             <ol>
-              {completedBeats.map((beat) => (
-                <li key={beat}>{beat}</li>
-              ))}
+              {completedBeats.length ? completedBeats.map((beat) => <li key={beat}>{beat}</li>) : <li>暂无已完成走向。</li>}
             </ol>
           </div>
         </section>
@@ -224,7 +257,7 @@ export function StoryGraphDemoV1({ campaign }: Props) {
               <p className="eyebrow">{selectedNode.phase}</p>
               <h2>{selectedNode.title}</h2>
             </div>
-            <span className={`status-pill is-${selectedNode.status}`}>{statusLabels[selectedNode.status]}</span>
+            <span className={`status-pill is-${nodeStatus(selectedNode)}`}>{statusLabels[nodeStatus(selectedNode)]}</span>
           </div>
 
           <div className="detail-location">
@@ -238,10 +271,10 @@ export function StoryGraphDemoV1({ campaign }: Props) {
             <h3>线索状态</h3>
             <div className="clue-state-stack">
               {selectedNode.clues.map((clue) => (
-                <article className={`graph-clue is-${clue.state}`} key={clue.title}>
+                <article className={`graph-clue is-${clueState(selectedNode.id, clue)}`} key={clue.title}>
                   <div>
                     <h4>{clue.title}</h4>
-                    <span>{clueStateLabels[clue.state]}</span>
+                    <span>{clueStateLabels[clueState(selectedNode.id, clue)]}</span>
                   </div>
                   <p>{clue.playerText}</p>
                   <small>KP：{clue.keeperText}</small>

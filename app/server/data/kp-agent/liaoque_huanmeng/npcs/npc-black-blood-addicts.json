@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "kp-agent-npc-v1",
+  "id": "npc-black-blood-addicts",
+  "name": "黑血成瘾学生",
+  "type": "npc",
+  "role": "校园线索群体",
+  "defaultSceneIds": ["scene-campus-inquiry"],
+  "defaultLocationIds": ["loc-campus"],
+  "currentStatus": ["苍白消瘦", "可能透露黑血与罗杰斯"],
+  "publicProfile": "一些学生表现出成瘾、焦虑、回避或异常兴奋，知道校园里有某种危险的新东西。",
+  "keeperProfile": {
+    "useWhen": "校园调查、询问学生、追查黑血流通或推进校园恐慌时读取。",
+    "secrets": ["知道罗杰斯是供应链入口", "可能出现黑舌、噩梦或异常行为"],
+    "playNotes": "用金钱、同情、社交或恐吓都可能突破。失败可以推进校园恐慌。"
+  },
+  "stats": {
+    "characteristics": { "str": 35, "con": 40, "siz": 45, "dex": 50, "app": 35, "int": 50, "pow": 35, "edu": 45 },
+    "hp": { "current": 8, "max": 8 },
+    "san": { "current": 28, "max": 45 },
+    "mp": 7,
+    "mov": 8,
+    "skills": { "fast_talk": 35, "spot_hidden": 30, "psychology": 25 }
+  }
+}

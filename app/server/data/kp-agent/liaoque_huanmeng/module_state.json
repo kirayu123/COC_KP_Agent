@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "kp-agent-module-state-v1",
+  "moduleId": "doors-to-darkness-liaoque-huanmeng",
+  "title": "了却幻梦",
+  "templatePath": "app/server/data/kp-agent/liaoque_huanmeng/module_template.json",
+  "runtime": {
+    "phase": "prologue",
+    "currentSceneId": "scene-resnick-death",
+    "currentLocationId": "loc-resnick-apartment-exterior",
+    "activeInvestigatorIds": [
+      "pc-liaoqie-lin-yun",
+      "pc-liaoqie-xu-jingshu",
+      "pc-liaoqie-qiao-miles",
+      "pc-liaoqie-mara-klein"
+    ],
+    "loadedNpcIds": [
+      "npc-thomas-swanson"
+    ],
+    "nodeStatuses": {
+      "scene-resnick-death": "active",
+      "scene-campus-inquiry": "locked",
+      "scene-black-blood-analysis": "locked",
+      "scene-find-paul-rogers": "locked",
+      "scene-jacob-dover-inquiry": "locked",
+      "scene-rogers-house": "locked",
+      "scene-death-from-above": "locked",
+      "scene-rogers-interrogated": "locked",
+      "scene-rogers-dead": "unavailable",
+      "scene-dover-apartment": "locked",
+      "scene-final-slaughterhouse": "locked"
+    },
+    "locationStates": {
+      "loc-resnick-apartment-exterior": "active",
+      "loc-resnick-room": "locked",
+      "loc-coroner-office": "locked",
+      "loc-campus": "locked",
+      "loc-lab-or-clinic": "locked",
+      "loc-city-records": "locked",
+      "loc-rogers-house": "locked",
+      "loc-night-street": "locked",
+      "loc-dover-apartment": "locked",
+      "loc-slaughterhouse": "locked"
+    },
+    "clueStates": {
+      "clue-resnick-entry-permission": "available",
+      "clue-resnick-neighbor-testimony": "hidden",
+      "clue-resnick-black-tongue": "hidden",
+      "clue-resnick-small-bottles": "hidden",
+      "clue-resnick-unknown-cause": "hidden",
+      "clue-campus-paul-rogers": "hidden",
+      "clue-campus-panic": "hidden",
+      "clue-black-blood-active": "hidden",
+      "clue-paul-address": "hidden",
+      "clue-dover-public-record": "hidden",
+      "clue-rogers-shoes": "hidden",
+      "clue-rogers-slaughterhouse-note": "hidden",
+      "clue-nightgaunt-traces": "hidden",
+      "clue-rogers-confession": "hidden",
+      "clue-dover-journal": "hidden",
+      "clue-black-blood-weakness": "hidden",
+      "clue-slaughterhouse-source": "hidden"
+    },
+    "notes": [
+      "默认开局地点是雷斯尼克校外公寓楼下，不等于已经进入房间。",
+      "只有地点状态或主持人请求指向屋内时，Agent 才需要读取屋内尸体、瓶子、黑舌等地点线索。"
+    ],
+    "updatedAt": "2026-06-21T04:19:31.286Z"
+  },
+  "pressureClockStates": {
+    "clock-campus-panic": {
+      "current": 0,
+      "max": 6
+    },
+    "clock-rogers-alert": {
+      "current": 0,
+      "max": 4
+    },
+    "clock-dover-countermove": {
+      "current": 0,
+      "max": 5
+    },
+    "clock-black-blood-spread": {
+      "current": 0,
+      "max": 8
+    }
+  }
+}

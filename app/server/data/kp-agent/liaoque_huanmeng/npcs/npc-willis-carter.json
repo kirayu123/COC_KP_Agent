@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "kp-agent-npc-v1",
+  "id": "npc-willis-carter",
+  "name": "威利斯·卡特",
+  "type": "npc",
+  "role": "多佛公寓邻居 / 潜在目击者",
+  "defaultSceneIds": ["scene-dover-apartment", "scene-final-slaughterhouse"],
+  "defaultLocationIds": ["loc-dover-apartment", "loc-slaughterhouse"],
+  "currentStatus": ["容易警觉", "可被安抚"],
+  "publicProfile": "多佛公寓附近的居民，可能因噪音或陌生人行动产生反应。",
+  "keeperProfile": {
+    "useWhen": "调查员在多佛公寓制造噪音、询问邻居或需要压力源时读取。",
+    "secrets": ["知道公寓近期有异常动静", "可能看到可疑人员"],
+    "playNotes": "不是核心谜底，适合制造现实压力和补充证词。"
+  },
+  "stats": {
+    "characteristics": { "str": 45, "con": 50, "siz": 50, "dex": 45, "app": 45, "int": 55, "pow": 40, "edu": 50 },
+    "hp": { "current": 10, "max": 10 },
+    "san": { "current": 42, "max": 50 },
+    "mp": 8,
+    "mov": 8,
+    "skills": { "listen": 50, "spot_hidden": 35, "psychology": 30 }
+  }
+}

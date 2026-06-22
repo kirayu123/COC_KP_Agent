@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "kp-agent-npc-v1",
+  "id": "npc-thomas-swanson",
+  "name": "托马斯·斯旺森",
+  "type": "npc",
+  "role": "雷斯尼克邻居",
+  "defaultSceneIds": ["scene-resnick-death"],
+  "defaultLocationIds": ["loc-resnick-apartment-exterior"],
+  "currentStatus": ["隐瞒恐惧", "可社交突破"],
+  "publicProfile": "年轻邻居，住在雷斯尼克隔壁。看起来被死亡事件吓坏，不愿主动谈论死者的异常。",
+  "keeperProfile": {
+    "useWhen": "楼下开场、询问邻居、寻找进入房间理由或取得校园方向时读取。",
+    "secrets": ["知道雷斯尼克死前有噩梦、尖叫和性情变化", "不愿说死者坏话"],
+    "playNotes": "他说话回避，心理学可以看出害怕。说服、话术或恐吓可取得证词。"
+  },
+  "stats": {
+    "characteristics": { "str": 40, "con": 45, "siz": 45, "dex": 50, "app": 50, "int": 60, "pow": 50, "edu": 55 },
+    "hp": { "current": 9, "max": 9 },
+    "san": { "current": 48, "max": 55 },
+    "mp": 10,
+    "mov": 8,
+    "skills": { "listen": 45, "persuade": 35, "psychology": 30 }
+  }
+}

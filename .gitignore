@@ -26,9 +26,14 @@ resources/modules/
 
 # External repositories cloned for research; keep summaries in docs instead.
 external/
+_research/
 
 # Raw crawled website mirrors can be regenerated and are too large/noisy for the app repo.
 resources/cthulhuclub/
+
+# Local source/reference text moved under documents; keep derived summaries only.
+documents/resources/rulebooks/
+documents/runtime/
 
 # Temporary/runtime output
 *.log

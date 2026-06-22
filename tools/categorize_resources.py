@@ -4,8 +4,8 @@ from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INDEX = ROOT / "resources" / "cthulhuclub" / "index.json"
-OUT = ROOT / "resources" / "curated"
+INDEX = ROOT / "documents" / "supplemental" / "cthulhuclub" / "index.json"
+OUT = ROOT / "documents" / "supplemental" / "curated"
 CATEGORY_OUT = OUT / "categories"
 
 
@@ -250,7 +250,7 @@ def main():
     readme_lines = [
         "# Cthulhu Club 非模组资料分类",
         "",
-        "本目录把 `resources/cthulhuclub/index.json` 中的非模组资料按 KP Agent demo 的实际用途重新分类。",
+        "本目录把 `documents/supplemental/cthulhuclub/index.json` 中的非模组资料按 KP Agent demo 的实际用途重新分类。",
         "",
         "## 分类总览",
         "",

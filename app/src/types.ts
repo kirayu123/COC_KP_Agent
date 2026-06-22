@@ -123,6 +123,8 @@ export type LogEntry = {
   type: 'player_action' | 'keeper_ruling' | 'roll' | 'state_change'
   content: string
   confirmed: boolean
+  speaker?: string
+  characterId?: string
 }
 
 export type SourceRef = {
